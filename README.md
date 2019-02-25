@@ -1,2 +1,2 @@
-# praktikum_2c
-Modul Praktikum Pemograman III
+# praktikum
+Modul Praktikum Pemrograman III

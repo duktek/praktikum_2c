@@ -1,0 +1,24 @@
+\contentsline {schapter}{Daftar Gambar}{xi}% 
+\contentsline {schapter}{Daftar Tabel}{xiii}% 
+\contentsline {schapter}{Foreword}{xvii}% 
+\contentsline {schapter}{Kata Pengantar}{xix}% 
+\contentsline {schapter}{Acknowledgments}{xxi}% 
+\contentsline {schapter}{Acronyms}{xxiii}% 
+\contentsline {schapter}{Glossary}{xxv}% 
+\contentsline {schapter}{List of Symbols}{xxvii}% 
+\contentsline {schapter}{Introduction}{xxix}% 
+\contentsline {ichapter}{Rolly Maulana Awangga, S.T., M.T.}{xxix}% 
+\contentsline {chapter}{\numberline {1}Turkiye Burslari Scholarship}{1}% 
+\contentsline {section}{\numberline {1.1}Jenis-Jenis Beasiswa YTB}{2}% 
+\contentsline {subsection}{\numberline {1.1.1}Daftar Beasiswa T\IeC {\"u}rkiye Burslari untuk Program Sarjana}{2}% 
+\contentsline {subsection}{\numberline {1.1.2}Daftar Beasiswa T\IeC {\"u}rkiye Burslari untuk Program Master dan Doktor}{2}% 
+\contentsline {subsection}{\numberline {1.1.3}Daftar Beasiswa T\IeC {\"u}rkiye Burslari untuk Program Aplikasi Jurusan Tertentu}{2}% 
+\contentsline {subsection}{\numberline {1.1.4}Daftar Beasiswa T\IeC {\"u}rkiye Burslari untuk Program Jangka Pendek}{3}% 
+\contentsline {subsection}{\numberline {1.1.5}Daftar Beasiswa T\IeC {\"u}rkiye Burslari untuk Program Pendidikan Bahasa dan Budaya Turki}{3}% 
+\contentsline {section}{\numberline {1.2}Cakupan Beasiswa}{3}% 
+\contentsline {section}{\numberline {1.3}Kriteria Penerima Beasiswa}{4}% 
+\contentsline {section}{\numberline {1.4}Persyaratan Dokumen}{4}% 
+\contentsline {section}{\numberline {1.5}Proses Pendaftaran}{5}% 
+\contentsline {section}{\numberline {1.6}Deadline Pendaftaran}{5}% 
+\contentsline {chapter}{\numberline {2}Judul Bagian Kedua}{7}% 
+\contentsline {section}{\numberline {2.1}Perintah Navigasi}{7}% 
