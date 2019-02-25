@@ -26,6 +26,7 @@
 
 \usepackage{graphicx}
 \usepackage{listings}
+
 \usepackage{color}
  
 \definecolor{codegreen}{rgb}{0,0.6,0}
@@ -197,30 +198,86 @@ Maka kamu harus sanggup menahan perihnya Kebodohan.'
 \end{introduction}
 
 %%%%%%%%%%%%%%%%%%Isi Buku_
+\chapter{Sejarah Python}
+Python dikembangkan oleh Guido van Rossum pada tahun 1990-an di CWI, Amsterdam sebagai kelanjutan
+dari bahasa pemrograman ABC. Versi terakhir yang dikeluarkan CWI adalah 1.2. Tahun 1995, Guido pindah
+ke CNRI sambil terus melanjutkan pengembangan Python. Versi terakhir yang dikeluarkan adalah 1.6. Tahun
+2000, Guido dan para pengembang inti Python pindah ke BeOpen.com yang merupakan sebuah perusahaan
+komersial dan membentuk BeOpen PythonLabs. Python 2.0 dikeluarkan oleh BeOpen. Setelah
+mengeluarkan Python 2.0, Guido dan beberapa anggota tim PythonLabs pindah ke DigitalCreations. Saat ini
+pengembangan Python terus dilakukan oleh sekumpulan pemrogram yang dikoordinir Guido dan Python
+Software Foundation. Python Software Foundation adalah sebuah organisasi non-profit yang dibentuk
+sebagai pemegang hak cipta intelektual Python sejak versi 2.1 dan dengan demikian mencegah Python
+dimiliki oleh perusahaan komersial. Saat ini distribusi Python sudah mencapai versi 2.7.13 dan versi 3.6.0.
+
+Nama Python dipilih oleh Guido sebagai nama bahasa ciptaannya karena kecintaan guido pada acara televisi
+Monty Python’s Flying Circus. Oleh karena itu seringkali ungkapan-ungkapan khas dari acara tersebut
+seringkali muncul dalam korespondensi antar pengguna Python.
+
+\chapter{Perbedaan Python 2 Dan paython 3}
+Python 2
+Dipublikasikan pada akhir tahun 2000, Python 2 dinilai lebih transparan dan inklusif untuk pengembangan software ketimbang versi sebelumnya. Hal ini didukung dengan adanya PEP – Python Enhancement Proposal, sebuah spesifikasi teknis yang menjadi tuntunan informasi untuk penggunanya dan menggambarkan fitur baru pada Python itu sendiri.
+
+Sebagai tambahan, Python 2 dilengkapi dengan berbagai fitur programatikal seperti cycle-detecting garbage collector untuk mengotomasi manajemen memori, peningkatan dukungan untuk Unicode, list comprehension untuk membuat sebuah list berdasarkan list yang sudah ada. Unifikasi pada tipe data Python dan class ke satu hirarki terjadi pada rilis Python 2.2
+
+Python 3
+Python 3 diharapkan sebagai masa depan Python dan merupakan versi yang saat tulisan ini dibuat masih aktif dikembangkan. Python 3 sendiri adalah versi dengan banyak perubahan yang dirilis akhir tahun 2008. Fokus dari Python 3 itu sendiri adalah untuk melakukan perapian pada codebase dan menghapuskan duplikasi (redundancy). Perubahan terbesar pada Python 3 termasuk memasukkan statemen print ke dalam built-in function.
+
+Awalnya, Python 3 mengalami hambatan pada pengadopsiannya. Itu akibat dari tidak adanya backwards compatibility dengan Python 2. Hal ini membuat pengguna Python sangat berat hati untuk pindah ke versi 3 ini. Tambahannya, banyak sekali library yang hanya tersedia untuk Python 2., tapi setelah tim pengembangan di balik Python 3 telah berulang kali menjelaskan bahwa dukungan terhadap Python 2 akan segera dihentikan, dan semakin banyak libary disalin ke Python 3, maka penerapan Python 3 semakin lama semakin meningkat.
 
 
-\chapter{Mengenal Python dan Anaconda}
-pembelajaran pada pertemuan pertama antara lain:
-\begin{enumerate}
-\item
-membaca sejarah python dan meresumekan dengan bahasa yang mudah dipahami dan dimengerti
-\item
-melakukan instalasi anaconda
-\item
-menggunakan spyder
-\end{enumerate}
-dikumpulkan dengan pull request ke github
-\input{chapters/1}
+\chapter{Cara Instalasi Python}
+
+Dalam Menginstal Python terlebih dahulu download python di web resmi. dalam cara instalisasi python sebagai contoh menggunakan python 3.7
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=3cm,height=3cm]{1.jpg}
+\caption{1.jpg}
+\label{penanda}
+\end{figure}
 
 
-\chapter{Judul Bagian Kedua}
-\input{chapters/2}
+Setelah Proses tersebut kita akan memulai proses berikutya, dalam proses ini akan menjelaskan tentang proses penginstalan ,Centang Install launcher for all user untuk mengaktifkan python pada semua user 
+Windows dan centang Python 3.7 to PATH untuk menambah path command Python. Kemudian klik Install Now. Klik Yes saat muncul notifikasi User Account Control.
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=3cm,height=3cm]{2.png}
+\caption{2.png}
+\label{penanda}
+\end{figure}
 
+setelah proses tersebut maka proses instalasi yang akan memakan waktu yang cukup lama.
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=3cm,height=3cm]{3.png}
+\caption{3.png}
+\label{penanda}
+\end{figure}
+\bibliographystyle{IEEEtran} 
+%\def\bibfont{\normalsize}
+\bibliography{references}
+
+Setelah Proses instalasi berhasil maka Akan muncul Gambar seperti dibawah ini.
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=3cm,height=3cm]{4.png}
+\caption{4.png}
+\label{penanda}
+\end{figure}
+
+\chapter{Cara Instalasi Anaconda}
+Dalam Proses Instalasi Setelah didownload, klik  kali pada installer Anaconda. Kemudian klik next.
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=3cm,height=3cm]{12.jpg}
+\caption{4.jpg}
+\label{penanda}
+\end{figure}
 
 
 \bibliographystyle{IEEEtran} 
 %\def\bibfont{\normalsize}
-\bibliography{references}
+w\bibliography{references}
 
 
 %%%%%%%%%%%%%%%
