@@ -1,4 +1,45 @@
 
+\begin{document}
+
+\section{Resume}
+\begin{flushleft}
+\qquad Python dibuat oleh Guido van Rossum yang dirilis pertama  kali pada tahun 1992, 'python 1.0' dirilis pada januari 1994 dan versi terakhir yang ini dirilis saat ini adalah 'Python 3.7' pada 27 Juni 2018. Nama Python sendiri diambil dari acara televisi Monty Python's Flying Circus. Python mendukung multi paradigma pemrograman. pengembangan Python masih dilakukan oleh Team Guido dan Python Software Foundation sebagai pemegang hak cipta intelektual Python sejak versi 2.1 . perbedaan antara python2 dan python3 contohnya pada statement print, pada python2 : 
+
+print "Hello World"
+
+sedangkan pada python3 :
+
+print ("Hello World")
+\end{flushleft}
+
+\section{Instalasi}
+\subsection{Install Anacaconda}
+\begin{enumerate}
+\item Download Anaconda3 https://www.anaconda.com/distribution/#linux
+\item 'bash Anaconda3-2018.12-Linux-x86-64.sh
+\item review license agreement
+\item agree license agreement, text 'yes'
+\item lokasi install default di /root/anaconda3
+\item tambahkan lokasi di /root/.bashrc, text 'yes'
+\item selesai
+\end{enumerate}
+
+\subsection{Install Python}
+\begin{enumerate}
+\item apt-get install python3
+\item selesai
+\end{enumerate}
+
+\subsection{Install Python pip}
+\begin{enumerate}
+\item apt-get install python3-pip
+\item selesai
+\end{enumerate}
+
+
+\end{document}
+
+
 \section{MuhammadRezaSyachrani/1174084}
 \subsection{Background}
 	Python merupakan salah satu bahasa pemrograman tingkat tinggi (high level language) yang dikembangkan oleh Guido van Rossum pada tahun 1989 dan diperkenalkan untuk pertama kalinya pada tahun 1991 di Scitchting Mathematisch Centrum (CWI).
@@ -29,7 +70,35 @@
 	\item Dapat membangun suatu aplikasi dan alat yang mengimplementasikan bahasa pemrograman python
 \end{itemize}
 
+
 \subsection{Scoop and Environtment}
 \begin{itemize}
 	\item Menginplementasikan Python dalam pemrograman
 \end{itemize}
+
+\section{Instalasi}
+\subsection{Cara Pemakaian Script dan interpreter python}
+\subsection{Cara Pemakaian spyder termasuk variable explorer}
+
+\section{Mencoba Python}
+Untuk memulai suatu pemrograman, kita akan awali dengan membuat sebuah hello world. Di Python, cukup mudah untuk membuat sebuah hello world. Silahkan buat sebuah file dengan nama helloworld.py kemudian buat kode berikut di dalam file tersebut:
+\paragraph{}
+print "Hello world..."
+\paragraph{}
+Sekarang mari kita eksekusi file tersebut di konsol dengan perintah berikut:
+python helloworld.py
+\paragraph{}
+Hello world...
+
+\section{Identasi}
+Ketika menulis kode program Python perlu memperhatikan indentasi, karena kode program Python distrukturkan berdasarkan indentasi. Kode program yang berada pada sisi kiri yang sama maka dibaca sebagai satu blok, untuk membuat sub blok maka cukup dengan memberikan jarak spasi atau tab ke kanan.
+Soal indentasi ini akan lebih jelas ketika pembahasan tentang pencabangan, perulangan, fungsi, class, dan materi yang lain yang membutuhkan penulisan kode program bersarang.
+Contohnya adalah sebagai berikut:
+import sys
+\paragraph{}
+if len(sys.argv) < 2:
+\paragraph{}
+    print("Harap memasukkan argumen.")
+    \paragraph{}
+    sys.exit(1)
+
