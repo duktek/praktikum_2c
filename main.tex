@@ -1,4 +1,3 @@
-%%%%%%%%%%%%%%
 %% Run LaTeX on this file several times to get Table of Contents,
 %% cross-references, and citations.
 
@@ -26,6 +25,7 @@
 
 \usepackage{graphicx}
 \usepackage{listings}
+
 \usepackage{color}
  
 \definecolor{codegreen}{rgb}{0,0.6,0}
@@ -127,100 +127,84 @@
 \begin{document}
 
 
-\booktitle{Cerdas Menguasai Python}
-\subtitle{Dalam 24 Jam}
+\booktitle{}
+\subtitle{D}
 
-\authors{Rolly M. Awangga\\
-\affil{Informatics Research Center}
+\authors{Difa Al Fansha\\
+\affil{D4 TI 2C}
 %Floyd J. Fowler, Jr.\\
 %\affil{University of New Mexico}
 }
-
-\offprintinfo{Cerdas Menguasai Python, First Edition}{Rolly M. Awangga}
 
 %% Can use \\ if title, and edition are too wide, ie,
 %% \offprintinfo{Survey Methodology,\\ Second Edition}{Robert M. Groves}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% 
-\halftitlepage
 
-\titlepage
-
-
-\begin{copyrightpage}{2019}
-\input{info/copyrightpage}
-\end{copyrightpage}
-
-\dedication{`Jika Kamu tidak dapat menahan lelahnya belajar, 
-Maka kamu harus sanggup menahan perihnya Kebodohan.'
-~Imam Syafi'i~}
-
-\begin{contributors}
-\input{info/contributors}
-\end{contributors}
-
-\contentsinbrief
-\tableofcontents
-\listoffigures
-\listoftables
-\lstlistoflistings
-
-
-\begin{foreword}
-\input{info/foreword}
-\end{foreword}
-
-\begin{preface}
-\input{info/preface}
-\end{preface}
-
-
-\begin{acknowledgments}
-\input{info/acknowledgments}
-\end{acknowledgments}
-
-\begin{acronyms}
-\input{info/acronyms}
-\end{acronyms}
-
-\begin{glossary}
-\input{info/glossary}
-\end{glossary}
-
-\begin{symbols}
-\input{info/symbols}
-\end{symbols}
 
 \begin{introduction}
 \input{info/introduction}
 \end{introduction}
 
-%%%%%%%%%%%%%%%%%%Isi Buku_
+
+\chapter{Sejarah Phyton}
+{Pyhton merupakan bahasa open source yang memiliki aturan sintaksis tersendiri. Bahasa Pemrograman Python diciptakan oleh Guido Van Rossum berasal dari Belanda. Python mulai dikembangkan pada tahun 1990 di Stichting Mathematisch Centrum, Amsterdam -  Belanda sebagai kelanjutan dari bahasa pemrograman ABC.
+Publikasi pertama Python dilakukan pada tahun 1991 dengan versi 0.9.0, tiga tahun kemudian (1994) lahir versi Pyton 1.0. Di tahun 1995, Guido pindah dari CWI ke Corporation For National Research Initiatives (CNRI) di Virginia Amerika sembari terus melanjutkan pengembangan Python.
+Pada tahun 1995 - 2000 CNRI telah merilis Python versi 1.2, versi 1.3, versi 1.4, versi 1.5 dan versi terakhir 1.6. Pada Masa tersbut versi yang paling populer adalah versi 1.5.2.
+Tahun 2000, Guido dan team pengembang pindah dengan membawa python ke Beopen.com. Beopen.com merupakan sebuah perusahaan komersil yang berasal dari California.Didalam naungan Beopen.com Guido dan tim membentuk PythonLabs, yang kemudian berhasil menciptakan Python 2.0. Setelah merilis Python 2.0, Guido dan team direkrut oleh Digital Creation (saat ini namanya Zope Corporation), sebuah perusahaan yang bergerak dibidang pembentukan produk open source untuk Content Managament System (CMS).
+Di Tahun 2001, Guido dan team memutuskan melepaskan diri dari dari Digital Creation dan membentuk komunitas baru dengan nama Python Software Foundation (PSF). PSF adalah sebuah organisasi non-profit yang dibentuk sebagi pemegang hak cipta intelektual Python dan dengan begitu mencegah Python dimiliki oleh perusahaan komersial.
+}
 
 
-\chapter{Mengenal Python dan Anaconda}
-pembelajaran pada pertemuan pertama antara lain:
-\begin{enumerate}
-\item
-membaca sejarah python dan meresumekan dengan bahasa yang mudah dipahami dan dimengerti
-\item
-melakukan instalasi anaconda
-\item
-menggunakan spyder
-\end{enumerate}
-dikumpulkan dengan pull request ke github
-\input{chapters/1}
+\chapter{Perbedaan phyton 2 dan 3}
+Penulisan syntax(source code) yang berbeda, Python 2 dilengkapi dengan berbagai fitur programatikal seperti cycle-detecting garbage collector untuk mengotomasi manajemen memori, peningkatan dukungan untuk Unicode, list comprehension untuk membuat sebuah list berdasarkan list yang sudah ada. Unifikasi pada tipe data Python dan class ke satu hirarki terjadi pada rilis Python 2.2
+Python 3 mengalami hambatan pada pengadopsiannya. Itu akibat dari tidak adanya backwards compatibility dengan Python 2. Hal ini membuat pengguna Python sangat berat hati untuk pindah ke versi 3 ini. Tambahannya, banyak sekali library yang hanya tersedia untuk Python 2., tapi setelah tim pengembangan di balik Python 3 telah berulang kali menjelaskan bahwa dukungan terhadap Python 2 akan segera dihentikan, dan semakin banyak libary disalin ke Python 3, maka penerapan Python 3 semakin lama semakin meningkat.
 
+ 	\chapter{Instalasi Phyton}
+{
+1. Setelah download selesai, kita akan mendapatkan file python-3.4.2.msi. File python-3.4.2.msi adalah file instalator python. File ini akan melakukan instalasi ke sistem windows.
+}
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=3cm,height=3cm]{1.png}
+\label{penanda}
+\end{figure}
 
-\chapter{Judul Bagian Kedua}
-\input{chapters/2}
+2. Pada tahapan ini kita akan diminta untuk memilih siapa saja yang boleh memakai python.
+Pilih saja ‘Install for all users’ agar bisa dipakai untuk semua user di komputernya.
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=3cm,height=3cm]{2.png}
+\label{penanda}
+\end{figure}
+
+3.Tentukan lokasi python akan diinstal, kemudian klik next.
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=3cm,height=3cm]{3.png}
+\label{penanda}
+\end{figure}
+
+4.Pada tahapan ini, kita akan menentukan fitur-fitur yang akan diinstal.
+Jangan lupa untuk mengaktifkan ‘Add python.exe to path’ agar perintah python dikenali pada CMD (Command Prompt).
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=3cm,height=3cm]{4.png}
+\label{penanda}
+\end{figure}
+
+5.Selesai…
+\begin{figure}[!htbp]
+\centering
+\includegraphics[width=3cm,height=3cm]{5.png}
+\label{penanda}
+\end{figure}
 
 
 
 \bibliographystyle{IEEEtran} 
 %\def\bibfont{\normalsize}
-\bibliography{references}
 
 
 %%%%%%%%%%%%%%%
