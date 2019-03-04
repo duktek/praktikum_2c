@@ -1,205 +1,106 @@
-\section{Fanny Shafira Damayanti}
-\subsection{Teori}
-\subsection{Jenis-Jenis Variable}
+\section{Teori}
 \begin{enumerate}
-\item Bilangan (Number)
-Tipe data bilangan yang umum ada 2 yaitu, integer dan float. Integer adalah bilangan bulat, sedangkan float adalah bilangan pecahan. ksaks itu ada tipe bilangan lain, yaitu bilangan kompleks yaitu bilangan yang memiliki bagian real dan imajiner. Integer, float, dan kompleks masing-masing di Python diwakili oleh kelas int, float, dan complex.
 
-\item String
-String adalah satu atau serangkaian karakter yang diletakkan diantara tanda kutip, baik tanda kutip tunggal ( ‘ ) maupun ganda ( ” ). Huruf, angka, maupun karakter lainnya yang digabung menjadi teks adalah contoh string.
+\item Aturan Penulisan Variabel
+\begin{flushleft}
+\qquad Nama variable bersifat case-sensitive, huruf besar kecil sangat berpengaruh dan nama variable bisa menggunakan \verb|(_)| diawal dan ditengah kalimat. nama variable tidak boleh menggunakan syntax yang ada di python seperti if, else, print dll.\\
+\end{flushleft}
+Contoh penamaan variable:
+	\begin{itemize}
+	\item name12
+	\item name\verb|_|variable
+	\item \verb|_|variable1
+	\item nameVarialble
+	\item NameVariable
+	\end{itemize}
+	
+Contoh sytanx :
+\lstinputlisting[firstline=2, lastline=2]{src/1174067_teori.py}
 
-String adalah tipe data yang anggotanya berurut dan memiliki indeks. Indeks dimulai dari angka 0 bila dimulai dari depan dan -1 bila diindeks dari belakang. Tiap karakter bisa diakses menggunakan indeksnya dengan formatnamastring[indeks] . Pada string juga bisa dilakukan slicing atau mengakses sekelompok substring dengan format namastring[awal:akhir]
 
-\item List
-List adalah tipe data yang berisi item yang berurut. Seperti halnya tipe data string, tiap item (anggota) list memiliki indeks sesuai dengan urutannya. Indeks dimulai dari 0 dan bukan dari 1.
+\item Meminta input dari user dan menampilkannya
+\begin{flushleft}
+\qquad di python3 menangkap inputan pada keyboard cukup menggunakan fungsi input() untuk mengambil angka atau text. dan untuk outputnya menggunakan fungsi print().\\
+\end{flushleft}
+contoh syntax :
+\lstinputlisting[firstline=5, lastline=6]{src/1174067_teori.py}
 
-List bisa berisi anggota dengan tipe yang sama maupun berbeda. Untuk mendeklarasikan list, digunakan tanda kurung [ ] dan masing-masing anggotanya dipisahkan oleh tanda koma.
 
-\item Tuple
-Tuple adalah jenis data lain yang mirip dengan list. Perbedaannya dengan list adalah anggotanya tidak bisa diubah (immutable). List bersifat mutable, sedangkan tuple bersifat immutable. Sekali tuple dibuat, maka isinya tidak bisa dimodifikasi lagi.
+\item penggunaan aritmatika dan convert type data
+\begin{flushleft}
+\qquad aritmatika sering dipakai dalam pemrograman terutama di python. //
+\end{flushleft}
+Contoh aritmatika:
+\lstinputlisting[firstline=9, lastline=63]{src/1174067_teori.py}
 
-Tuple dideklarasikan dengan menggunakan tanda kurung. dan anggotanya dipisahkan oleh tanda koma. Tuple berguna untuk data yang dimaksudkan tidak diubah isinya. Misalnya tuple komposisi warna untuk putih adalah (255,255,255).
 
-\item Set
-Set adalah salah satu tipe data di Python yang tidak berurut (unordered). Set memiliki anggota yang unik (tidak ada duplikasi). Jadi misalnya kalau kita meletakkan dua anggota yang sama di dalam set, maka otomatis set akan menghilangkan yang salah satunya.
+\item Perulangan 
+\begin{flushleft}
+\qquad perulanagan di python bisa menggunakan "for" dan "while". for dipakai untuk perulangan terhitung, sedangkan while dipakai untuk perulangan tidak terhitung.\\
+\end{flushleft}
+\lstinputlisting[firstline=66, lastline=75]{src/1174067_teori.py}
 
-Set dibuat dengan meletakkan anggota – anggotanya di dalam tanda kurung kurawal { }, dipisahkan menggunakan tanda koma. Kita juga bisa membuat set dari list dengan memasukkan list ke dalam fungsi set()
 
-\item Dictionary
-Dictionary adalah tipe data yang tiap anggotanya terdiri dari pasangan kunci-nilai (key-value). Mirip dengan kamus dimana ada kata ada arti. Dictionary umumnya dipakai untuk data yang besar dan untuk mengakses anggota data secara acak. Anggota dictionary tidak memiliki indeks.
+\item kondisi, kondisi didalam kondisi 
+\begin{flushleft}
+\qquad kondisi di python menggunakan if dan else.
+\end{flushleft}
+\lstinputlisting[firstline=78, lastline=101]{src/1174067_teori.py}
 
-Dictionary dideklarasikan dengan menggunakan tanda kurung kurawal { }, dimana anggotanya memiliki bentuk kunci:nilai atau key:value dan tiap anggota dipisah tanda koma. Kunci dan nilainya bisa memiliki tipe sembarang.
-\end{enumerate}
 
-\subsection{Cara Menampilkan Kode untuk meminta Input dan output nya}
+\item error yang sering ditemu di python
+\begin{flushleft}
+\qquad error yang biasanya di temui ada dalam penulisan sytax. Pengurutan sytax jika menggunakan 'space' gunakan 'space' semua, jangan di acak misal menggukana 'tab', jika menggunakan 'tab' semua. cara mengatasinya dengan membaca tutorial penggunaan python sesuai versinya\\
+\end{flushleft}
 
-Untuk menampilkan Python sudah menyediakan fungsi input() dan rawinput() untuk mengambil inputan dari keyboard.
-Cara pakainya: 
-Namavariable = input (“Sebuah teks”)
-Artinya, teks yang kita inputkan dari keyboard akan disimpan ke dalam namavariabel.
-Untuk menampilkan output teks, kita menggunakan fungsi print().
+\item Try Execept
+\begin{flushleft}
+\qquad try execept merupakan cara untuk mengatasi error selain menggukana if else. try execept mempuyai kelebihan dapat memblok sytax yang error.\\
+\end{flushleft}
+\lstinputlisting[firstline=104, lastline=115]{src/1174067_teori.py}
 
-\subsection{Operator Dasar Aritmatika}
-
-\begin{enumerate}
-\item Penjumlahan	+
-\item Pengurangan	-
-\item Perkalian	*
-\item Pembagian	/
-\item Sisa Bagi	percent
-\item Pemangkatan	**
-\end{enumerate}
-
-Integer = int(a) untuk konversi string ke integer
-
-String = str(a) untuk konversi integer ke string
-
-\subsection{Sintax Perulangan}
-\begin{enumerate}
-\item The while Loop
-
-Dengan while loop, kita dapat menjalankan serangkaian pernyataan selama suatu kondisi benar.
-
-Contoh : 
-Print i sepanjang i adalah kurang dari 6:
-
-i = 1
-
-while i < 6:
-
-  print(i)
-  
-  i += 1
-
-\item Python For Loops
-
-For loop digunakan untuk mengulangi urutan (baik daftar, tuple, dictionary,  set, atau string).
-
-Ini kurang seperti kata kunci untuk dalam bahasa pemrograman lain, dan berfungsi lebih seperti metode iterator seperti yang ditemukan dalam bahasa pemrograman berorientasi objek lainnya.
-Dengan for loop kita dapat mengeksekusi seperangkat pernyataan, satu kali untuk setiap item dalam list, tuple, set dll.
-
-Contoh :
-
-Print each fruit in a fruit list:
-
-fruits = ["apple", "banana", "cherry"]
-
-for x in fruits:
-
-  print(x)
 
 \end{enumerate}
 
-\subsection{Syntax Kondisi}
-
-Kondisi If Else
-
-Pengambilan keputusan (kondisi if else) tidak hanya digunakan untuk menentukan tindakan apa yang akan diambil sesuai dengan kondisi, tetapi juga digunakan untuk menentukan tindakan apa yang akan diambil/dijalankan jika kondisi tidak sesuai.
-Pada python ada beberapa statement/kondisi diantaranya adalah if, else dan elif Kondisi if digunakan untuk mengeksekusi kode jika kondisi bernilai benar.
-
-Kondisi if else adalah kondisi dimana jika pernyataan benar true maka kode dalam if akan dieksekusi, tetapi jika bernilai salah false maka akan mengeksekusi kode di dalam else.
-
-Dibawah ini adalah contoh penggunaan kondisi if else pada Python
-
-nilai = 3
-
-if (nilai > 7):
-
-	print ("Selamat anda lulus")
-
-else :
-
-	print ("Maaf anda tidak lulus")
-
-\subsection{Jenis error di Python}
-
+\section{Praktek}
 \begin{enumerate}
-\item Syntax Errors
+\item jawaban
+\lstinputlisting[firstline=2, lastline=11]{src/1174067_praktek.py}
 
-Syntax Errors adalah suatu keadaan saat kode python mengalami kesalahan penulisan. Python interpreter dapat mendeteksi kesalahan ini saat kode dieksekusi.
+\item jawaban
+\lstinputlisting[firstline=13, lastline=18]{src/1174067_praktek.py}
 
-print "Hello World"
+\item jawaban
+\lstinputlisting[firstline=20, lastline=25]{src/1174067_praktek.py}
 
-SyntaxError: invalid syntax
+\item jawaban
+\lstinputlisting[firstline=27, lastline=29]{src/1174067_praktek.py}
 
-Output dari program yang dieksekusi akan menampilkan pesan “invalid syntax“. Penanganan Syntax Errors dilakukan dengan memperbaiki penulisan kode yang salah tersebut. 
+\item jawaban
+\lstinputlisting[firstline=31, lastline=43]{src/1174067_praktek.py}
 
-untuk menanganinya cukup tambahkan tanda kurung () pada :
+\item jawaban
+\lstinputlisting[firstline=45, lastline=45]{src/1174067_praktek.py}
 
-print ("Hello World") 
+\item jawaban
+\lstinputlisting[firstline=48, lastline=48]{src/1174067_praktek.py}
 
-\item Exceptions
+\item jawaban
+\lstinputlisting[firstline=51, lastline=53]{src/1174067_praktek.py}
 
-Exceptions adalah suatu keadaan saat penulisan syntax sudah benar, namun kesalahan terjadi karena syntax tidak bisa dieksekusi. Banyak hal yang menyebabkan terjadinya Exceptions, mulai dari kesalahan matematika, kesalahan nama function, kesalahan library, dan lain-lain.
-\end{enumerate}
+\item jawaban
+\lstinputlisting[firstline=55, lastline=59]{src/1174067_praktek.py}
 
-\subsection{Cara menggunakan Try Except}
+\item jawaban
+\lstinputlisting[firstline=62, lastline=65]{src/1174067_praktek.py}
 
-Di kode ini kita akan mencoba menangkap dua error pada kode yang dikurung oleh try..except. Terdapat sebuah dictionary yang berisi key nama, kota, dan umur. Kemudian kita membuka sebuah file yang bernama contact.txt. Walaupun ada kode error setelahnya yang akan mengakibatkan error pengaksesan indeks, yang akan ditangkap terlebih dahulu adalah error yang diakibatkan gagalnya membaca file.
-
-contoh :
-
-orang = {"nama":"fanny", "kota":"bandung", "umur":"19"}
-
-try:
-
-    contact = open("contact.txt", 'r')
-    
-    print orang["pekerjaan"]
-    
-except IOError, e:
-
-    print "Terjadi error IO: ", e
-    
-except KeyError, e:
-
-    print "Terjadi kesalahan pada akses list/dict/
-    
-    tuple:", e
-
-print orang
-
-\end{document}
-\section{Keterampilan Pemrograman}
-\begin{enumerate}
-
-\item Jawaban Soal 1
-\lstinputlisting[firstline=8, lastline=17]{src/1174069.py}
-
-\item Jawaban Soal 2
-\lstinputlisting[firstline=20, lastline=24]{src/1174069.py}
-
-\item Jawaban Soal 3
-\lstinputlisting[firstline=27, lastline=31]{src/1174069.py}
-
-\item Jawaban Soal 4
-\lstinputlisting[firstline=34, lastline=35]{src/1174069.py}
-
-\item Jawaban Soal 5
-\lstinputlisting[firstline=38, lastline=48]{src/1174069.py}
-
-\item Jawaban Soal 6
-\lstinputlisting[firstline=51, lastline=52]{src/1174069.py}
-
-\item Jawaban Soal 7
-\lstinputlisting[firstline=54, lastline=55]{src/1174069.py}
-
-\item Jawaban Soal 8
-\lstinputlisting[firstline=57, lastline=63]{src/1174069.py}
-
-\item Jawaban Soal 9
-\lstinputlisting[firstline=66, lastline=67]{src/1174069.py}
-\item Jawaban Soal 10
-\lstinputlisting[firstline=69, lastline=70]{src/1174069.py}
-
-\item Jawaban Soal 11
-\lstinputlisting[firstline=72, lastline=72]{src/1174069.py}
-\end{enumerate}
-
-\section{Keterampilan Penaganan Error}
-\begin{enumerate}
-\item Jawaban Soal 
-\lstinputlisting[firstline=8, lastline=15]{src/err2_1174069.py}
+\item jawaban
+\lstinputlisting[firstline=69, lastline=69]{src/1174067_praktek.py}
 
 \end{enumerate}
 
+\section{Praktek}
+\begin{enumerate}
+\item syntax error, penulisan syntax salah, cek kembali syntaxnya. division by zero, tidak membagi angka 0.
+\item \lstinputlisting[firstline=1, lastline=8]{src/1174067_2err.py}
+\end{enumerate}
