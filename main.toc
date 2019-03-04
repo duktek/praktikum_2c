@@ -8,14 +8,28 @@
 \contentsline {schapter}{List of Symbols}{xxvii}% 
 \contentsline {schapter}{Introduction}{xxix}% 
 \contentsline {ichapter}{Rolly Maulana Awangga, S.T., M.T.}{xxix}% 
-\contentsline {chapter}{\numberline {1}Chapter 1}{1}% 
-\contentsline {section}{\numberline {1.1}Chapter 1 | D. Irga B. Naufal Fakhri D4 TI 2C}{1}% 
-\contentsline {subsection}{\numberline {1.1.1}Sejarah Python}{1}% 
-\contentsline {subsection}{\numberline {1.1.2}Tanggal Rilis Python}{2}% 
-\contentsline {subsection}{\numberline {1.1.3}Perbedaan Python 2 dengan Python 3}{3}% 
-\contentsline {subsection}{\numberline {1.1.4}Penggunaan Python di perusahaan dunia}{4}% 
-\contentsline {subsection}{\numberline {1.1.5}Cara menginstall Anaconda}{5}% 
-\contentsline {subsection}{\numberline {1.1.6}Cara menggunakan Spyder pada Anaconda}{7}% 
-\contentsline {subsection}{\numberline {1.1.7}Membuat Hello World di Spyder}{9}% 
-\contentsline {chapter}{\numberline {2}Judul Bagian Kedua}{11}% 
-\contentsline {section}{\numberline {2.1}Perintah Navigasi}{11}% 
+\contentsline {chapter}{\numberline {1}Mengenal Python dan Anaconda}{1}% 
+\contentsline {section}{\numberline {1.1}Resume}{1}% 
+\contentsline {subsection}{\numberline {1.1.1}Resume Sejarah Python}{1}% 
+\contentsline {subsection}{\numberline {1.1.2}Perbedaan Python 2 dan Python 3}{2}% 
+\contentsline {subsubsection}{\numberline {1.1.2.1}Python 2}{2}% 
+\contentsline {paragraph}{}{2}% 
+\contentsline {subsubsection}{\numberline {1.1.2.2}Python 3}{2}% 
+\contentsline {paragraph}{}{2}% 
+\contentsline {subsection}{\numberline {1.1.3}Implementasi dan penggunaan Python pada Perusahaan}{2}% 
+\contentsline {section}{\numberline {1.2}Instalasi}{3}% 
+\contentsline {subsection}{\numberline {1.2.1}Cara Pemakaian Script dan interpreter python}{3}% 
+\contentsline {subsection}{\numberline {1.2.2}Cara Pemakaian spyder termasuk variable explorer}{3}% 
+\contentsline {section}{\numberline {1.3}Mencoba Python}{3}% 
+\contentsline {paragraph}{}{3}% 
+\contentsline {paragraph}{}{3}% 
+\contentsline {paragraph}{}{3}% 
+\contentsline {section}{\numberline {1.4}Identasi}{4}% 
+\contentsline {paragraph}{}{4}% 
+\contentsline {paragraph}{}{4}% 
+\contentsline {paragraph}{}{4}% 
+\contentsline {chapter}{\numberline {2}Pemrograman Dasar}{5}% 
+\contentsline {section}{\numberline {2.1}Teori}{5}% 
+\contentsline {subsection}{\numberline {2.1.1}Variable, pemakaian Variable dan Jenis-Jenis Type data}{5}% 
+\contentsline {subsection}{\numberline {2.1.2}Ketrampilan Pemrograman}{8}% 
+\contentsline {subsection}{\numberline {2.1.3}Ketrampilan Penanganan Error}{10}% 
