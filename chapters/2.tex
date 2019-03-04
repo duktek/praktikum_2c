@@ -1,73 +1,171 @@
-\section{Chandra Kirana Poetra}
-\subsection{Teori}
+\section{Teori}
+Praktek teori penunjang yang dikerjakan :
+\subsection{Variable, pemakaian Variable dan Jenis-Jenis Type data}
+Variabel merupakan tempat menyimpan data, sedangkan tipe data adalah jenis data yang terseimpan dalam variabel. Variabel bersifat mutable, artinya nilainya bisa berubah-ubah.
+\begin{enumerate}
+\item Pemakaian Variabel\\
+Variabel di python dapat dibuat dengan format seperti ini:\\
+NamaVariabel = (nilai)\\
+Contoh:\\
+VariabelKu = "ini isi variabel"\\
+variabel2 = 20\\
+Kemudian untuk melihat isi variabel, kita dapat menggunakan fungsi print.\\
+print VariabelKu\\
+print variabel2\\
+\begin{enumerate}
+\item Aturan Penulisan Variabel
+\begin{itemize}
+\item Nama variabel boleh diawali menggunakan huruf atau garis bawah \verb|(_)|, contoh: nama, \verb|_nama|, namaKu, \verb|nama_variabel|.
+\item Karakter selanjutnya dapat berupa huruf, garis bawah \verb|(_)| atau angka, contoh: \verb|__nama|, n2, nilai1.
+\item Karakter pada nama variabel bersifat sensitif (case-sensitif). Artinya huruf besar dan kecil dibedakan. Misalnya, \verb|variabel_Ku| dan \verb|variabel_ku|, keduanya adalah variabel yang berbeda.
+\item Nama variabel tidak boleh menggunakan kata kunci yang sudah ada dalam python seperti if, while, for, dsb.
+\end{itemize}
+\item Tipe Data\\
+Cara mengisi nilai variabel ditentukan dengan jenis datanya, misalkan untuk tipe data teks (string) maka harus diapit dengan tanda petik ("..."). Sedangkan untuk angka (integer) dan boolean tidak perlu diapit dengan tanda petik.\\
+\item Jenis-Jenis Tipe Data\\
+\begin{itemize}
+\item Boolean, Contoh \textit{true} atau \textit{false}
+\item String, Contoh "Belajar Python"
+\item Integer, Contoh 15 atau 1234
+\item Float, Contoh 2.5 atau 0.55
+\item List, Contoh ['abcd', 123, 1.5]
+\end{itemize}
+\end{enumerate}
+
+\item Meminta input dan melakukan output\\
+x = input("masukan nama: ")\\
+print('Hallo, ' + x) \#dengan perintah ini, akan menampilkan output\\
+
+\item Operator dan Konvert
+\begin{itemize}
+\item Tambah contoh x + y
+\item Kurang contoh x - y
+\item Bagi contoh x / y
+\item Kali contoh x * y
+\item Modulus contoh x % y
+\item Pangkat x ** y
+\item equal contoh x == y
+\item not equal contoh x != y
+\item lebih besar dari contoh x \textgreater  y
+\item kurang dari x \textless y
+\item Konvert string ke integer, contoh x = int("123")
+\item Konvert integer ke string, contoh x = str(456)
+\end{itemize}
+
+\item Perulangan di Python
+\begin{itemize}
+\item Perulangan for\\
+contoh :\\
+ulang = 2\\
+for i in range(ulang):\\
+\verb|    |print ("Perulangan ke-" +str(i))\\
+Hasil :\\
+Perulangan ke-0\\
+Perulangan ke-1\\
+\item Perulangan While\\
+contoh :\\
+jawab = 'ya'\\
+hitung = 0\\
+while(jawab == 'ya'):\\
+\verb|   |hitung += 1\\
+\verb|   |jawab = input("Ulang lagi tidak? ")\\
+print ("Total perulagan: " + str(hitung))\\
+\end{itemize}
+
+\item Kodisi di Python
+\begin{enumerate}
+\item Kondisi \textbf{If}\\
+Kondisi if digunakan untuk mengeksekusi kode jika kondisi bernilai benar True. Jika kondisi bernilai salah False maka statement/kondisi if tidak akan di-eksekusi. Dibawah ini adalah contoh penggunaan kondisi if pada Python\\
+a = 33\\
+b = 200\\
+if b \textgreater a:\\
+\verb|   |print("b lebih besar dari a")
+\item Kondisi \textbf{If Else}
+Kondisi if else adalah kondisi dimana jika pernyataan benar True maka kode dalam if akan dieksekusi, tetapi jika bernilai salah False maka akan mengeksekusi kode di dalam else. Dibawah ini adalah contoh penggunaan kondisi if else pada Python\\
+a = 200\\
+b = 33\\
+if b \textgreater a:\\
+\verb|   |print("b lebih besar dari a")\\
+else:\\
+\verb|   |print("b bukan lebih besar dari a")\\
+\item Kondisi \textbf{Elif}
+Pengambilan keputusan (kondisi if elif) merupakan lanjutan/percabangan logika dari “kondisi if”. Dengan elif kita bisa membuat kode program yang akan menyeleksi beberapa kemungkinan yang bisa terjadi. Hampir sama dengan kondisi “else”, bedanya kondisi “elif” bisa banyak dan tidak hanya satu. Dibawah ini adalah contoh penggunaan kondisi elif pada Python\\
+a = 33\\
+b = 33\\
+if b \textgreater a:\\
+\verb|   |print("b lebih besar dari a")\\
+elif a == b:\\
+\verb|   |print("a sama dengan b")\\
+\end{enumerate}
+\item Error yang sering dialami 
+\begin{enumerate}
+\item Syntax Error, Cara mengatasinya dengan cara melihat kode dan mengecek kesalahan dalam penulisan.\\
+\item Run-time Error, Cara mengatasinya mengecek file pada directory nya, dan memastikan file nya tidak ada yang terhapus.\\
+\item Logical Error, Cara mengatasinya mengecek kode secara manual karena error tidak akan ternotice, tetapi akan terasa karena keluaran berbeda dengan yang diharapkan.\\
+\end{enumerate}
+\item Cara memakai Try Except\\
+Python menyediakan metode penanganan eksepsi dengan menggunakan pernyataan try dan except. Di dalam blok try kita meletakkan baris program yang kemungkinan akan terjadi error. Bila terjadi error, maka penanganannya diserahkan kepada blok except.\\
+contoh :\\
+try:\\
+\verb|   |print(x)\\
+except:\\
+\verb|   |print("terjadi error bre~")\\
+\end{enumerate}
+
+\subsection{Ketrampilan Pemrograman}
+Buat program di python dengan ketentuan :
+
 \begin{enumerate}
 
-\item sebutkan jenis-jenis variabel dan jelaskan cara pemakaian variabel tersebut di kode Python
-Variable merupakan tempat yang dapat digunakan untuk menyimpan data, dalam phyton kita bisa membuat variable dengan cara berikut
-\lstinputlisting[firstline=7, lastline=54]{src/Teori.py}
+\item Jawaban 
+\lstinputlisting[firstline=10, lastline=17]{src/1174083.py}
 
-\item Kode untuk meminta input dari user dan bagaimana melakukan output ke layar seperti pada gambar2
-\lstinputlisting[firstline=55, lastline=57]{src/Teori.py}
+\item Jawaban 
+\lstinputlisting[firstline=20, lastline=24]{src/1174083.py}
 
-\item Operator dasar aritmatika
-Terdapat penambahan, pengurangan perkalian, perkalian, pembagian, modulus
-\lstinputlisting[firstline=60, lastline=68]{src/Teori.py}
+\item Jawaban 
+\lstinputlisting[firstline=27, lastline=31]{src/1174083.py}
 
+\item Jawaban 
+\lstinputlisting[firstline=34, lastline=35]{src/1174083.py}
 
-\item Perulangan
-ada dua jenis perulangan di dalam phyton mereka adalah perulangan while dan perulangan for
-\lstinputlisting[firstline=70, lastline=82]{src/teori.py}
+\item Jawaban 
+\lstinputlisting[firstline=38, lastline=51]{src/1174083.py}
 
-\item sintak Untuk memilih kondisi
-Kondisi IF digunakan ketika ingin menentukan tindakan apa yang harus digunakan sesuai dengan kondisi yang telah diatur
-\lstinputlisting[firstline=83, lastline=109]{src/teori.py}
+\item Jawaban 
+\lstinputlisting[firstline=54, lastline=55]{src/1174083.py}
 
+\item Jawaban 
+\lstinputlisting[firstline=57, lastline=58]{src/1174083.py}
 
-\item Jenis-jenis error pada phyton
-Syntax Errors adalah keadaan dimana kode python mengalami kesalahan penulisan. 
-IndentationError adalah eror yang terjadi saat indentasi error.
-SystemError adalah eror yang terjadi ketika interpreter mendeteksi error internal
-TypeError adalah eror yang terjadi saat dilakukan eksekusi pada suatu operasi atau fungsi dengan type object yang tidak sesuai.
-ValueError adalah error ketika value yang dimasukan tidak sesuai
-UnicodeTranslateError adalah error yang muncul ketika mentranslate unicode
-UnicodeDecodeError adalah error yang muncul ketika  proses decode unicode
-UnicodeEncodeError adalah error yang muncul ketika  proses encode unicode
-UnicodeError adalah error yang muncul ketika error terkait unicode terdeteksi
+\item Jawaban 
+\lstinputlisting[firstline=60, lastline=61]{src/1174083.py}
 
-\item Cara memakai try except
-Cara pemakaian try except adalah sebagai berikut :
-    \lstinputlisting[firstline=110, lastline=114]{src/teori.py}
+\item Jawaban 
+\lstinputlisting[firstline=64, lastline=67]{src/1174083.py}
 
+\item Jawaban 
+\lstinputlisting[firstline=72, lastline=74]{src/1174083.py}
+
+\item Jawaban
+\lstinputlisting[firstline=81, lastline=85]{src/1174083.py}
 
 \end{enumerate}
 
-\subsection{Praktek}
+\subsection{Ketrampilan Penanganan Error}
+Bagian Penanganan error dari script python.
 \begin{enumerate}
-    \item Jawaban soal no 1
-    \lstinputlisting[firstline=9, lastline=20]{src/1174079.py}
-    \item Jawaban soal no 2
-    \lstinputlisting[firstline=21, lastline=28]{src/1174079.py}
-    \item Jawaban soal no 3
-    \lstinputlisting[firstline=29, lastline=35]{src/1174079.py}
-    \item Jawaban soal no 4
-    \lstinputlisting[firstline=36, lastline=39]{src/1174079.py}
-    \item Jawaban soal no 5
-    \lstinputlisting[firstline=41, lastline=53]{src/1174079.py}
-    \item Jawaban soal no 6
-    \lstinputlisting[firstline=54, lastline=56]{src/1174079.py}
-    \item Jawaban soal no 7
-    \lstinputlisting[firstline=57, lastline=59]{src/1174079.py}
-    \item Jawaban soal no 8
-    \lstinputlisting[firstline=60, lastline=68]{src/1174079.py}
-    \item Jawaban soal no 9
-    \lstinputlisting[firstline=69, lastline=71]{src/1174079.py}
-    \item Jawaban soal no 10
-    \lstinputlisting[firstline=72, lastline=75]{src/1174079.py}
-    \item Jawaban soal no 11
-    \lstinputlisting[firstline=76, lastline=77]{src/1174079.py}
+\item Jawaban
+\begin{enumerate}
+\item Syntax Errors, adalah suatu keadaan saat kode python mengalami kesalahan penulisan. Solusinya adalah memperbaiki penulisan kode yang salah.
+
+\item Zero Division Error, adalah exceptions yang terjadi saat eksekusi program menghasilkan perhitungan matematika pembagian dengan angka nol (0). Solusinya adalah tidak membagi suatu yang hasilnya nol.
+
+\item Name Error, adalah exception yang terjadi saat kode melakukan eksekusi terhadap local name atau global name yang tidak terdefinisi. Solusinya adalah memastikan variabel atau function yang dipanggil ada atau tidak salah ketik.
+
+\item Type Error, adalah exception yang terjadi saat dilakukan eksekusi terhadap suatu operasi atau fungsi dengan type object yang tidak sesuai. Solusinya adalah mengkoversi varibelnya sesuai dengan tipe data yang akan digunakan.
+
 \end{enumerate}
-
-\subsection{Keterampilan dan penanganan error}
-    \lstinputlisting[firstline=7, lastline=14]{src/error.py}
-
-
+\item Jawaban																	
+\lstinputlisting[firstline=7, lastline=13]{src/1174083_2err.py}
+\end{enumerate}
