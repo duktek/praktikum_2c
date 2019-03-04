@@ -2916,3 +2916,297 @@ Cara pemakaian try except adalah sebagai berikut :
     \lstinputlisting[firstline=1, lastline=8]{src/1174089_errorr.py}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Ainul Filiaini}
+
+1. Jenis-jenis variable dan cara pemakaian variable tersebut di kode python.\\
+1. Variable Gabungan\\
+     
+     menggabungkan tipe data yang berbeda seperti string dan angka secara bersamaan. Sebagai contoh,  kita akan menggabungkan "Guru" dengan angka "99". 
+     
+     Tidak seperti java yang menggabungkan angka dengan string tanpa mendeklarasi angka sebagai string, python mengharuskan pendeklarasian angka tersebut sebagai string, jika ttidak ia akan menampilkan type error.\\
+     Contoh :\\
+     a = "Guru"\\
+     b = 99\\
+     cetak a + b\\
+     
+     Setelah variable dideklarasi sebagai string, ia dapat menggabungkan kedua "Guru" + str("99") = "Guru99"di output.\\
+     a = "Guru"\\
+     b = 99\\
+     print (a + str (b))\\
+     
+     
+     2. Variable Local dan Global\\
+     
+     Dalam pyton ketika kita ingin menggunakan variable yang sama untuk sisa program atau modul kita, kita mendeklarasinya sebagai variable global, apabila jika kita ingin menggunakan variable dalam fungsi atau metode tertentu, kita menggunakan variable lokal\\
+    perbedaan antara variable lokal dengan variable global :\\
+    1. variable "f" adalah lingkup global dan diberi nilai 101 yang
+    
+    di cetak dalam outputnya.\\
+    2. Variable f lagi dinyatakan dalam fungsi dan mengasumsi ruang
+    
+    lokal. ini diberikan nilai " saya sedang belajar python." yang di
+    
+    cetak sebagai outputnya. Variable global yang didefinisikan "f"
+    
+    sebelumnya.\\
+    3. setelah pemanggilan fungsi selesai, variable lokal f 
+    
+    dihancurkan. pada baris 12 , ketika kita kembali mencetak nilai 
+    
+    "f" apakah ini menampilkan nilai variable global f = 101 \\
+     Contoh :\\
+     f = 101;\\
+     print(f)\\
+     \# Variable global vs local in functions\\
+     def someFunction ()\\
+     global f\\
+     print(f)\\
+     f ="changing global variable"\\
+     someFunction()\\
+     print(f)\\
+     
+     Dengan menggunakan kata kunci global, Anda dapat referensi variable global didalam satu fungsi.\\
+     1. Variable "f" adalah lingkup global dan diberi nilai 101 yang
+     
+     dicetak dalam output \\
+     2. Variable f dinyatakan menggunakan kata kunci global. Ini
+     
+     bukan bukan variable local, tapi variable global yang sama
+     
+     dinyatakan sebelumnya. krenanya ketika mencetak nilainya,
+     
+     ouputnya adalah 101\\
+     3. Kami mengubah nilai "f" didalam fungsi. setelah pemanggilan
+     
+     fungsi selesai, nilai yang diubah dari variable "f" tetap ad
+     
+     Pada baris 12, ketika kita kembali mencetak nilai "f" apakah
+    
+     ini menampilkan nilai"mengubah variable global"\\
+     
+     3. Hapus Sebuah variable\\
+     
+     Kita juga bisa menghapus sebuah variable dengan perintah del" nama variable".\\
+2. kode input dari user
+
+nama\_variable = input ("Sebuah Teks")
+
+artinya teks yang kita inputkan dari keyboard akan disimpan kedalam nama\_variable.\\
+contoh :\\
+\# mengambil input \\
+nama = raw\_input("siapa nama kamu : ")\\
+\# menampilkan output \\
+print "Hello",nama,"umur kamu adalah",umur, "tahun"\\
+
+Dan Hasilnya :
+
+Siapa naman kamu :
+
+Berapa umur kamu : \\
+
+Cara menampilkan Output:\\
+Untuk menampilkan output teks , kita menggunakan fungsi print().\\
+contoh :\\
+print " Hello World!"\\
+print nama\_variable\\
+print "Gabung dengan", variable\\
+
+Menampilkan Variable dan Teks : \\
+
+nama = "PetaniKode"
+
+print "Hello", nama\\
+
+Hasilnya :\\ 
+
+Hello PetaniKode
+
+Antara kata hello \\
+4. Operator dasar aritmatika \\
+Tambah (+)\\
+x = 4\\
+y = 5\\
+print (x + y)\\
+Jawabannya : 9\\
+Kurang(-)\\
+x = 4\\
+y = 2\\
+Print (x - y)\\
+Jawabannya : 2\\
+Kali(x)\\
+x = 4\\
+y = 2\\
+print (x * y)\\
+Jawabannya : 8\\
+Bagi(/)\\
+x = 8\\
+y = 2\\
+print (x / y)\\
+Jawabannya : 4\\
+
+Public class String ToInteger{\\
+    Public static void main(String[]args) {\\
+        System.out.println("Mengubah String ke Integer");\\
+        
+        String str = "1234";\\
+        int a = 5;\\
+        //mengubah variable str menjadi int \\
+        int num = integer.parselns(str);\\
+        
+        int b = num + a;\\
+        System.out.println(b);\\
+        }\\
+        }\\
+        
+    Sebaliknya, untuk mengubah Integer ke String menggunakan fungsi berikut:\\
+    
+    /*\\
+    *To change this template, choose Tools| Templates\\
+    */\\
+    package Latihan StringInt;\\
+    /**\\
+   *\\
+    *\\
+    */\\
+    public class IntegerToString {\\
+    Public static void main(String[]args){\\
+    int a = 1000;\\
+    String b = String.valueOf(a);\\
+    }\\
+    }\\
+5. cara pakai sintak untuk memilih kondisi\\
+Ada tiga kondisi di python yang dapat anda gunakan untuk membangun
+
+alur logika untuk program anda. Python memiliki statement if,
+
+if..else, dan if..elif.. else. berikut adalah contoh penggunaan if
+
+di python;\\
+umur = 20\\
+if umur /> 18:\\
+print "sudah beranjak dewasa"\\
+
+Hasil Eksekusi dI konsol:\\
+\$ python if.py\\
+sudah beranjak dewasa\\
+
+untuk memeriksa kondisi yang tidak memenuhi kondisi utama. maka else
+digunakan untuk menangani semua kondisi selain kondisi yang telah
+dituliskan. Berikut adalah contoh penggunaan else di dalam kondisi
+Python : \\
+umur = 20 \\
+if umur /> 18:\\
+print "Sudah beranjak dewasa"\\
+else:\\
+printl "Masih dibawah umur"\\
+hasil eksekusi di konsol: \\
+\$ python if-else.py\\
+Sudah beranjak dewasa
+
+Bila kondisi yang akan didefinisikan cukup banyak, anda 
+
+menambahkan kondisi lain dengan menggunakan elif di bawah statement
+
+if dan sebelum statement else:\\
+umur = 37\\
+if umur > 18 and umur < 30:\\
+    print "Sudah beranjak dewasa"\\
+elif umur > 30 and umur < 45:\\
+    print "Masa - masa emas"\\
+elif umur > 45 and umur < 55:\\
+    print "Memasuki masa paruh baya"\\
+elif umur > 55:\\
+    print "Masa - masa manula"\\
+else:\\
+    print "Masih dibawah umur" \\
+    Hasil eksekusi konsol :\\ 
+    \$python if-elif.py\\
+    masa - masa emas\\
+    dan tentu saja, sebuah kondisional dapat disimpan di dalam if lain. berikut ini adalah contoh kode if bersarang di python : \\
+    gaji = 10000000\\
+berkeluarga = True\\
+punya\_rumah = True\\
+
+if gaji > 3000000:\\
+    print "Gaji sudah diatas UMR"\\
+    if berkeluarga:\\
+        print "Wajib ikutan asuransi dan menabung untuk pensiun"\\
+    else\\
+        print "Tidak perlu ikutan asuransi"\\
+
+    if punya\_rumah:\\
+        print "wajib bayar pajak rumah"\\
+    else:\\
+        print "tidak wajib bayar pajak rumah"\\
+else:\\
+    print "Gaji belum UMR"\\
+     Hasil eksekusi konsol :\\ 
+     \$ python nested-if.py \\
+Gaji sudah diatas UMR\\
+Wajib ikutan asuransi dan menabung untuk pensiun\\
+wajib bayar pajak rumah\\
+
+6. jenis error di python :\\
+Tidak mengenali variable :\\
+>>> d = [1, 2, 3, 4]\\
+>>> d[5]\\
+Traceback (most recent call last):\\
+  File "<stdin>", line 1, in <module>\\
+IndexError: list index out of range\\
+>>>\\
+1. kesalahan systax\\
+Kesalahan ini biasanya disebabkan oleh cara mengganti program\\ yang tidak dapat diakses kaidah menerima kode yang benar-benar\\ sesuai dengan bahasa pemrograman yang digunakan atau memang\\ kurang atribut. Contoh di pythor\\
+2. Kesalahan Eksekusi \\
+Kesalahan ini menyebabkan eksekusi\\ dieksekusi.Contoh dari kesalahan ini diterbitkan adalah memasukan\\ data yang\\ salah (bukan bilangan) pada fungsi input0, atau contoh lain yang\\ disediakan indeks di luar daftar indeks daftar, atau membuka\\ pernyataan dekorasi yang tidak ada di dalam disk kita.\\
+3. Kesalahan Logika\\ 
+Kesalahan ini diterapkan saat skrip sedang dalam eksekusi\\ dieksekusi tetapi tidak dilakukan berhentinya eksekusi skrip\\ tersebut. Kesalahan seperti ini pada umumnya karena\\
+logika dalam naskah yang salah. Programmer misalkan yang\\ menerjemahkan kode bilangan Phi 3.14 tetapi pada kenyataanya dia\\ menerima 31 sehingga skrip yang diperlukan mampu menghitung luas\\ dengan benar menghasilkan angka G + sar dan salah.\\
+7. Try Except\\
+Salah satu bentuk penangan error di Python adalah dengan\\ menggunakan statement try..except. Mungkin kita pernah mendeteksi\\ error dengan memanfaatkan kondisional biasa menggunakan if..else,\\ namun hal tersebut akan lebih praktis ditangani bila dengan\\ menggunakan try..except. Anda dapat mengurung suatu blok kode\\ dengan try..except untuk menangani error yang mungkin kita sendiri\\ tidak mengetahuinya. Biasanya try..except ini digunakan untuk\\ menangani error saat penggunaan IO, operasi database, atau\\ pengaksesan indeks suatu list atau dictionary, dan berbagai kasus\\ lainnya.\\
+contoh :\\
+try: 
+print("lins")\\
+except :\\
+print("lins kamu pinter")\\
+finaly:
+
+print("memang pinter")
+
+\subsection{Keterampilan pemrograman}
+
+\begin{enumerate}
+
+\item jawaban soal 1
+\listinputlisting[firstline=11, lastline=22]{src/1174073.py}
+
+\item jawaban soal 2
+\listinputlisting[firstline=25, lastline=30]{src/1174073.py}
+
+\item jawaban soal 3
+\listinputlisting[firstline=33, lastline=38]{src/1174073.py}
+
+\item jawaban soal 4
+\listinputlisting[firstline=41, lastline=42]{src/1174073.py}
+
+\item jawaban soal 5
+\listinputlisting[firstline=46, lastline=55]{src/1174073.py}
+
+\item jawab an soal 6
+\listinputlisting[firstline=59, lastline=59]{src/1174073.py}
+
+\item jawaban soal 7
+\listinputlisting[firstline=63, lastline=63]{src/1174073.py}
+
+\item jawaban soal 8
+\listinputlisting[firstline=67, lastline=73]{src/1174073.py}
+
+\item jawaban soal 9
+\listinputlisting[firstline=77, lastline=87]{src/1174073.py}
+
+\item jawaban soal 10
+\listinputlisting[firstline=92, lastline=101]{src/1174073.py}
+
+\item jawaban soal 11
+\listinputlisting[firstline=104, lastline=11]{src/1174073.py}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
