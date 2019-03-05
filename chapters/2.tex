@@ -3373,3 +3373,240 @@ Menggunakan operator %
 ``I always thought something was fundamentally wrong with the universe'' \citep{adams1995hitchhiker}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection{Dini Permata Putri}
+
+\section{sebutkan jenis-jenis variabel dan jelaskan cara pemakaian variabel tersebut dikode phyton} 
+proses memasukan data ke dalam variabel nama = "John Doe"
+proses mencetak variabel
+print(name)
+
+nilai dan tipe data dalam variabel dapat diubah
+umur = 20 nilai awal
+print(umur) mencetak nilai umur
+type(umur) mengecek tipe data umur
+umur = "dua puluh satu" nilai setelah diubah
+print(umur) mencetak nilai umur
+type(umur) mengecek tipe data umur
+
+namaDepan = "Budi"
+namaBelakang = "Susanto"
+nama = namaDepan + " " + namaBelakang
+umur = 19
+hobi = "Nyanyi"
+print("Biodata\n", nama, "\n", umur, "\n", hobi)
+
+contoh variabel lainnya
+inivariabel = "Halo"
+ini_juga_variabel = "Hai"
+_inivariabeljuga = "Hi"
+inivariabel222 = "bye"
+
+panjang = 8
+lebar = 4
+luas = panjang * lebar
+print(luas)
+
+Membuat variabel di phyton
+nama_variabel = <nilai>
+contoh :
+variabel_ku = "ini isi variabel"
+variabel2 = 20
+print variabel_ku
+print variabel2
+
+Tipe data
+contoh :
+nama_mu = "Petani Kode"
+uumur =20
+tinggi = 183.22
+contoh :
+>>> usia = 19
+>>> type(usia)
+<type 'int'>
+>>> usia = "19"
+>>> type(usia)
+<type 'str'>
+>>> usia = '19'
+>>> type (usia)
+<type 'str'>
+>>> usia = 21.5
+>>> type(usia)
+<type 'float'>
+>>>usia = true
+Traceback (most recent cal last)
+File "<stdin>", line 1, in <module>
+Namerror: name 'true' is not defined
+>>> usia = true
+>>> type(usia)
+<type 'bool'>
+
+\section{tuliskan bagaimana kode untuk meminta input dari user dan tuliskan bagaimana melakukan output ke layar}
+cara mengambil intput dari keyboard
+nama_variabel = input("Sebuah Teks")
+
+#mengambil input
+nama + raw_input(Siapa nama kamu: ")
+
+#menampilkan output
+print "Hello", nama, "umur kamu adalah",umur,"tahun"
+
+cara menampilkan output
+print "Hello World!"
+print nama_variabel
+print "Gabung dengan", variabel
+
+menampilkan variabel dan teks
+nama = "Petanikode"
+print "Hello", nama
+
+menggunakan string formatting cara lama
+menggunakan simbol %
+nama = raw_input("inputkan nama: ")
+print "Selamat datang %s" % nama
+tanda % akan otomtis diganti dengan nilai yang kita inputkan ke variabel nama.
+nama = raw_input("Inputakan nama: ")
+umur = input("inputkan umur: ")
+tinggi = input(inputkan tinggi badan: ")
+print "Hello %5, saat ini usiamu %d tahun dan tinggi badanmu %f cm" % (nama, umur, tinggi)
+
+
+\section{tuliskan operator dasar aritmatika, tambah, kali, kurang bagi, dan bagaimana mengubah string ke integer dan integer ke string}
+#penjumlahan
+print(13-2)
+apel=7
+jeruk=9
+buah=apel+jeruk
+print(buah)
+
+pengurangan
+hutang=8000
+bayar=4000
+sisahutang=hutang-bayar
+print(*sisa hutang anda adalah",sisahutang)
+
+perkalian
+panjang=14
+lebar=7
+luas=panjang*lebar
+print(luas)
+
+pembagian
+kue=15
+anak=3
+kueperanak=kue/anak
+print("setiap anak akan mendapatkan bagian kue sebanyak",kueperanak)
+
+sisa bagi
+bilangan1=12
+bilangan2=4
+hasul=bilangan1%bilangan2
+print("sisa bagi dari bilangan",bilangan1,"dan",bilangan2,"adalah",.hasil)
+
+cara mengubah integer ke integer
+integer merupakan tipe data data bilangan bulat.
+a=100#variabel/angka yang akan di konversi
+string=str(a)konversi integer ke string
+print(string)
+
+cara mengubah string ke integer
+string merupakan tipe data yang menampung sebuah teks.
+a='1212'variabel/angka yang akan di konversi.
+integer-=int(a)konversi string ke integer
+print(integer)
+
+
+\section{tuliskan dan jelaskan sintak untuk perulangan, jenis-jenisnya contoh kode dan cara pakainya di phyton}
+-statement (pernyataan) di phyton
+statement penugasan, if, for dsb.
+if nilai <=5:
+    print("Nilai merah")
+    print(Tidak lulus")
+else:
+    print("nilai biru"
+    print("lulus")
+
+-tanda kutip di python
+kata='kata'
+kalimat="ini adalah kalimat"
+paragraf = """ini adalah paragraf.
+paragraf terdiri dari beberapa baris."""
+
+-komentar di python
+#komentar pertama
+print("Hello World") # komentar kedua
+
+
+\section{tuliskan dan jelaskan cara pakai sintak untuk memilih kondisi, dan begaimana contoh sintak kondisi didalam kondisi}
+contoh penggunaan kondisi if di python :
+umur = 19
+if umur > 17:
+    print "sudah beranjak dewasa"
+hasil eksekusi :
+$ python if.py
+sudah beranjak dewasa
+contoh penggunaan kondisi else di python:
+umur = 19
+if umur > 17:
+    print "sudah beranjak dewasa"
+else:
+    print "masih dibawah umur"
+hasil eksekusi :
+$ python if-else.py
+sudah beranjak dewasa
+
+
+\section{tuliskan apa saja jenis error yang sering ditemui di python dalam mengerjakan sintak diatas dan bagaimana cara mengatasinya}
+if true:
+    print ("Answer")
+    print ("True")
+else:
+    print("Answer")
+     print("False")
+kode diatas error, karena print ("false") dan print ("answer") seharusnya pada blok yang sama seper
+
+
+contoh berikut :
+if true:
+    print ("Answer")
+    print ("True")
+
+else:
+    print ("Answer")
+    print ("False")
+    ti
+    
+\section{tuliskan dan jelaskan cara memakai Try Except}
+cara menangani error pembagian nol  =:
+x 0
+try:
+    x = 1/0
+except Exception, 
+:
+    print e
+print x+1
+jika kode diatas dieksekusi, maka akan muncul error seperti berikut ini :
+$ python demo-1.py
+integer division or modulo by zero
+1
+
+cara menangani error pembacaann file :
+orang = {"nama":"}\bibb", "kota":"jepara", "umur":"20"l
+
+try:
+    contact = open("contact.txt", 'r')
+    print orang["pekerjaan"]
+except IOError, e:
+    print "terjadi erorr IO: ",e
+except keyrror, e:
+    print "terjadi kesalahan pada akses list/dict/tuple:",e
+print orang
+jika kode diatas dieksekusi, maka akan muncul output seperti berikut:
+$ python demo-2.py
+
+terjadi error IO: [errno 2] No such file or directory: '/home/contact.txt
+{'nama': 'syuaib', 'umur',: '19', 'kota': 'jepara'} 
+
+
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
