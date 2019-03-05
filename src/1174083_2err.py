@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Mar  5 01:06:02 2019
+Spyder Editor
 
-@author: ASUS
+This is a temporary script file.
 """
-
-a = "5"
-b = 5
+a = "7"
+b = 7
 
 try:
     print(a+b)
