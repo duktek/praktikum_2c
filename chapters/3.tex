@@ -360,3 +360,135 @@ Contoh :
 \section{Penanganan Error}
 \lstinputlisting[firstline=14, lastline=19]{src/1174054/1174054.py}
 
+\section{Dini Permata Putri}
+
+
+1. Apa itu fungsi, inputan fugsi dan kembalian fungsi dengan contoh kode program lainnya.\\
+fungsi / function adalah satu blok kode yang melakukan tugas tertentu atau satu blok kode yang melakukan tugas tertentu atau satu blok instruksi yang eksekusi ketika dipanggil dari bagian lain dalam seuatu program. tujuan pembuatan fungsi adalah : memudahkan dalam pembuatan program.\\
+contoh kodenya :\\
+def function\_name(parameters):\\
+	"""function\_docstring"""\\
+	statement(s)\\
+	return [expression]\\
+	
+2. Apa itu paket dan cara pemanggilan paket atau library dengan contoh kode program lainnya.\\
+paket digunakan untuk mengelompokkan kelas-kelas yang mempunyai kemiripan fungsi (related class). kelas-kelas java yang akan digunakan didalam program, terlebih dahulu harus diimpor beserta dengan nama paket dimana kelas tersebut berada.\\
+cara memanggilnya :\\
+penampung = namaClass()\\
+penampung.namaMetode()\\
+
+3. Jelaskan apa itu kelas, apa itu objek, apa itu atribut, apa itu method dan contoh kode program lainnya masing-masing.\\
+- class adalah salah satu cara bagaimana kita membuuat sebuah kode yang mempunyai behaviour tertentu dan lebih mudah dalam mengprganisasi berbagai fungsi dan state-nya. dalam sebuah class kamu dapat menyimpan sebuah state tanpa harus membuat banyak state bila tidak menggunakan class.\\
+contohnya : \\
+Class Product:\\
+	vendor.message = "Ini adalah rahasia"\\
+	name = ""\\
+	price = ""\\
+	size = ""\\
+	unit = ""\\
+	
+	def.init\_(self, name):\\
+		print "ini adalah consuctor"\\
+		self.name = name\\
+		self.unit = "ml"\\
+		self.size = 250\\
+		
+	def get.vendor.message(self):\\
+		print self.vendor.message\\
+		
+	def set\_price(Self, price):\\
+		self.price = price\\
+		
+- objek adalah instansi atau perwujudan dari sebuah kelas. bila kelas adalah prototypenya, dan objek adalah barang jadinya.\\
+contohnya :\\
+obj=Karyawan("K001", "Dini", "Teknisi")\\
+obj.infoKaryawan()\\
+
+\#tambah karyawan baru\\
+obj2=Karyawan("K002", "Ayu", "Akunting")\\
+obj2.infoKaryawan()
+
+\#tampilkan total karyawan\\
+print "Total Karyawan " %d " % Karyawan.jml_karyawan\\
+
+- atribut adalah instance spesifik untuk setiap objek, atribut class sama untuk semua contoh -- yang dalam hal ini adalah semua dog.\\
+contohnya :\\
+class Dog:\\
+\#class Attribute\\
+	species = 'mammal'\\
+\#Initializer / Instance Attributes\\
+	def.init(self, name, age):\\
+		self.name = name\\
+		self.age = age\\
+jadi, sementara setiap Dog memiliki nama dan umur yang unik, setiap Dog akan menjadi mamalia.\\
+
+\-Method digunakan untuk melakukan operasi dengan atribut objek, seperti init metodenya, argumen pertama selalu self:\\
+contohnya :\\
+class dog:\\
+\# instance method
+	def description(self):\\
+		return "() is () years old".format(self.name, self.age)\\
+\# instance method\\
+	def speak(self, sound):\\
+		return "() says ()".format(self.name, sound)\\
+\#instantiate the Dog object\\
+mikey = Dog("Mikey", 6)\\
+\#call our instance methods\\
+print(mikey.description())\\
+print(mikey.speak("Gruff Gruff"))\\
+
+4. Jelaskan cara pemanggilan library kelas dari instansiasi dan pemakaiannya dengan contoh program lainnya.\\
+library adaalh salah satu cara yang paling efisien untu menghemat waktu ketika membangun aplikasi. untuk memanggil file library digunakan perintah include() atau require(), selain include() dan require() ada juga include.once() dan require.once(), perbedaaannya adalah jika suatu include ke suatu file dilakukan selama lebih dari 1 kali dalam suatu file, maka akan menghasilkan eror karena dianggapnya ada pendklarasian ulang(redeclare), tetapi jika menggunakan include.once() atau require.once() maka kejadian tersebut dihindaari.\\
+contohnya :\\
+\$aoutoload\['libraries'] = array('form_validation','database','session');\\
+\$this load library ('nama.library')\\
+$$
+
+5.Jelaskan dengan contoh pemakaian paket denga  perintah from kalkulator import penambahan disertai dengan contoh kode lainnya.\\
+paket dengan perintah from kalkuator import penambahan pertama yaitu tentukan nama fungsi, variabel, dan inputannya apa saja, setiap penuliskan harus menggunakaan () dan : dan identasi (jaraknya harus sama)\\
+contoh :\\
+def penambahan (a+b):\\
+r=(a+b)\\
+return\\
+a=5\\
+b=6\\
+anu=penambahan(a,b)
+
+6. Jelaskan dengan contoh kodenya, pemakaian paket fungsi apabila file library ada di dalam folder.\\
+def tambah(bil1,bil2):\\
+	total = bil1+bil2\\
+	return total\\
+
+def kurang(bil1,bil2):\\
+	total = bil1-bil2\\
+	return total\\
+	
+def kali(bil1,bil2):\\
+	total = bil1*bil2\\
+	return total\\
+	
+def bagi(bil1,bil2):\\
+	total = bil1/bil2\\
+	return total\\
+	
+def nilai(n1,n2):\\
+	hasil = n1+n2\\
+	if 80 <= hasil <= 100:\\
+		print("nilai anda adalah A")\\
+	elif 70 <= hasil <80:\\
+		print("nilai anda adalah B")\\
+	elif 60 <= hasil <70:\\
+		print("nilai anda adalah C")\\
+	elif 50 <= hasil <60:\\
+		print("nilai anda adalah D, SIlahkan Mengulang kembali")\\
+	else:
+		print("anda GAGAL")\\
+		
+7.Jelaskan dengan contoh kodenya, pemakaian paket kelas apabila file library ada di dalam folder\\
+mendefinisikan sebuah class dengan menggunakan kata kunci class diikuti oleh nama class tersebut.\\
+class ClassName:
+	'''class docstring'''\\
+	class.body\\
+class memiliki docstring atau string dokumentasi yang bersifat opsional artinya bisa atau tidak. Docstring bisa diakses menggunakan format\\
+ClassName.doc
+
