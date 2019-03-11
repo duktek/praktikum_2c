@@ -1674,3 +1674,192 @@ Error yang di dapat dari mengerjakan tugas ini adalah type error, cara menaggula
 kemudian run kembali aplikasinya
 berikut contoh Penggunaan fungsi try dan exception
 \lstinputlisting[firstline=181, lastline=186]{src/1174070.py}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Muhammad Reza Syachrani / 1174084}
+\subsection{Pemahaman Teori}
+\begin{enumerate}
+    \item Fungsi adalah satu blok program yang terdiri dari nama fungsi, input variabel dan variabel kembalian. Fungsi tersebuat dapat digunakan ulang. Hal ini bisa dicapai dengan memberi nama pada blok statemen, kemudian nama ini dapat dipanggil di manapun dalam program.
+    \par Nama fungsi dalam Python didefinisikan menggunakan kata kunci \textit{def}. Setelah def ada nama pengenal fungsi diikut dengan parameter yang merupakan input variable yang dapat bernilai lebih dari satu mengguanakan pemisah tanda koma  yang diapit oleh tanda kurung dan diakhir dingan tanda titik dua :. Variabel kembalian pasti satu.
+    \par Contoh Kode Pemrograman : \lstinputlisting[caption=Fungsi sederhana, firstline=130, lastline=133, ]{src/1174084/1174084.py}
+    
+    \item Paket atau library adalah sekumpulan kelas dan fungsi yang dibuat untuk membantu pengembang aplikasi untuk dapat membangun aplikasi dengan lebih cepat dan lebih efisien. Cara pemanggilan yaitu mengunakan perintah import pada file tempat digunakan library tersebut.
+    \par Contoh Kode Pemrograman :
+    \begin{lstlisting}[caption=Library atau paket luas,label={lst:luaslib}]
+def persegi(p,l):
+    luas = p * l #p = panjang, l = lebar
+    return luas
+
+def lingkaran(r): 
+    luas = 3.14 * (r**2) #r = jari-jari
+    return luas
+
+def segitiga(a,t):
+    luas = (a * t)/2 #a = alas, t = tinggi
+    return luas
+
+\end{lstlisting}
+\begin{lstlisting}[caption=Cara penggunan Library luas,label={lst:luaslib}]
+import luas
+
+p = 10
+l = 5
+r = 15
+a = 12
+t = 5
+
+jumlah1=luas.persegi(p,l)
+jumlah2=luas.lingkaran(r)
+jumlah3=luas.segitiga(a,t)
+\end{lstlisting}
+    
+\item Kelas merupakan suatu blueprint atau cetakan untuk menciptakan suatu instant dari objek. ciri dari kelas itu diawalai dengan kata kunci \textit{class} dan diikuti nama kelas tersebut.
+\par Objek adalah Semua hal yang ada dalam dunia nyata baik konkrit maupun abstrak.
+\par Atribut merupakan nilai data yang terdapat pada suatu objek yang berasal dari kelas.
+\par Method merupakan apa saja yang dapat dilakukan / dialami oleh suatu objek
+Contoh Kode Program :
+\begin{lstlisting}[caption=Kelas Library Menghitung,label={lst:menghitunglib}]
+class Menghitung:
+def __init__(self,p,l,r,a,t):
+    self.p = p
+    self.l = l
+    self.r = r
+    self.a = a
+    self.t = t
+    
+def persegi(self):
+    luas = self.p * self.l #p = panjang, l = lebar
+    return luas
+
+def lingkaran(self): 
+     luas = 3.14 * (self.r**2) #r = jari-jari
+     return luas
+
+def segitiga(self):
+     luas = (self.a * self.t)/2 #a = alas, t = tinggi
+     return luas
+\end{lstlisting}
+    
+    \item Untuk pemanggilan kelas library menggunakn kata kunci \textit{import} diikuti nama kelas library tersebut. sedangkan cara pemakain untuk membuat objek dari sebuah kelas, kita bisa memanggil nama kelas dengan argumen sesuai dengan fungsi init pada saat kita mendefinisikannya. contohnya menggunakan kelas library menghitung :
+    
+\begin{lstlisting}[caption=Cara penggunan  kelas Library Menghitung,label={lst:menghitunglib}]
+import menghitung
+
+p = 10
+l = 5
+r = 15
+a = 12
+t = 5
+hitung = menghitung.Menghitung(p,l,r,s,a,t)
+
+jumlah1=hitung.persegi()
+jumlah2=hitung.lingkaran()
+jumlah3=hitung.segitiga()
+\end{lstlisting}
+
+\item Penggunaan paket from nama file import nama kelas library berfungsi untuk memanggil file dan fungsi yang terdapat pada kelas library. contoh pengunaan pada kode program lain :
+\begin{lstlisting}[caption= Contoh kode lain pemakaian paket fungsi from import, label={fungsiimp}]
+from menghitung import Menghitung
+
+p = 10
+l = 5
+r = 15
+a = 12
+t = 5
+
+hitung = Menghitung(p,l,r,a,t)
+
+jumlah1=hitung.persegi()
+jumlah2=hitung.lingkaran()
+jumlah3=hitung.segitiga()
+\end{lstlisting}
+
+\item Contoh kodenya pemakaian paket fungsi apabila file library
+ada di dalam folder.
+\begin{lstlisting}[caption= Contoh kode pemakaian paket fungsi dimana file library ada di dalam folder, label={funsilib}]
+from folder import kalkulator
+
+a=100
+b=50
+
+hasil1=kalkulator.Penambahan(a,b)
+hasil2=kalkulator.Pengurangan(a,b)
+hasil3=kalkulator.Perkalian(a,b)
+hasil4=kalkulator.Pembagian(a,b)
+
+print(hasil1)
+print(hasil2)
+print(hasil3)
+print(hasil4)
+\end{lstlisting}
+
+\item Contoh kode pemakaian paket kelas apabila file library ada di dalam folder. Berikut ini adalah pemakaian paket kelas apabila file library ada di dalam folder.
+\begin{lstlisting}[caption=Contoh kode pemakaian paket kelas dimana file library ada di dalam folder, label={kelaslib}]
+from folder import ngitung
+
+a=100
+b=50
+
+hitung = ngitung.Ngitung ( a , b )
+
+hasil1=hitung.Penambahan( )
+hasil2=hitung.Pengurangan( )
+hasil3=hitung.Perkalian( )
+hasil4=hitung.Pembagian( )
+
+print(hasil1)
+print(hasil2)
+print(hasil3)
+print(hasil4)
+
+\end{lstlisting}
+
+    
+\end{enumerate}
+
+\subsection{ Ketrampilan Pemrograman }
+\begin{enumerate}
+    \item Jawaban no. 1
+    \lstinputlisting[firstline=151, lastline=183]{src/1174084/1174084.py}
+    \item Jawaban no. 2
+    \lstinputlisting[firstline=186, lastline=193]{src/1174084/1174084.py}
+    \item Jawaban no. 3
+    \lstinputlisting[firstline=196, lastline=204]{src/1174084/1174084.py}
+    \item Jawaban no. 4
+    \lstinputlisting[firstline=207, lastline=211]{src/1174084/1174084.py}
+    \item Jawaban no. 5
+    \lstinputlisting[firstline=215, lastline=220]{src/1174084/1174084.py}
+    \item Jawaban no. 6
+    \lstinputlisting[firstline=223, lastline=230]{src/1174084/1174084.py}
+    \item Jawaban no. 7
+    \lstinputlisting[firstline=233, lastline=240]{src/1174084/1174084.py}
+    \item Jawaban no. 8
+    \lstinputlisting[firstline=243, lastline=249]{src/1174084/1174084.py}
+    \item Jawaban no. 9
+    \lstinputlisting[firstline=252, lastline=257]{src/1174084/1174084.py}
+    \item Jawaban no. 10
+    \lstinputlisting[firstline=260, lastline=275]{src/1174084/1174084.py}
+    \item Jawaban no. 11
+    \lstinputlisting[firstline=30, lastline=43]{src/1174084/main.py}
+    \item Jawaban no. 12
+    \lstinputlisting[firstline=45, lastline=60]{src/1174084/main.py}
+\end{enumerate}
+\subsection{Ketrampilan Penanganan Error}
+\begin{enumerate}
+	\item Peringatan error yang ditemukan dan penjelasannya serta buat sebuah fungsi try except untuk menanggulangi error.Peringatan error di praktek ketiga ini, yaitu:
+	\begin{itemize}
+	\item Syntax Errors
+	Syntax Errors adalah suatu keadaan saat kode python mengalami kesalahan penulisan. Solusinya adalah memperbaiki penulisan kode yang salah.
+	\item Zero Division Error
+	ZeroDivisonError adalah exceptions yang terjadi saat eksekusi program menghasilkan perhitungan matematika pembagian dengan angka nol (0). Solusinya adalah tidak membagi suatu yang hasilnya nol.
+		
+	\item Name Error
+	NameError adalah exception yang terjadi saat kode melakukan eksekusi terhadap local name atau global name yang tidak terdefinisi. Solusinya adalah memastikan variabel atau function yang dipanggil ada atau tidak salah ketik.
+		
+	\item Type Error
+	TypeError adalah exception yang terjadi saat dilakukan eksekusi terhadap suatu operasi atau fungsi dengan type object yang tidak sesuai. Solusinya adalah mengkoversi varibelnya sesuai dengan tipe data yang akan digunakan.
+	\end{itemize}
+	\par Contoh fungsi yang menggunakan try except :
+	\lstinputlisting[firstline=279, lastline=285]{src/1174084/1174084.py}
+	
+\end{enumerate}
