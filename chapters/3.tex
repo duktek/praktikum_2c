@@ -1,0 +1,300 @@
+\section {Sekar }
+
+\documentclass[10pt]{article}
+
+\title{Fungsi}
+
+\begin{document}
+Pada contoh dibawah , sebuah fungsi dengan nama perkalian(), memiliki dua buah argumen yaitu a dan b. Isi dari fungsi tersebut adalah melakukan perhitungan perkalian yang diambil dari nilai a dan b, yang di simpan ke dalam variabel c. Nilai dari c lah yang akan dikembalikan oleh fungsi dari hasil pemanggilan fungsi melalui statemen perkalian(5,10)\\
+\include 
+\begin{equation}
+Contoh:\\
+def perkalian(a,b):
+	c = a*b
+return c
+	#Program Utama
+print( perkalian(5,10))
+
+>>> def nama():
+	gelar = 'Mr'
+	aksi = (lambda x: gelar + ' ' + x)
+	return aksi
+
+>>> act = nama()
+>>> act('Namjoon')
+'Sir Namjoon'
+\end{equation}
+
+\begin{Scope Variabel}
+cakupan variabel merupakan suatu keadaan dimana pendeklarasian sebuah variabel di tentukan , Dalam scope variabel dikenal dua istilah yaitu local dan global.
+Contoh penggunaan scope variabel() :
+x = 12
+y = 3
+	print "Sebelum memanggil fungsi, x bernilai", x
+	print "Sebelum memanggil fungsi, y bernilai", y
+swap(x,y)
+	print "Setelah memanggil fungsi, x bernilai", x
+	print "Setelah memanggil fungsi, y bernilai", y
+	
+\begin{Fungsi Rekursif}
+untuk menyederhanakan penulisan program dan menggantikan bentuk iterasi. Dengan rekursi, program akan lebih mudah dilihat.
+# Fungsi Rekursif faktorial
+	def faktorial(nilai):
+		if nilai <= 1:
+	return 1
+		else:
+	return nilai * faktorial(nilai - 1)
+#Program utama
+	for i in range(11):
+	print "%2d ! = %d" % (i, faktorial(i))
+	
+\begin{Melewatkan Argumen dengan Kata Kunci}
+Jika fungsi perkalian kita panggil dengan memberi pernyataan perkalian(10,8), maka nilai 10 akan disalin ke variabel x dan nilai 8 ke variabel y.\\
+def perkalian(a, b):
+	"Mengalikan dua bilangan"
+	z = x * y
+		print "Nilai a =",a
+		print "Nilai b =",b
+		print "a* b =",c
+# program utama mulai di sini
+	perkalian(5,3)
+		print perkalian(b=4,a=2)
+Hasilnya:
+Nilai a = 5
+Nilai b = 3
+a*b = 15
+Nilai a = 2
+
+Jadi nilai default hanya boleh diberikan kepada deretan akhir parameter. Setelah pemberian nilai default, semua parameter di belakangnya juga harus diberi nilai default. Satu catatan, nilai awal argumen akan dievaluasi pada saat dideklarasikan. Perhatikan contoh berikut :
+usernm="admin"
+passwd="aa"
+def login(username=usernm, password=passwd):
+	print "Your username ",username
+	print "Your password ",password
+	print 
+	usernm="tamu" 
+	passwd="cc"
+login()
+Untuk memanggil fungsi dengan deklarasi seperti ini, kita harus menyebutkan daftar argumen beserta kata-kuncinya. 
+Contoh ():
+	def cetak1():
+print ‘Hello World’
+	def cetak2(n):
+print n
+	cetak1()
+hallo world
+	cetak2(123)
+123
+	cetak2('apa kabar?')
+apa kabar
+	def cetak3(x,y,z):
+print x,y,z
+	def cetak4(x,y,z=4):
+print x,y,z
+	cetak3(1,2,3)
+1 2 3
+	cetak4(1,2)
+1 2 4
+	cetak4(1,2,3)
+1 2 3
+
+\class Ngitung:
+  def __init
+
+\end{document}
+
+\begin{Kelas}
+Class adalah salah satu cara bagaimana kita membuat sebuah kode yang mempunyai behaviour tertentu dan lebih mudah dalam mengorganisasi berbagai fungsi dan state-nya. Dalam sebuah class kamu dapat menyimpan sebuah state tanpa harus membuat banyak state bila tidak menggunakan class.\\
+Contoh :\\
+class Product:
+    __vendor_message = "Ini adalah rahasia"
+    name = ""
+    price = ""
+    size = ""
+    unit = ""
+    
+    def __init__(self, name):
+        print "Ini adalah constructor"
+        self.name = name
+        self.unit = "ml"
+        self.size = 350
+        
+    def get_vendor_message(self):
+        print self.__vendor_message
+        
+	def set_price(self, price):
+        self.price = price
+        
+p = Product("Banana Milk")
+p.set_price(5500)
+
+print "%s dengan ukuran %s %s harganya Rp. %d" % (p.name, p.size, p.unit, p.price)
+# print p.__vendor_message
+
+p.get_vendor_message()
+
+p1 = Product("UltraMilk")
+p1.set_price(3000)
+
+print "%s dengan ukuran %s %s harganya Rp. %d" % (p.name, p.size, p.unit, p.price)
+
+print p == p
+print p1 == p1
+print p == p1
+
+\begin{Pemahanan Teori}
+1.void(fungsi tanpa nilai balik)
+	Fungsi yang void sering disebut juga prosedur. Disebut void karena fungsi tersebut tidak mengembalikan suatu nilai keluaran yang didapat dari hasil proses tersebut.
+	Ciri-ciri dari jenis fungsi Void , yaitu :
+	1. tidak adanya keyword return
+	2. tidak adanya tipe data di dalam deklarasi fungsi
+	3. menggunakan keyword void
+	4. tidak memiliki nilai kembalian fungsi
+	5. Keyword void juga digunakan jika suatu function tidak 				   mengandung suatu parameter apapun.
+Contohnya:\\
+	void menampilkan_jumlah(int a, int b)}
+		in jumlah;
+		jumlah = a + b;
+		cout << jumlah;
+	}
+2.Non void (fungsi dengan nilai balik
+	Fungsi non-void disebut juga function . disebut non-void karena mengembalikan nilai kembalian yang berasal dari keluaran hasil proses function tersebut.
+	Ciri-ciri dari jenis fungsi Non-Void , yaitu :
+	1. Ada keyword return
+	2. ada tipe data yang mengawali fungsi
+	3. tidak ada keyword void
+	4. memiliki nilai keyword
+	5. Non-void : int jumlah (int a, int b)
+
+3. Prototype Function
+	Sebuah program C++ dapat terdiri dari banyak fungsi. Salah satu fungsi tersebut harus bernama main(). Jika fungsi yang lain dituliskan setelah fungsi main(), sebelum fungsi main ditambahkan.
+	Contohnya:\\
+#include <stdio.h>
+\\prototype function
+	int hitung(int angka, int bilangan);
+	int tulis(char);
+	int tampil(int angka[],char huruf);
+//fungsi main
+	int main(){
+		int array[3]={1,2,3};
+		char huruf="D";
+		//memanggil fungsi
+		hitung (2,3);
+		tulis("A");
+		tampil(array,huruf);
+}
+
+4. Fungsi Rekursif
+	Fungsi yang memanggil dirinya sendiri. Artinya , fungsi tersebut dipanggil di dalam tubuh fungsi itu sendiri. Parameter yang dilewatkan berubah sebanyak fungsi itu dipanggil.
+	
+\begin{Apa itu paket dan cara pemanggilan paket atau library dengan contoh kode program lainnya}
+	<?php if ( ! defined('BASEPATH'))
+		exit('No direct script access allowed');
+	class Blog extends ci_controller {
+	function __construct()
+	{
+		parent ::__construct();
+	}
+	function index()
+	{
+		echo "Hallo.. saya min yoongi adalah contoh dari boyband BTS 				yang mendunia";
+	}
+	
+	
+}
+
+\begin{Jelaskan Apa itu kelas, apa itu objek, apa itu atribut, apa itu method dan contoh kode program lainnya masing-masing.}
+gambaran umum tentang sebuah benda. Di dalam pemrograman nantinya, contoh class seperti: koneksi_database dan profile_user. penulisan class diawali dengan keyword class, kemudian diikuti dengan nama dari class. Aturan penulisan nama class sama seperti aturan penulisan variabel
+Contoh :\\
+<?php
+	class laptop {
+   		// isi dari class laptop...
+}
+?>
+
+\end{document}
+
+\begin{Jelaskan cara pemanggikan library kelas dari instansiasi dan pemakaiannya dengan contoh program lainnya.}\\
+1. Membuat sebuah objek atau sebuah instance pada sebuah kelas disebut instansiasi atau instantiation.
+Contoh:\\
+	String str = new String("Hello");
+	String str2 = "OOP Yes";
+Komputer a = new Komputer();
+Komputer b = new Komputer();
+
+2. Atribut suatu class harus didefinisikan sebagai instance
+variable.\\
+Contoh:\\
+	public class Time {
+		private int hour;
+		private int minute;
+		private int second;
+	//penulisan kode selanjutnya
+}
+
+\begin{Jelaskan dengan contoh pemakaian paket dengan perintah from kalkulator import Penambahan disertai dengan contoh kode lainnya.}\\
+Paket dengan perintah from kalkulator import import penambahan pertama , yaitu tentukan nama fungsi , variabel dan inputnya. setiap penulisan harus menggunakan () dan : dan identasi.
+Contoh  :\\
+	def penambahan (a+b):\\
+	r=(a+b)\\
+	return\\
+	a=5\\
+	b=6\\
+	anu=penambahan(a,b)
+
+\begin{6.Jelaskan dengan contoh kodenya, pemakaian paket fungsi apabila file library ada di dalam folder.}\\
+// Meletakkan kelas ke paket
+package bangun.datar;
+ 
+// Mendefinisikan kelas Segi3ABC
+public class Segi3ABC {
+ 
+   // Metoda hitungKeliling
+   // Untuk mencari keliling segi tiga
+   public static double hitungKeliling(double sisiAB, double sisiBC, double sisiCA) {
+ 
+      double keliling;
+      keliling = sisiAB + sisiBC + sisiCA;
+      return keliling;
+   }
+ 
+   // Metoda hitungLuas
+   // Untuk mencari luas segi tiga
+   public static double hitungLuas(double sisiAB) {
+ 
+      // Deklarasi variabel
+      double luas;
+ 
+      // Mencari tinggi segi tiga
+      double tinggi = Math.sqrt(Math.pow(sisiAB, 2) - Math.pow((0.5 * sisiAB), 2));
+ 
+      // Mencari luas segi tiga
+      luas = sisiAB * tinggi;
+      return luas;
+   }
+}
+\end {enumerate}
+	\subsection{Keterampilan Pemrograman}
+\begin{itemize}
+
+\end{itemize}
+	\item 
+		\lstinputlisting {firstline = 58, lastline 64} {src/1174075}
+	\item 
+        \lstinputlisting {firstline = 67, lastline 76} {src/1174075}
+	\item 
+        \lstinputlisting {firstline = 79, lastline 84} {src/1174075}
+	\item 
+        \lstinputlisting {firstline = 87, lastline 91} {src/1174075}
+	\item 
+        \lstinputlisting {firstline = 94, lastline 100} {src/1174075}
+	\item 
+        \lstinputlisting {firstline = 103, lastline 109} {src/1174075}
+	\item 
+        \lstinputlisting {firstline = 112, lastline 117} {src/1174075}
+	\item 
+	    \lstinputlisting {firstline = 120, lastline 125} {src/1174075}
+	\item 
+        \lstinputlisting {firstline = 128, lastline 141} {src/1174075}
+
+\end {itemize}
