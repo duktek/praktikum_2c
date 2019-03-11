@@ -1320,3 +1320,114 @@ public class Segi3ABC {
         \lstinputlisting {firstline = 128, lastline 141} {src/1174075}
 
 \end {itemize}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Bakti Qilan Mufid}
+\subsection{Teori}
+\begin{enumerate}
+\item apa itu fungsi, inputan fungsi, dan kembalian fungsi dan contohnya
+
+Fungsi adalah bagian dari program yang dapat digunakan ulang. yaitu dengan cara memberinya nama dan kemudian nama itu dapat dipanggil dimanapun dalam program. fungsi dalam pyhton didefinisikan dengan kata kunci \textbf{def}. Setelah \textbf{def} ada nama pengenal fungsi diikuti dengan parameter yang diapit oleh tanda kurung dan diakhiri dengan tanda titik dua (\textbf{:}). Baris berikutnya berupa blok fungsi atau perintah yang akan dijalankan jika fungsi tersebut dipanggil. untuk pengisian variabel bisa diisikan lebih dari satu variabel, dengan menggunakan tanda pemisah yaitu koma (,). contoh dari fungsi sederhana itu bisa dilihat dibawah dimana hasil akhir dari variabel c adalah 25
+\lstinputlisting[firstline=92, lastline=99]{src/1174083.py}
+
+\item Apa itu paket dan cara pemanggilan paket atau library dengan contoh kode
+program lainnya.
+
+Paket atau package ialah sebuah file, contoh nya file bernama \textit{117408.py} yang didalmnya berisi semua fugnsi, seperti penambahan, pengurangan, pembagian dan perkalian. sehingga file tersebut kita namakan sebagai paket/ package/ library. contoh nya seperti pada kode program dibawah.
+\lstinputlisting[firstline=101, lastline=112]{src/1174083.py}
+
+	
+\item Jelaskan Apa itu kelas, apa itu objek, apa itu atribut, apa itu method dan contoh kode program lainnya masing-masing
+
+kelas, ialah sebuah prototipe atau kerangka yang digunakan oleh pengguna untuk objek 	yang mendefinisikan seperangkat atribut yang menjadi ciri objek kelas.
+\begin{itemize}
+\item atribut, ialah data atau apapun yang menempel pada objek.
+	\item objek, ialah contoh unik dari struktur data yang didefinisikan oleh kelasnya.
+	\item method, ialah perilaku, ataupun yang dikerjakan oleh objek.
+	\item contoh kode programnya
+	\lstinputlisting[firstline=115, lastline=131]{src/1174083.py}	
+\end{itemize}		
+	
+\item Jelaskan cara pemanggikan library kelas dari instansiasi dan pemakaiannya dengan contoh program lainnya
+
+Untuk memanggil library atau paket, kita cukup dengan menggunakan keyword import, seperti pada kode program dibawah. Di sini kita mencoba memanggil libarary pada kelas 1174083.py dengan menggunakan nama test. 
+\lstinputlisting[firstline=134, lastline=144]{src/1174083.py}
+	
+\item Jelaskan dengan contoh pemakaian paket dengan perintah from kalkulator import Penambahan disertai dengan contoh kode lainnya
+
+Penggunaan paket from \textit{namafile} import, itu berfungsi untuk memanggil file dan fungsinya, seperti pada kode program dibawah
+\lstinputlisting[firstline=149, lastline=150]{src/1174083.py}
+	
+	
+\item Jelaskan dengan contoh kodenya, pemakaian paket fungsi apabila file library ada di dalam folder
+\item Jelaskan dengan contoh kodenya, pemakaian paket kelas apabila file library ada di dalam folder
+
+Contoh pemakaian paket seperti pada kode program dibawah
+\lstinputlisting[firstline=153, lastline=159]{src/1174083.py}
+
+\end{enumerate}
+
+\subsection{Ketrampilan Pemrograman}
+\begin{enumerate}
+\item Jawaban
+\lstinputlisting[firstline=167, lastline=202]{src/1174083.py}
+
+\item Jawaban
+\lstinputlisting[firstline=205, lastline=212]{src/1174083.py}
+
+\item Jawaban
+\lstinputlisting[firstline=215, lastline=223]{src/1174083.py}
+
+\item Jawaban
+\lstinputlisting[firstline=226, lastline=229]{src/1174083.py}
+
+\item Jawaban
+\lstinputlisting[firstline=232, lastline=237]{src/1174083.py}
+
+\item Jawaban
+\lstinputlisting[firstline=240, lastline=248]{src/1174083.py}
+
+\item Jawaban 
+\lstinputlisting[firstline=251, lastline=259]{src/1174083.py}
+
+\item Jawaban 
+\lstinputlisting[firstline=262, lastline=269]{src/1174083.py}
+
+\item Jawaban 
+\lstinputlisting[firstline=272, lastline=278]{src/1174083.py}
+
+\item Jawaban 
+\lstinputlisting[firstline=281, lastline=297]{src/1174083.py}
+
+\item Jawaban 
+\lstinputlisting[firstline=8, lastline=24]{src/1174083/main.py}
+
+\item Jawaban 
+\lstinputlisting[firstline=26, lastline=43]{src/1174083/main.py}
+
+\end{enumerate}
+
+\subsection{Ketrampilan Penanganan Error}
+\begin{enumerate}
+\item Peringatan error yang ditemukan dan penjelasannya serta buat sebuah fungsi try except untuk menanggulangi error.
+	
+Peringatan error di praktek ketiga ini, yaitu:
+\begin{itemize}
+	\item Syntax Errors
+		Syntax Errors adalah suatu keadaan saat kode python mengalami kesalahan penulisan. Solusinya adalah memperbaiki penulisan kode yang salah.
+		
+	\item Zero Division Error
+		ZeroDivisonError adalah exceptions yang terjadi saat eksekusi program menghasilkan perhitungan matematika pembagian dengan angka nol (0). Solusinya adalah tidak membagi suatu yang hasilnya nol.
+		
+	\item Name Error
+		NameError adalah exception yang terjadi saat kode melakukan eksekusi terhadap local name atau global name yang tidak terdefinisi. Solusinya adalah memastikan variabel atau function yang dipanggil ada atau tidak salah ketik.
+		
+	\item Type Error
+		TypeError adalah exception yang terjadi saat dilakukan eksekusi terhadap suatu operasi atau fungsi dengan type object yang tidak sesuai. Solusinya adalah mengkoversi varibelnya sesuai dengan tipe data yang akan digunakan.
+\end{itemize}
+	
+Contoh fungsi yang menggunakan try except
+\lstinputlisting[firstline=306, lastline=312]{src/1174083.py}
+\end{enumerate}
