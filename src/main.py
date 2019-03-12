@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon Mar 11 20:56:14 2019
+Created on Mon Mar 11 16:14:54 2019
 
-@author: USER
+@author: acer
 """
-
-from kelas3lib import penulisan
-#from 3lib import penulisan
+from 1174086 import penulisan
+from 3lib import penulisan
 
 print(penulisan(int(input("Masukan NPM :"))))
