@@ -1,4 +1,4 @@
-﻿\section{D. Irga B. Naufal Fakhri}
+\section{D. Irga B. Naufal Fakhri}
 \subsection{Pemahaman Teori}
 \begin{enumerate}
 \item Fungsi
@@ -190,7 +190,7 @@ item no5
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Fanny Shafira Damayanti | 1174069}
-\section{Teori}
+\subsection{Teori}
 \begin{enumerate}
 
 \item fungsi adalah sebuah program untuk melakukan tugas tertentu secara berulang. Fungsi di dalam Python di tandai dengan def, yang artinya definition.
@@ -225,7 +225,7 @@ Inputan fungsi berarti memanggil fungsi yang ditulis oleh user dan dikembalikann
 \lstinputlisting[firstline=9, lastline=9]{src/1174069/main_1174069.py}
 \end{enumerate}
 
-\section{keterampilan pemrograman}
+\subsection{keterampilan pemrograman}
 \begin{enumerate}
 
 \item No 1
@@ -265,12 +265,12 @@ Inputan fungsi berarti memanggil fungsi yang ditulis oleh user dan dikembalikann
 \lstinputlisting[firstline=9, lastline=9]{src/1174069/main_1174069.py}
 \end{enumerate}
 
-\section{penanganan Error}
+\subsection{penanganan Error}
 \lstinputlisting[firstline=199, lastline=204]{src/1174069/1174069.py}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{1174054 | Aulyardha Anindita}
-\section{Pemahaman Teori}
+\subsection{Pemahaman Teori}
 \subsection{Fungsi}
 Fungsi adalah bagian dari suatu sub program yang terdiri dari nama fungsi itu sendiri dan variabel yang dapat digunakan ulang dan nama tersebut dapat dipanggil dimanapun dalam suatu program. Fungsi dalam python menggunakan kata kunci 'def'. Dan setelah 'def' biasanya terdapat nama pengenal fungsi yang diikuti oleh parameter yang diapit oleh tanda kurung dan diakhiri dengan tanda titik dua (:). Dan baris berikutnya adalah blok fungsi yang akan dijalankan jika fungsi dipanggil.\\
 Contoh fungsi :
@@ -318,7 +318,7 @@ Contoh :
 \subsection{Pemakaian Paket Kelas}
 \lstinputlisting[firstline=9, lastline=9]{src/1174054/main_1174054.py}
 
-\section{Keterampilan Pemrograman}
+\subsection{Keterampilan Pemrograman}
 \begin{enumerate}
 	\item Jawaban Soal No.1
 	\lstinputlisting[firstline=71, lastline=121]{src/1174054/1174054.py}
@@ -357,9 +357,10 @@ Contoh :
 	\lstinputlisting[firstline=9, lastline=9]{src/1174054/main_1174054.py}
 \end{enumerate}
 
-\section{Penanganan Error}
+\subsection{Penanganan Error}
 \lstinputlisting[firstline=14, lastline=19]{src/1174054/1174054.py}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Dini Permata Putri}
 
 
@@ -492,6 +493,8 @@ class ClassName:
 class memiliki docstring atau string dokumentasi yang bersifat opsional artinya bisa atau tidak. Docstring bisa diakses menggunakan format\\
 ClassName.doc
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{ainul filiani}
 
 
@@ -723,16 +726,11 @@ contoh fungsi yang menggunakan try dan except
 
 
 =======
-\section {Sekar }
-
-\documentclass[10pt]{article}
-
-\title{Fungsi}
-
-\begin{document}
+\section{Sekar Jasmine}
+\subsection{Fungsi}
 Pada contoh dibawah , sebuah fungsi dengan nama perkalian(), memiliki dua buah argumen yaitu a dan b. Isi dari fungsi tersebut adalah melakukan perhitungan perkalian yang diambil dari nilai a dan b, yang di simpan ke dalam variabel c. Nilai dari c lah yang akan dikembalikan oleh fungsi dari hasil pemanggilan fungsi melalui statemen perkalian(5,10)\\
-\include 
-\begin{equation}
+
+\begin{lstlisting}
 Contoh:\\
 def perkalian(a,b):
 	c = a*b
@@ -748,9 +746,9 @@ print( perkalian(5,10))
 >>> act = nama()
 >>> act('Namjoon')
 'Sir Namjoon'
-\end{equation}
+\end{lstlisting}
 
-\begin{Scope Variabel}
+\subsubsection{Scope Variabel}
 cakupan variabel merupakan suatu keadaan dimana pendeklarasian sebuah variabel di tentukan , Dalam scope variabel dikenal dua istilah yaitu local dan global.
 Contoh penggunaan scope variabel() :
 x = 12
@@ -761,8 +759,9 @@ swap(x,y)
 	print "Setelah memanggil fungsi, x bernilai", x
 	print "Setelah memanggil fungsi, y bernilai", y
 	
-\begin{Fungsi Rekursif}
+\subsubsection{Fungsi Rekursif}
 untuk menyederhanakan penulisan program dan menggantikan bentuk iterasi. Dengan rekursi, program akan lebih mudah dilihat.
+\begin{lstlisting}
 # Fungsi Rekursif faktorial
 	def faktorial(nilai):
 		if nilai <= 1:
@@ -772,9 +771,10 @@ untuk menyederhanakan penulisan program dan menggantikan bentuk iterasi. Dengan 
 #Program utama
 	for i in range(11):
 	print "%2d ! = %d" % (i, faktorial(i))
-	
-\begin{Melewatkan Argumen dengan Kata Kunci}
+\end{lstlisting}
+\subsubsection{Melewatkan Argumen dengan Kata Kunci}
 Jika fungsi perkalian kita panggil dengan memberi pernyataan perkalian(10,8), maka nilai 10 akan disalin ke variabel x dan nilai 8 ke variabel y.\\
+\begin{lstlisting}
 def perkalian(a, b):
 	"Mengalikan dua bilangan"
 	z = x * y
@@ -789,8 +789,9 @@ Nilai a = 5
 Nilai b = 3
 a*b = 15
 Nilai a = 2
-
+\end{lstlisting}
 Jadi nilai default hanya boleh diberikan kepada deretan akhir parameter. Setelah pemberian nilai default, semua parameter di belakangnya juga harus diberi nilai default. Satu catatan, nilai awal argumen akan dievaluasi pada saat dideklarasikan. Perhatikan contoh berikut :
+\begin{lstlisting}
 usernm="admin"
 passwd="aa"
 def login(username=usernm, password=passwd):
@@ -803,7 +804,7 @@ login()
 Untuk memanggil fungsi dengan deklarasi seperti ini, kita harus menyebutkan daftar argumen beserta kata-kuncinya. 
 Contoh ():
 	def cetak1():
-print ‘Hello World’
+print 'Hello World'
 	def cetak2(n):
 print n
 	cetak1()
@@ -825,12 +826,11 @@ print x,y,z
 
 \class Ngitung:
   def __init
-
-\end{document}
-
-\begin{Kelas}
+\end{lstlisting}
+\subsection{Kelas}
 Class adalah salah satu cara bagaimana kita membuat sebuah kode yang mempunyai behaviour tertentu dan lebih mudah dalam mengorganisasi berbagai fungsi dan state-nya. Dalam sebuah class kamu dapat menyimpan sebuah state tanpa harus membuat banyak state bila tidak menggunakan class.\\
 Contoh :\\
+\begin{lstlisting}
 class Product:
     __vendor_message = "Ini adalah rahasia"
     name = ""
@@ -866,8 +866,8 @@ print "%s dengan ukuran %s %s harganya Rp. %d" % (p.name, p.size, p.unit, p.pric
 print p == p
 print p1 == p1
 print p == p1
-
-\begin{Pemahanan Teori}
+\end{lstlisting}
+\subsection{Pemahanan Teori}
 1.void(fungsi tanpa nilai balik)
 	Fungsi yang void sering disebut juga prosedur. Disebut void karena fungsi tersebut tidak mengembalikan suatu nilai keluaran yang didapat dari hasil proses tersebut.
 	Ciri-ciri dari jenis fungsi Void , yaitu :
@@ -877,11 +877,13 @@ print p == p1
 	4. tidak memiliki nilai kembalian fungsi
 	5. Keyword void juga digunakan jika suatu function tidak 				   mengandung suatu parameter apapun.
 Contohnya:\\
+\begin{lstlisting}
 	void menampilkan_jumlah(int a, int b)}
 		in jumlah;
 		jumlah = a + b;
 		cout << jumlah;
 	}
+	\end{lstlisting}
 2.Non void (fungsi dengan nilai balik
 	Fungsi non-void disebut juga function . disebut non-void karena mengembalikan nilai kembalian yang berasal dari keluaran hasil proses function tersebut.
 	Ciri-ciri dari jenis fungsi Non-Void , yaitu :
@@ -894,6 +896,7 @@ Contohnya:\\
 3. Prototype Function
 	Sebuah program C++ dapat terdiri dari banyak fungsi. Salah satu fungsi tersebut harus bernama main(). Jika fungsi yang lain dituliskan setelah fungsi main(), sebelum fungsi main ditambahkan.
 	Contohnya:\\
+	\begin{lstlisting}
 #include <stdio.h>
 \\prototype function
 	int hitung(int angka, int bilangan);
@@ -908,11 +911,12 @@ Contohnya:\\
 		tulis("A");
 		tampil(array,huruf);
 }
-
+\end{lstlisting}
 4. Fungsi Rekursif
 	Fungsi yang memanggil dirinya sendiri. Artinya , fungsi tersebut dipanggil di dalam tubuh fungsi itu sendiri. Parameter yang dilewatkan berubah sebanyak fungsi itu dipanggil.
-	
-\begin{Apa itu paket dan cara pemanggilan paket atau library dengan contoh kode program lainnya}
+\begin{enumerate}	
+\item Apa itu paket dan cara pemanggilan paket atau library dengan contoh kode program lainnya
+\begin{lstlisting}
 	<?php if ( ! defined('BASEPATH'))
 		exit('No direct script access allowed');
 	class Blog extends ci_controller {
@@ -927,47 +931,50 @@ Contohnya:\\
 	
 	
 }
-
-\begin{Jelaskan Apa itu kelas, apa itu objek, apa itu atribut, apa itu method dan contoh kode program lainnya masing-masing.}
-gambaran umum tentang sebuah benda. Di dalam pemrograman nantinya, contoh class seperti: koneksi_database dan profile_user. penulisan class diawali dengan keyword class, kemudian diikuti dengan nama dari class. Aturan penulisan nama class sama seperti aturan penulisan variabel
+\end{lstlisting}
+\item Jelaskan Apa itu kelas, apa itu objek, apa itu atribut, apa itu method dan contoh kode program lainnya masing-masing.
+gambaran umum tentang sebuah benda. Di dalam pemrograman nantinya, contoh class seperti: koneksidatabase dan profileuser. penulisan class diawali dengan keyword class, kemudian diikuti dengan nama dari class. Aturan penulisan nama class sama seperti aturan penulisan variabel
 Contoh :\\
+\begin{lstlisting}
 <?php
 	class laptop {
    		// isi dari class laptop...
 }
 ?>
-
-\end{document}
-
-\begin{Jelaskan cara pemanggikan library kelas dari instansiasi dan pemakaiannya dengan contoh program lainnya.}\\
+\end{lstlisting}
+\item Jelaskan cara pemanggikan library kelas dari instansiasi dan pemakaiannya dengan contoh program lainnya.\\
 1. Membuat sebuah objek atau sebuah instance pada sebuah kelas disebut instansiasi atau instantiation.
 Contoh:\\
+\begin{lstlisting}
 	String str = new String("Hello");
 	String str2 = "OOP Yes";
 Komputer a = new Komputer();
 Komputer b = new Komputer();
-
+\end{lstlisting}
 2. Atribut suatu class harus didefinisikan sebagai instance
 variable.\\
 Contoh:\\
+\begin{lstlisting}
 	public class Time {
 		private int hour;
 		private int minute;
 		private int second;
 	//penulisan kode selanjutnya
 }
-
-\begin{Jelaskan dengan contoh pemakaian paket dengan perintah from kalkulator import Penambahan disertai dengan contoh kode lainnya.}\\
+\end{lstlisting}
+\item Jelaskan dengan contoh pemakaian paket dengan perintah from kalkulator import Penambahan disertai dengan contoh kode lainnya.\\
 Paket dengan perintah from kalkulator import import penambahan pertama , yaitu tentukan nama fungsi , variabel dan inputnya. setiap penulisan harus menggunakan () dan : dan identasi.
 Contoh  :\\
+\begin{lstlisting}
 	def penambahan (a+b):\\
 	r=(a+b)\\
 	return\\
 	a=5\\
 	b=6\\
 	anu=penambahan(a,b)
-
-\begin{6.Jelaskan dengan contoh kodenya, pemakaian paket fungsi apabila file library ada di dalam folder.}\\
+\end{lstlisting}
+\item 6.Jelaskan dengan contoh kodenya, pemakaian paket fungsi apabila file library ada di dalam folder.\\
+\begin{lstlisting}
 // Meletakkan kelas ke paket
 package bangun.datar;
  
@@ -998,330 +1005,31 @@ public class Segi3ABC {
       return luas;
    }
 }
-\end {enumerate}
-	\subsection{Keterampilan Pemrograman}
+\end{lstlisting}
+\end{enumerate}
+\subsection{Keterampilan Pemrograman}
 \begin{itemize}
+	\item 
+	
+		\lstinputlisting[firstline=58, lastline=64]{src/1174075.py}
+	\item 
+        \lstinputlisting[firstline=67, lastline=76]{src/1174075.py}
+	\item 
+        \lstinputlisting[firstline=79, lastline=84]{src/1174075.py}
+	\item 
+        \lstinputlisting[firstline=87, lastline=91]{src/1174075.py}
+	\item 
+        \lstinputlisting[firstline=94, lastline=100]{src/1174075.py}
+	\item 
+        \lstinputlisting[firstline=103, lastline=109]{src/1174075.py}
+	\item 
+        \lstinputlisting[firstline=112, lastline=117]{src/1174075.py}
+	\item 
+	    \lstinputlisting[firstline=120, lastline=125]{src/1174075.py}
+	\item 
+        \lstinputlisting[firstline=128, lastline=141]{src/1174075.py}
 
 \end{itemize}
-	\item 
-		\lstinputlisting {firstline = 58, lastline 64} {src/1174075}
-	\item 
-        \lstinputlisting {firstline = 67, lastline 76} {src/1174075}
-	\item 
-        \lstinputlisting {firstline = 79, lastline 84} {src/1174075}
-	\item 
-        \lstinputlisting {firstline = 87, lastline 91} {src/1174075}
-	\item 
-        \lstinputlisting {firstline = 94, lastline 100} {src/1174075}
-	\item 
-        \lstinputlisting {firstline = 103, lastline 109} {src/1174075}
-	\item 
-        \lstinputlisting {firstline = 112, lastline 117} {src/1174075}
-	\item 
-	    \lstinputlisting {firstline = 120, lastline 125} {src/1174075}
-	\item 
-        \lstinputlisting {firstline = 128, lastline 141} {src/1174075}
-
-\end {itemize}
-
-\section {Sekar }
-\title{Fungsi}
-
-Pada contoh dibawah , sebuah fungsi dengan nama perkalian(), memiliki dua buah argumen yaitu a dan b. Isi dari fungsi tersebut adalah melakukan perhitungan perkalian yang diambil dari nilai a dan b, yang di simpan ke dalam variabel c. Nilai dari c lah yang akan dikembalikan oleh fungsi dari hasil pemanggilan fungsi melalui statemen perkalian(5,10)\\
-\include 
-\begin{equation}
-Contoh:\\
-def perkalian(a,b):
-	c = a*b
-return c
-	#Program Utama
-print( perkalian(5,10))
-
->>> def nama():
-	gelar = 'Mr'
-	aksi = (lambda x: gelar + ' ' + x)
-	return aksi
-
->>> act = nama()
->>> act('Namjoon')
-'Sir Namjoon'
-\end{equation}
-
-\begin{Scope Variabel}
-cakupan variabel merupakan suatu keadaan dimana pendeklarasian sebuah variabel di tentukan , Dalam scope variabel dikenal dua istilah yaitu local dan global.
-Contoh penggunaan scope variabel() :
-x = 12
-y = 3
-	print "Sebelum memanggil fungsi, x bernilai", x
-	print "Sebelum memanggil fungsi, y bernilai", y
-swap(x,y)
-	print "Setelah memanggil fungsi, x bernilai", x
-	print "Setelah memanggil fungsi, y bernilai", y
-	
-\begin{Fungsi Rekursif}
-untuk menyederhanakan penulisan program dan menggantikan bentuk iterasi. Dengan rekursi, program akan lebih mudah dilihat.
-# Fungsi Rekursif faktorial
-	def faktorial(nilai):
-		if nilai <= 1:
-	return 1
-		else:
-	return nilai * faktorial(nilai - 1)
-#Program utama
-	for i in range(11):
-	print "%2d ! = %d" % (i, faktorial(i))
-	
-\begin{Melewatkan Argumen dengan Kata Kunci}
-Jika fungsi perkalian kita panggil dengan memberi pernyataan perkalian(10,8), maka nilai 10 akan disalin ke variabel x dan nilai 8 ke variabel y.\\
-def perkalian(a, b):
-	"Mengalikan dua bilangan"
-	z = x * y
-		print "Nilai a =",a
-		print "Nilai b =",b
-		print "a* b =",c
-# program utama mulai di sini
-	perkalian(5,3)
-		print perkalian(b=4,a=2)
-Hasilnya:
-Nilai a = 5
-Nilai b = 3
-a*b = 15
-Nilai a = 2
-
-Jadi nilai default hanya boleh diberikan kepada deretan akhir parameter. Setelah pemberian nilai default, semua parameter di belakangnya juga harus diberi nilai default. Satu catatan, nilai awal argumen akan dievaluasi pada saat dideklarasikan. Perhatikan contoh berikut :
-usernm="admin"
-passwd="aa"
-def login(username=usernm, password=passwd):
-	print "Your username ",username
-	print "Your password ",password
-	print 
-	usernm="tamu" 
-	passwd="cc"
-login()
-Untuk memanggil fungsi dengan deklarasi seperti ini, kita harus menyebutkan daftar argumen beserta kata-kuncinya. 
-Contoh ():
-	def cetak1():
-print ‘Hello World’
-	def cetak2(n):
-print n
-	cetak1()
-hallo world
-	cetak2(123)
-123
-	cetak2('apa kabar?')
-apa kabar
-	def cetak3(x,y,z):
-print x,y,z
-	def cetak4(x,y,z=4):
-print x,y,z
-	cetak3(1,2,3)
-1 2 3
-	cetak4(1,2)
-1 2 4
-	cetak4(1,2,3)
-1 2 3
-
-\class Ngitung:
-  def __init
-
-\end{document}
-
-\begin{Kelas}
-Class adalah salah satu cara bagaimana kita membuat sebuah kode yang mempunyai behaviour tertentu dan lebih mudah dalam mengorganisasi berbagai fungsi dan state-nya. Dalam sebuah class kamu dapat menyimpan sebuah state tanpa harus membuat banyak state bila tidak menggunakan class.\\
-Contoh :\\
-class Product:
-    __vendor_message = "Ini adalah rahasia"
-    name = ""
-    price = ""
-    size = ""
-    unit = ""
-    
-    def __init__(self, name):
-        print "Ini adalah constructor"
-        self.name = name
-        self.unit = "ml"
-        self.size = 350
-        
-    def get_vendor_message(self):
-        print self.__vendor_message
-        
-	def set_price(self, price):
-        self.price = price
-        
-p = Product("Banana Milk")
-p.set_price(5500)
-
-print "%s dengan ukuran %s %s harganya Rp. %d" % (p.name, p.size, p.unit, p.price)
-# print p.__vendor_message
-
-p.get_vendor_message()
-
-p1 = Product("UltraMilk")
-p1.set_price(3000)
-
-print "%s dengan ukuran %s %s harganya Rp. %d" % (p.name, p.size, p.unit, p.price)
-
-print p == p
-print p1 == p1
-print p == p1
-
-\begin{Pemahanan Teori}
-1.void(fungsi tanpa nilai balik)
-	Fungsi yang void sering disebut juga prosedur. Disebut void karena fungsi tersebut tidak mengembalikan suatu nilai keluaran yang didapat dari hasil proses tersebut.
-	Ciri-ciri dari jenis fungsi Void , yaitu :
-	1. tidak adanya keyword return
-	2. tidak adanya tipe data di dalam deklarasi fungsi
-	3. menggunakan keyword void
-	4. tidak memiliki nilai kembalian fungsi
-	5. Keyword void juga digunakan jika suatu function tidak 				   mengandung suatu parameter apapun.
-Contohnya:\\
-	void menampilkan_jumlah(int a, int b)}
-		in jumlah;
-		jumlah = a + b;
-		cout << jumlah;
-	}
-2.Non void (fungsi dengan nilai balik
-	Fungsi non-void disebut juga function . disebut non-void karena mengembalikan nilai kembalian yang berasal dari keluaran hasil proses function tersebut.
-	Ciri-ciri dari jenis fungsi Non-Void , yaitu :
-	1. Ada keyword return
-	2. ada tipe data yang mengawali fungsi
-	3. tidak ada keyword void
-	4. memiliki nilai keyword
-	5. Non-void : int jumlah (int a, int b)
-
-3. Prototype Function
-	Sebuah program C++ dapat terdiri dari banyak fungsi. Salah satu fungsi tersebut harus bernama main(). Jika fungsi yang lain dituliskan setelah fungsi main(), sebelum fungsi main ditambahkan.
-	Contohnya:\\
-#include <stdio.h>
-\\prototype function
-	int hitung(int angka, int bilangan);
-	int tulis(char);
-	int tampil(int angka[],char huruf);
-//fungsi main
-	int main(){
-		int array[3]={1,2,3};
-		char huruf="D";
-		//memanggil fungsi
-		hitung (2,3);
-		tulis("A");
-		tampil(array,huruf);
-}
-
-4. Fungsi Rekursif
-	Fungsi yang memanggil dirinya sendiri. Artinya , fungsi tersebut dipanggil di dalam tubuh fungsi itu sendiri. Parameter yang dilewatkan berubah sebanyak fungsi itu dipanggil.
-	
-\begin{Apa itu paket dan cara pemanggilan paket atau library dengan contoh kode program lainnya}
-	<?php if ( ! defined('BASEPATH'))
-		exit('No direct script access allowed');
-	class Blog extends ci_controller {
-	function __construct()
-	{
-		parent ::__construct();
-	}
-	function index()
-	{
-		echo "Hallo.. saya min yoongi adalah contoh dari boyband BTS 				yang mendunia";
-	}
-	
-	
-}
-
-\begin{Jelaskan Apa itu kelas, apa itu objek, apa itu atribut, apa itu method dan contoh kode program lainnya masing-masing.}
-gambaran umum tentang sebuah benda. Di dalam pemrograman nantinya, contoh class seperti: koneksi_database dan profile_user. penulisan class diawali dengan keyword class, kemudian diikuti dengan nama dari class. Aturan penulisan nama class sama seperti aturan penulisan variabel
-Contoh :\\
-<?php
-	class laptop {
-   		// isi dari class laptop...
-}
-?>
-
-\end{document}
-
-\begin{Jelaskan cara pemanggikan library kelas dari instansiasi dan pemakaiannya dengan contoh program lainnya.}\\
-1. Membuat sebuah objek atau sebuah instance pada sebuah kelas disebut instansiasi atau instantiation.
-Contoh:\\
-	String str = new String("Hello");
-	String str2 = "OOP Yes";
-Komputer a = new Komputer();
-Komputer b = new Komputer();
-
-2. Atribut suatu class harus didefinisikan sebagai instance
-variable.\\
-Contoh:\\
-	public class Time {
-		private int hour;
-		private int minute;
-		private int second;
-	//penulisan kode selanjutnya
-}
-
-\begin{Jelaskan dengan contoh pemakaian paket dengan perintah from kalkulator import Penambahan disertai dengan contoh kode lainnya.}\\
-Paket dengan perintah from kalkulator import import penambahan pertama , yaitu tentukan nama fungsi , variabel dan inputnya. setiap penulisan harus menggunakan () dan : dan identasi.
-Contoh  :\\
-	def penambahan (a+b):\\
-	r=(a+b)\\
-	return\\
-	a=5\\
-	b=6\\
-	anu=penambahan(a,b)
-
-\begin{6.Jelaskan dengan contoh kodenya, pemakaian paket fungsi apabila file library ada di dalam folder.}\\
-// Meletakkan kelas ke paket
-package bangun.datar;
- 
-// Mendefinisikan kelas Segi3ABC
-public class Segi3ABC {
- 
-   // Metoda hitungKeliling
-   // Untuk mencari keliling segi tiga
-   public static double hitungKeliling(double sisiAB, double sisiBC, double sisiCA) {
- 
-      double keliling;
-      keliling = sisiAB + sisiBC + sisiCA;
-      return keliling;
-   }
- 
-   // Metoda hitungLuas
-   // Untuk mencari luas segi tiga
-   public static double hitungLuas(double sisiAB) {
- 
-      // Deklarasi variabel
-      double luas;
- 
-      // Mencari tinggi segi tiga
-      double tinggi = Math.sqrt(Math.pow(sisiAB, 2) - Math.pow((0.5 * sisiAB), 2));
- 
-      // Mencari luas segi tiga
-      luas = sisiAB * tinggi;
-      return luas;
-   }
-}
-\end {enumerate}
-	\subsection{Keterampilan Pemrograman}
-\begin{itemize}
-
-\end{itemize}
-	\item 
-		\lstinputlisting {firstline = 58, lastline 64} {src/1174075}
-	\item 
-        \lstinputlisting {firstline = 67, lastline 76} {src/1174075}
-	\item 
-        \lstinputlisting {firstline = 79, lastline 84} {src/1174075}
-	\item 
-        \lstinputlisting {firstline = 87, lastline 91} {src/1174075}
-	\item 
-        \lstinputlisting {firstline = 94, lastline 100} {src/1174075}
-	\item 
-        \lstinputlisting {firstline = 103, lastline 109} {src/1174075}
-	\item 
-        \lstinputlisting {firstline = 112, lastline 117} {src/1174075}
-	\item 
-	    \lstinputlisting {firstline = 120, lastline 125} {src/1174075}
-	\item 
-        \lstinputlisting {firstline = 128, lastline 141} {src/1174075}
-
-\end {itemize}
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Bakti Qilan Mufid}
@@ -1630,7 +1338,7 @@ gunakan akses langsung manipulasi string pada baris ketiga dari variabel NPM.
 \lstinputlisting[firstline=116, lastline=121]{src/1174070.py}
 
 \item buat fungsi program dengan input variabel NPM dan melakukan print nomor npm satu persatu kebawah.
-\lstinputlisting[firstline123=, lastline=128]{src/1174070.py}
+\lstinputlisting[firstline=123, lastline=128]{src/1174070.py}
 
 \item Buatlah fungsi dengan inputan variabel NPM, didalamnya melakukan penjum-
 lahan dari seluruh dijit NPM tersebut, wajib menggunakan perulangan dan
@@ -1993,101 +1701,15 @@ buat paket kelas terlebih dahulu, setelah itu import file kelas kedalam file lai
 \item Jawaban soal no 11
 \lstinputlisting[firstline=21, lastline=25]{src/1174091.py}
 \end{enumerate}
-
-<<<<<<< HEAD
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Chapter 3 | Kaka Kamaludin}
-\subsection{Teori}
-\begin{enumerate}
-\item pada Python penulisan fungsi diawali dengan "def" lalu nama fungsi yang akan dibuat, dan biasanya terdapat juga parameter yang berisikan variable didalamnya. contoh :
-\lstinputlisting[fistline=2, lastline=18]{src/1174067/1174067PT.py}
-
-\item paket atau library merupakan file yang berisi kode yang dipanggil menggunkana perintah "import". contoh :
-\lstinputlisting[fistline=20, lastline=22]{src/1174067/1174067PT.py}
-
-\item kelas bisa diartikan sebagai cetakan, object merupakan hasil dari cetakan tersebut, dan attribut merupakan ciri khas yang melekat pada object contoh : class yang bernama Identisa yang berisi nama.
-\lstinputlisting[fistline=25, lastline=37]{src/1174067/1174067PT.py}
-
-\item pemanggilan library kelas, contoh :
-- buat file class python dan berinama
-- buat file main.py untuk memanggil class yang sudah diberinama tadi
-- udah
-\lstinputlisting[fistline=25, lastline=37]{src/1174067/1174067PT.py}
-
-\item from identitas merupakan pemanggilan nama file, import Identitas merupakan nama class yang dipangggil. contoh :
-\lstinputlisting[fistline=20, lastline=22]{src/1174067/1174067PT.py}
-
-\item dengan menggunakan perintah import namafolder.namafile dan penggunan (.) contoh : 
-\lstinputlisting[fistline=20 lastline=22]{src/1174067/1174067PT.py}
-
-\item  from identitas merupakan pemanggilan nama file, import Identitas merupakan nama class yang dipangggil. contoh :
-\lstinputlisting[fistline=25, lastline=37]{src/1174067/1174067PT.py}
-
-\end{enumerate}
-
-\subsection{Praktek}
-\begin{enumerate}
-\item jawaban :
-\lstinputlisting[firstline=1, lastline=35]{src/1174067/3lib.py}
-
-\item jawaban :
-\lstinputlisting[firstline=36, lastline=45]{src/1174067/3lib.py}
-
-\item jawaban :
-\lstinputlisting[firstline=46, lastline=56]{src/1174067/3lin.py}
-
-\item jawaban :
-\lstinputlisting[firstline=47, lastline=62]{src/1174067/3lib.py}
-
-\item jawaban :
-\lstinputlisting[firstline=63, lastline=70]{src/1174067/3lib.py}
-
-\item jawaban :
-\lstinputlisting[firstline=71, lastline=81]{src/1174067/3lib.py}
-
-\item jawaban :
-\lstinputlisting[firstline=82, lastline=92]{src/1174067/3lib.py}
-\\
-\item jawaban :
-\lstinputlisting[firstline=93, lastline=102]{src/1174067/3lib.py}
-
-\item jawaban :
-\lstinputlisting[firstline=103, lastline=111]{src/1174067/3lib.py}
-
-\item jawaban :
-\lstinputlisting[firstline=112, lastline=130]{src/1174067/3lib.py}
-
-\item jawaban :
-\lstinputlisting[firstline=1, lastline=3]{src/1174067/main.py}
-
-\item jawaban :
-\lstinputlisting[firstline=4, lastline=8]{src/1174067/main.py}
-\end{enumerate}
-
-\subsection{Praktek}
-\begin{enumerate}
-\item Syntax Errors \\ penulisan kode tidak rapih, rapihkan kembali dengan mengecek tab setiap baris.
-\lstinputlisting[firstline=4, lastline=8]{src/1174067/main.py}
-\end{enumerate}<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-<<<<<<< HEAD
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Muhammad Abdul Gani Wijaya}
 \subsubsection{Teori}
-=======
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Engelbertus Adiputra Mau Leto/1174078}
-\subsubsection{Pemahanan Teori}
->>>>>>> 7d8892247354d94215b72bddd9fc4db0dae75669
 \begin{enumerate}
     \item Apa itu fungsi, inputan fungsi dan kembalian fungsi dengan contoh kode program
     lainnya.
     Fungsi adalah bagian dari program yang dapat digunakan ulang.
     Berikut merupakan contoh fungsi dan cara pemanggilannya
-<<<<<<< HEAD
     \lstinputlisting[firstline=124, lastline=127]{src/1174071.py}
 
     Fungsi dapat membaca parameter, parameter adalah nilai yang disediakan kepada fungsi, dimana nilai ini akan menentukan output yang akan dihasilkan fungsi.
@@ -2095,55 +1717,19 @@ buat paket kelas terlebih dahulu, setelah itu import file kelas kedalam file lai
 
     Statemen return digunakan untuk keluar dari fungsi. Kita juga dapat menspesifikasikan nilai kembalian.
     \lstinputlisting[firstline=134, lastline=141]{src/1174071.py}
-=======
-    \lstinputlisting[firstline=124, lastline=127]{src/1174078.py}
-
-    Fungsi dapat membaca parameter, parameter adalah nilai yang disediakan kepada fungsi, dimana nilai ini akan menentukan output yang akan dihasilkan fungsi.
-    \lstinputlisting[firstline=129, lastline=132]{src/1174078.py}
-
-    Statemen return digunakan untuk keluar dari fungsi. Kita juga dapat menspesifikasikan nilai kembalian.
-    \lstinputlisting[firstline=134, lastline=141]{src/1174078.py}
->>>>>>> 7d8892247354d94215b72bddd9fc4db0dae75669
-=======
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Tia Nur Candida}
-\subsubsection{Pemahanan Teori}
-\begin{enumerate}
-    \item Apa itu fungsi, inputan fungsi dan kembalian fungsi dengan contoh kode program
-    lainnya.
-    Fungsi merupakan blok kode atau program yang strukturnya terdiri dari nama fungsi, input variable, dan variable kembalian.
-	Fungsi juga merupakan bagian dari program yang dapat dipakai ulang, dapat membaca parameter. Penulisan fungsi diawali oleh def dan setelahnya titik dua.
-    \lstinputlisting[firstline=8, lastline=13]{src/1174086.py}
-
-    Fungsi input digunakan untuk menerima baris input dari user dan mengembalikannya dalam string.
-    \lstinputlisting[firstline=14, lastline=19]{src/1174086.py}
-
-    Fungsi kembalian atau yang sering disebut dengan return merupakan fungsi yang mengembalikan nilai.
-    \lstinputlisting[firstline=20, lastline=27]{src/1174086.py}
->>>>>>> 44a48a5878dc556f3ab2b2bdb2c6c4811e9c98bb
 
     \item Apa itu paket dan cara pemanggilan paket atau library dengan contoh kode
     program lainnya.
     Untuk memudahkan dalam pemanggilan fungsi yang di butuhkan, agar dapat dipanggil berulang.
     Cara pemanggilannya
-<<<<<<< HEAD
-<<<<<<< HEAD
     \lstinputlisting[firstline=143, lastline=144]{src/1174071.py}
-=======
-    \lstinputlisting[firstline=143, lastline=144]{src/1174078.py}
->>>>>>> 7d8892247354d94215b72bddd9fc4db0dae75669
 
     \item Jelaskan Apa itu kelas, apa itu objek, apa itu atribut, apa itu method dan
     contoh kode program lainnya masing-masing.
     kelas merupakan sebuah blueprint yang mepresentasikan objek.
     objek adalah hasil cetakan dadri sebuah kelas.
     method adalah suatu upaya yang digunakan oleh object.
-<<<<<<< HEAD
     \lstinputlisting[firstline=146, lastline=168]{src/1174071.py}
-=======
-    \lstinputlisting[firstline=146, lastline=168]{src/1174078.py}
->>>>>>> 7d8892247354d94215b72bddd9fc4db0dae75669
 
     \item Jelaskan cara pemanggikan library kelas dari instansiasi dan pemakaiannya den-
     gan contoh program lainnya.
@@ -2155,20 +1741,12 @@ buat paket kelas terlebih dahulu, setelah itu import file kelas kedalam file lai
         \item Gunakan perintah print untuk menampilkan hasilnya
 
     \end{itemize}
-<<<<<<< HEAD
     \lstinputlisting[firstline=170, lastline=175]{src/1174071.py}
-=======
-    \lstinputlisting[firstline=170, lastline=175]{src/1174078.py}
->>>>>>> 7d8892247354d94215b72bddd9fc4db0dae75669
 
     \item Jelaskan dengan contoh pemakaian paket dengan perintah from kalkulator im-
     port Penambahan disertai dengan contoh kode lainnya.
     Penggunaan paket from namafile import, itu berfungsi untuk memanggil file dan fungsinya
-<<<<<<< HEAD
     \lstinputlisting[firstline=143, lastline=144]{src/1174071.py}
-=======
-    \lstinputlisting[firstline=143, lastline=144]{src/1174078.py}
->>>>>>> 7d8892247354d94215b72bddd9fc4db0dae75669
 
     \item Jelaskan dengan contoh kodenya, pemakaian paket fungsi apabila le library
     ada di dalam folder.
@@ -2176,11 +1754,7 @@ buat paket kelas terlebih dahulu, setelah itu import file kelas kedalam file lai
 
     \item Jelaskan dengan contoh kodenya, pemakaian paket kelas apabila le library ada
     di dalam folder.
-<<<<<<< HEAD
     \lstinputlisting[firstline=184, lastline=184]{src/1174071.py}
-=======
-    \lstinputlisting[firstline=184, lastline=184]{src/1174078.py}
->>>>>>> 7d8892247354d94215b72bddd9fc4db0dae75669
 
 \end{enumerate}
 \subsubsection{Ketrampilan Pemrograman}
@@ -2189,58 +1763,34 @@ buat paket kelas terlebih dahulu, setelah itu import file kelas kedalam file lai
     yang dirangkai dari tanda bintang, pagar atau plus dari NPM kita. Tanda
     bintang untuk NPM mod 3=0, tanda pagar untuk NPM mod 3 =1, tanda plus
     untuk NPM mod3=2.
-<<<<<<< HEAD
     \lstinputlisting[firstline=184, lastline=234]{src/1174071.py}
-=======
-    \lstinputlisting[firstline=184, lastline=234]{src/1174078.py}
->>>>>>> 7d8892247354d94215b72bddd9fc4db0dae75669
 
     \item Buatlah fungsi dengan inputan variabel berupa NPM. kemudian dengan meng-
     gunakan perulangan mengeluarkan print output sebanyak dua dijit belakang
     NPM.
-<<<<<<< HEAD
     \lstinputlisting[firstline=237, lastline=243]{src/1174071.py}
-=======
-    \lstinputlisting[firstline=237, lastline=243]{src/1174078.py}
->>>>>>> 7d8892247354d94215b72bddd9fc4db0dae75669
 
     \item Buatlah fungsi dengan dengan input variabel string bernama NPM dan beri
     luaran output dengan perulangan berupa tiga karakter belakang dari NPM se-
     banyak penjumlahan tiga dijit tersebut.
-<<<<<<< HEAD
     \lstinputlisting[firstline=245, lastline=255]{src/1174071.py}
-=======
-    \lstinputlisting[firstline=245, lastline=255]{src/1174078.py}
->>>>>>> 7d8892247354d94215b72bddd9fc4db0dae75669
 
     \item Buatlah fungsi hello word dengan input variabel string bernama NPM dan
     beri luaran output berupa digit ketiga dari belakang dari variabel NPM meng-
     gunakan akses langsung manipulasi string pada baris ketiga dari variabel NPM.
-<<<<<<< HEAD
     \lstinputlisting[firstline=257, lastline=263]{src/1174071.py}
 
     \item buat fungsi program dengan input variabel NPM dan melakukan print nomor npm satu persatu kebawah.
     \lstinputlisting[firstline=265, lastline=269]{src/1174071.py}
-=======
-    \lstinputlisting[firstline=257, lastline=263]{src/1174078.py}
-
-    \item buat fungsi program dengan input variabel NPM dan melakukan print nomor npm satu persatu kebawah.
-    \lstinputlisting[firstline=265, lastline=269]{src/1174078.py}
->>>>>>> 7d8892247354d94215b72bddd9fc4db0dae75669
 
     \item Buatlah fungsi dengan inputan variabel NPM, didalamnya melakukan penjum-
     lahan dari seluruh dijit NPM tersebut, wajib menggunakan perulangan dan
     atau kondisi.
-<<<<<<< HEAD
     \lstinputlisting[firstline=272, lastline=279]{src/1174071.py}
-=======
-    \lstinputlisting[firstline=272, lastline=279]{src/1174078.py}
->>>>>>> 7d8892247354d94215b72bddd9fc4db0dae75669
 
     \item Buatlah fungsi dengan inputan variabel NPM, didalamnya melakukan melakukan
     perkalian dari seluruh dijit NPM tersebut, wajib menggunakan perulangan dan
     atau kondisi.
-<<<<<<< HEAD
     \lstinputlisting[firstline=281, lastline=288]{src/1174071.py}
 
     \item Buatlah fungsi dengan inputan variabel NPM, Lakukan print NPM anda tapi
@@ -2250,54 +1800,30 @@ buat paket kelas terlebih dahulu, setelah itu import file kelas kedalam file lai
     \item Buatlah fungsi dengan inputan variabel NPM, Lakukan print NPM anda tapi
     hanya dijit ganjil saja. wajib menggunakan perulangan dan atau kondisi.
     \lstinputlisting[firstline=298, lastline=304]{src/1174071.py}
-=======
-    \lstinputlisting[firstline=281, lastline=288]{src/1174078.py}
-
-    \item Buatlah fungsi dengan inputan variabel NPM, Lakukan print NPM anda tapi
-    hanya dijit genap saja. wajib menggunakan perulangan dan atau kondisi.
-    \lstinputlisting[firstline=290, lastline=296]{src/1174078.py}
-
-    \item Buatlah fungsi dengan inputan variabel NPM, Lakukan print NPM anda tapi
-    hanya dijit ganjil saja. wajib menggunakan perulangan dan atau kondisi.
-    \lstinputlisting[firstline=298, lastline=304]{src/1174078.py}
->>>>>>> 7d8892247354d94215b72bddd9fc4db0dae75669
 
     \item Buatlah fungsi dengan inputan variabel NPM, Lakukan print NPM anda tapi
     hanya dijit yang termasuk bilangan prima saja. wajib menggunakan perulangan
     dan atau kondisi.
-<<<<<<< HEAD
     \lstinputlisting[firstline=306, lastline=320]{src/1174071.py}
 
     \item Buatlah satu library yang berisi fungsi-fungsi dari nomor diatas dengan nama
     le 3lib.py dan berikan contoh cara pemanggilannya pada le main.py.
     \lstinputlisting[firstline=7, lastline=7]{src/main_gani.py}
-=======
-    \lstinputlisting[firstline=306, lastline=320]{src/1174078.py}
-
-    \item Buatlah satu library yang berisi fungsi-fungsi dari nomor diatas dengan nama
-    le 3lib.py dan berikan contoh cara pemanggilannya pada le main.py.
-    \lstinputlisting[firstline=7, lastline=7]{src/main_engel.py}
->>>>>>> 7d8892247354d94215b72bddd9fc4db0dae75669
 
     \item Buatlah satu library class dengan nama le kelas3lib.py yang merupakan mod-
     ikasi dari fungsi-fungsi nomor diatas dan berikan contoh cara pemanggilannya
     pada le main.py.
-<<<<<<< HEAD
     \lstinputlisting[firstline=8, lastline=9]{src/main_gani.py}
-=======
-    \lstinputlisting[firstline=8, lastline=9]{src/main_engel.py}
->>>>>>> 7d8892247354d94215b72bddd9fc4db0dae75669
-    
+
 \end{enumerate}
 \subsubsection{Ketrampilan Penanganan Error}
 Error yang di dapat dari mengerjakan tugas ini adalah type error, cara menaggulaginya dengan cara mengecheck kembali codingannya
 kemudian run kembali aplikasinya
 berikut contoh Penggunaan fungsi try dan exception
-<<<<<<< HEAD
 \lstinputlisting[firstline=177, lastline=182]{src/1174071.py}
-=======
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 \section{Ilham Muhammad Ariq D4TI2C 1174087}
 \subsection{Pemahaman Teori}
 \begin{enumerate}
@@ -2403,113 +1929,7 @@ berikut contoh Penggunaan fungsi try dan exception
 \subsection{Keterampilan Penanganan Error}
 Error yang di dapat dari mengerjakan tugas ini adalah type error, cara menaggulaginya dengan cara mengecheck kembali codingannya kemudian run kembali aplikasinya berikut contoh Penggunaan fungsi try dan exception
 \lstinputlisting[firstline=161, lastline=167]{src/1174087/3lib.py}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Ilham Muhammad Ariq D4TI2C 1174087}
-\subsection{Pemahaman Teori}
-\begin{enumerate}
-    \item Apa itu fungsi,inputan fungsi dan kembalian fungsi dengan contoh kode program lainnya.
-    
-    Fungsi adalah satu blok program yang terdiri dari nama fungsi, input variabel dan variabel kembalian.
-    Berikut merupakan contoh fungsi :
-    \lstinputlisting[firstline=11, lastline=18]{src/1174087/3lib.py}
-    \begin{itemize}
-    \item \textbf{cek} merupakan nama fungsi
-    \item \textbf{a dan b} merupakan inputan fungsi yang mana adalah inputan yang akan diproses program
-    \item \textbf{c} merupakan hasil dari kembalian fungsi tersebut
-    \item \textbf{hasil} merupakan output program
-    \end{itemize}
-    
-    \item Apa itu paket dan cara pemanggilan paket atau library dengan contoh kode program lainnya.
-    
-    Paket merupakan kumpulan dari beberapa fungsi untuk mempermudah pemanggilan fungsi
-    cara pemanggilannya :
-    \lstinputlisting[firstline=9, lastline=15]{src/1174087/main.py}
-    \begin{itemize}
-    \item \textbf{import} merupakan cara pemanggilan paket tersebut
-    \end{itemize}
-	
-	\item Jelaskan apa itu kelas, apa itu objek, apa itu atribut, apa itu method dan contoh kode program lainnya masing-masing.
-	\begin{itemize}
-	\lstinputlisting[firstline=9, lastline=16]{src/1174087/kelas3lib.py}
-	\item \textbf{Mahasiswa} = kelas adalah sebuah blueprint yang mepresentasikan objek.
-	\item \textbf{self.nama} = atribut adalah variabel yang menyimpan data.
-    \item \textbf{NamaMhs} = objek adalah perwujudan dari sebuah kelas.
-    \item \textbf{Biodata} = method adalah suatu tindakan yang digunakan oleh object.
-	\end{itemize}
-	
-	\item Jelaskan cara pemanggikan library kelas dari instansiasi dan pemakaiannya dengan contoh program lainnya.
-	\lstinputlisting[firstline=19, lastline=22]{src/1174087/main.py}
-	\begin{itemize}
-	\item pertama import terlebih dahulu filenya.
-    \item kemudian buat variabel untuk nenampung nilai data nya
-    \item setelah itu panggil nama class dan methodnya
-	\end{itemize}		
-	
-	\item Jelaskan dengan contoh pemakaian paket dengan perintah from kalkulator import Penambahan disertai dengan contoh kode lainnya.
-	
-	Berikut cara pemakaiannya,
-	\lstinputlisting[firstline=25, lastline=29]{src/1174087/main.py}
-	\begin{itemize}
-	\item import paketnya
-	\item panggil fungsi Penambahan
-	\end{itemize}
-	
-	\item Jelaskan dengan contoh kodenya, pemakaian paket fungsi apabila le librar yada di dalam folder.
-	
-	Pemanggilan fungsi-fungsi pada suatu file, berikut kodenya :
-	
-	\lstinputlisting[firstline=32, lastline=38]{src/1174087/main.py}
 
-	\item Jelaskan dengan contoh kodenya, pemakaian paket kelas apabila le library ada
-    di dalam folder.
-	
-	Pemanggilan nama kelas pada suatu file, berikut kodenya :
-	
-	\lstinputlisting[firstline=41, lastline=44]{src/1174087/main.py}
-
-\end{enumerate}   
-\subsection{Ketrampilan Pemrograman}
-\begin{enumerate}
-    \item Buatlah fungsi dengan inputan variabel NPM, dan melakukan print luaran huruf yang dirangkai dari tanda bintang, pagar atau plus dari NPM kita. Tanda bintang untuk NPM mod 3=0, tanda pagar untuk NPM mod 3 =1, tanda plus untuk NPM mod3=2.
-    \lstinputlisting[firstline=22, lastline=55]{src/1174087/3lib.py}
-    
-     \item Buatlah fungsi dengan inputan variabel berupa NPM. kemudian dengan menggunakan perulangan mengeluarkan print output sebanyak dua dijit belakang NPM.
-     \lstinputlisting[firstline=58, lastline=65]{src/1174087/3lib.py}
-
-	\item Buatlah fungsi dengan dengan input variabel string bernama NPM dan beri luaran output dengan perulangan berupa tiga karakter belakang dari NPM sebanyak penjumlahan tiga dijit tersebut.
-	\lstinputlisting[firstline=68, lastline=77]{src/1174087/3lib.py}
-	
-	\item Buatlah fungsi hello word dengan input variabel string bernama NPM dan beri luaran output berupa digit ketiga dari belakang dari variabel NPM menggunakan akses langsung manipulasi string pada baris ketiga dari variabel NPM.
-	\lstinputlisting[firstline=80, lastline=84]{src/1174087/3lib.py}
-	
-	\item buat fungsi program dengan input variabel NPM dan melakukan print nomor npm satu persatu kebawah.
-	\lstinputlisting[firstline=87, lastline=93]{src/1174087/3lib.py}
-	
-	\item Buatlah fungsi dengan inputan variabel NPM, didalamnya melakukan penjumlahan dari seluruh dijit NPM tersebut, wajib menggunakan perulangan dan atau kondisi.
-    \lstinputlisting[firstline=96, lastline=105]{src/1174087/3lib.py}
-    
-    \item Buatlah fungsi dengan inputan variabel NPM, didalamnya melakukan melakukan perkalian dari seluruh dijit NPM tersebut, wajib menggunakan perulangan dan atau kondisi.
-     \lstinputlisting[firstline=108, lastline=117]{src/1174087/3lib.py}
-     
-     \item Buatlah fungsi dengan inputan variabel NPM, Lakukan print NPM anda tapi hanya dijit genap saja. wajib menggunakan perulangan dan atau kondisi.
-      \lstinputlisting[firstline=120, lastline=128]{src/1174087/3lib.py}
-      
-       \item Buatlah fungsi dengan inputan variabel NPM, Lakukan print NPM anda tapi hanya dijit ganjil saja. wajib menggunakan perulangan dan atau kondisi.
-       \lstinputlisting[firstline=131, lastline=138]{src/1174087/3lib.py}
-       
-       \item Buatlah fungsi dengan inputan variabel NPM, Lakukan print NPM anda tapi hanya dijit yang termasuk bilangan prima saja. wajib menggunakan perulangan dan atau kondisi.
-       \lstinputlisting[firstline=141, lastline=158]{src/1174087/3lib.py}
-       
-       \item Buatlah satu library yang berisi fungsi-fungsi dari nomor diatas dengan nama file 3lib.py dan berikan contoh cara pemanggilannya pada file main.py.
-       \lstinputlisting[firstline=7, lastline=44]{src/1174087/main.py}
-       
-       \item Buatlah satu library class dengan nama file kelas3lib.py yang merupakan modifikasi dari fungsi-fungsi nomor diatas dan berikan contoh cara pemanggilannya pada file main.py
-    	\lstinputlisting[firstline=9, lastline=16]{src/1174087/kelas3lib.py}
-\end{enumerate}
-\subsection{Keterampilan Penanganan Error}
-Error yang di dapat dari mengerjakan tugas ini adalah type error, cara menaggulaginya dengan cara mengecheck kembali codingannya kemudian run kembali aplikasinya berikut contoh Penggunaan fungsi try dan exception
-\lstinputlisting[firstline=161, lastline=167]{src/1174087/3lib.py}
-=======
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Alvan Alvanzah/1174077}
 \subsection{Pemahaman Teori}
@@ -2520,7 +1940,7 @@ lainnya.
 \begin{itemize}
 \item Fungsi adalah blok program untuk melakukan tugas-tugas tertentu yang dilakukan berulang dan dapat digunakan berulang kali dari tempat lain di dalam program. namaFungsi dari fungsi yang dibuat.
 \lstinputlisting[firstline=10, lastline=10]{src/1174077/1174077.py}
-		
+
 \item Inputan fungsi adalah inputan yang berasal dari luar fungsi yang akan di proses di dalam fungsi itu sendiri. inputanFungsi dari inputan fungsi yang diterima dari luar fungsi namaFungsi.
 \lstinputlisting[firstline=10, lastline=10]{src/1174077/1174077.py}
 
@@ -2538,22 +1958,22 @@ lainnya.
 \par Kelas adalah cetak biru atau prototipe dari objek dimana kita mendefinisikan atribut dari suatu objek.
 Contoh penggunaan kelas di python.
 \lstinputlisting[ firstline=21, lastline=40]{src/1174077/1174077.py}
-		
+
 \item Objek
 \par Objek adalah instansi atau perwujudan dari sebuah kelas. Contoh penggunaan objek di python.
 \lstinputlisting[firstline=34, lastline=35]{src/1174077/1174077.py}
-		
+
 \item Atribut
 \par Atribut adalah variabel yang menyimpan data yang berhubungan dengan kelas dan objeknya. Contoh penggunaan atribut di python.
 \lstinputlisting[firstline=22, lastline=22]{src/1174077/1174077.py}
-		
+
 \item Method
 \par Metode adalah fungsi yang didefinisikan di dalam suatu kelas. Contoh penggunaan method di python.
 \lstinputlisting[firstline=29, lastline=32]{src/1174077/1174077.py}
 \end{itemize}
 
 \item Cara pemanggilan library kelas, dan contoh kode programnya.
-	
+
 Berikut ini adalah cara pemanggilan library kelas dari instansi dan pemakaiannya. Library kelasnya adalah Mahasiswa dari file Mahasiswa.py. Lalu dipanggil dengan import. Kemudian instansi dengan mhs1 dan mhs1, dengan 2 parameter. Contoh pemanggilan library kelas dari instansi dan pemakaiannya.
 \lstinputlisting[firstline=43, lastline=51]{src/1174077/1174077.py}
 
@@ -2567,149 +1987,70 @@ Berikut ini adalah contoh pemakaian paket dengan perintah from kalkulator import
 
 \item Contoh kode pemakaian paket kelas apabila file library ada di dalam folder. Berikut ini adalah pemakaian paket kelas apabila file library ada di dalam folder. Contoh kode pemakaian paket kelas dimana file library ada di dalam folder.
 \lstinputlisting[firstline=76, lastline=84]{src/1174077/1174077.py}
-=======
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-\section{Handi Hermawan}
-\subsection{Pemahaman Teori}
-\begin{enumerate}
-	
-	%No. 1
-	\item Fungsi
-	
-	\begin{itemize}
-		
-		\item Fungsi adalah blok program untuk melakukan tugas-tugas tertentu yang dilakukan berulang dan dapat digunakan berulang kali dari tempat lain di dalam program.
-	
-		
-		\item Inputan fungsi adalah inputan yang berasal dari luar fungsi yang akan di proses di dalam fungsi itu sendiri.
-		
-		
-		\item Kembalian fungsi adalah untuk mengembalikan suatu nilai ekspresi dari proses yang dilakukan fungsi.
-		
-		
-	\end{itemize}
-	
-
-	
-	%No. 2
-	\item Pengertian paket dan cara pemanggilannya serta contoh kode programnya.
-	
-	Paket atau library adalah file yang berisi kode program python yang bisa digunakan berulang dimana paket itu dipanggil.
-	
-	Cara pemanggilan paket atau library yaitu dengan meng-import paket atau library yang akan digunakan. Lalu panggil dengan cara mendefinisikan namapaket.namafungsinya.
-	
-	
-	
-	%No. 3
-	\item Kelas
-	
-	\begin{itemize}
-		\item Kelas
-		Kelas adalah cetak biru atau prototipe dari objek dimana kita mendefinisikan atribut dari suatu objek.
-		Contoh penggunaan kelas di python.
-		
-		
-		\item Objek
-		Objek adalah instansi atau perwujudan dari sebuah kelas.
-	
-		
-		\item Atribut
-		Atribut adalah variabel yang menyimpan data yang berhubungan dengan kelas dan objeknya.
-	
-		
-		\item Method
-		Metode adalah fungsi yang didefinisikan di dalam suatu kelas.
-		
-		
-	\end{itemize}
-	
-	%No. 4
-	\item Cara pemanggilan library kelas, dan contoh kode programnya.
-	
-	Berikut ini adalah cara pemanggilan library kelas dari instansi dan pemakaiannya. Library kelasnya adalah Mahasiswa dari file Mahasiswa.py. Lalu dipanggil dengan import. Kemudian instansi dengan mhs1 dan mhs1, dengan 2 parameter.
-
-	
-	%No. 5
-	\item Penjelasan pemakaian paket disertai dengan contoh kode programnya.
-	
-	Berikut ini adalah contoh pemakaian paket dengan perintah from kalkulator import Penambahan. Setelah mengimport paketnya, lalu panggil fungsi penambahannya.
-	
-	
-	%No. 6
-	\item Contoh kode pemakaian paket fungsi apabila file library ada di dalam folder. Berikut ini adalah pemakaian paket fungsi apabila file library ada di dalam folder.
-
-	
-	%No. 7
-	\item Contoh kode pemakaian paket kelas apabila file library ada di dalam folder. Berikut ini adalah pemakaian paket kelas apabila file library ada di dalam folder.
-	
->>>>>>> 2199588c06b84cc6b345ad6bd960a184c1ac5838
 \end{enumerate}
 
 \subsection{Ketrampilan Pemrograman}
 \begin{enumerate}
-<<<<<<< HEAD
 \item Jawaban soal No. 1
 \lstinputlisting[firstline=88, lastline=121]{src/1174077/1174077.py}
-	
+
 \item Jawaban soal No. 2
 \lstinputlisting[firstline=124, lastline=131]{src/1174077/1174077.py}
-	
+
 \item Jawaban soal No. 3
 \lstinputlisting[firstline=134, lastline=142]{src/1174077/1174077.py}
-	
+
 \item Jawaban soal No. 4
 \lstinputlisting[firstline=145, lastline=149]{src/1174077/1174077.py}
-	
+
 \item Jawaban soal No. 5
 \lstinputlisting[firstline=152, lastline=157]{src/1174077/1174077.py}
-	
+
 \item Jawaban soal No. 6
 \lstinputlisting[firstline=160, lastline=168]{src/1174077/1174077.py}
-	
+
 \item Jawaban soal No. 7
 \lstinputlisting[firstline=171, lastline=179]{src/1174077/1174077.py}
-	
+
 \item Jawaban soal No. 8
 \lstinputlisting[firstline=182, lastline=189]{src/1174077/1174077.py}
-	
+
 \item Jawaban soal No. 9
 \lstinputlisting[firstline=192, lastline=198]{src/1174077/1174077.py}
-	
+
 \item Jawaban soal No. 10
 \lstinputlisting[firstline=201, lastline=217]{src/1174077/1174077.py}
-	
+
 \item Jawaban soal No. 11
 \lstinputlisting[firstline=30, lastline=43]{src/1174077/main.py}
-	
+
 \item Jawaban soal No. 12
 \lstinputlisting[firstline=45, lastline=60]{src/1174077/main.py}
-	
+
 \end{enumerate}
 \subsection{Ketrampilan Penanganan Error}
 \begin{enumerate}
 \item Peringatan error yang ditemukan dan penjelasannya serta buat sebuah fungsi try except untuk menanggulangi error.
-	
+
 Peringatan error di praktek ketiga ini, yaitu:
 \begin{itemize}
 \item Syntax Errors
 Syntax Errors adalah suatu keadaan saat kode python mengalami kesalahan penulisan. Solusinya adalah memperbaiki penulisan kode yang salah.
-		
+
 \item Zero Division Error
 ZeroDivisonError adalah exceptions yang terjadi saat eksekusi program menghasilkan perhitungan matematika pembagian dengan angka nol (0). Solusinya adalah tidak membagi suatu yang hasilnya nol.
-		
+
 \item Name Error
 NameError adalah exception yang terjadi saat kode melakukan eksekusi terhadap local name atau global name yang tidak terdefinisi. Solusinya adalah memastikan variabel atau function yang dipanggil ada atau tidak salah ketik.
-		
+
 \item Type Error
 TypeError adalah exception yang terjadi saat dilakukan eksekusi terhadap suatu operasi atau fungsi dengan type object yang tidak sesuai. Solusinya adalah mengkoversi varibelnya sesuai dengan tipe data yang akan digunakan.
 \end{itemize}
-	
+
 Contoh fungsi yang menggunakan try except
 \lstinputlisting[firstline=225, lastline=231]{src/1174077/1174077.py}
 \end{enumerate}	
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Engelbertus Adiputra Mau Leto/1174078}
 \subsubsection{Pemahanan Teori}
 \begin{enumerate}
@@ -2737,24 +2078,11 @@ Contoh fungsi yang menggunakan try except
     objek adalah hasil cetakan dadri sebuah kelas.
     method adalah suatu upaya yang digunakan oleh object.
     \lstinputlisting[firstline=146, lastline=168]{src/1174078.py}
-=======
-    \lstinputlisting[firstline=30, lastline=31]{src/1174086.py}
-
-    \item Jelaskan Apa itu kelas, apa itu objek, apa itu atribut, apa itu method dan
-    contoh kode program lainnya masing-masing.
-    Class merupakan cetakan atau blueprint dari objek, class disebut juga konstruktor objek.
-	Objek merupakan sesuatu yang unik dari struktur data yang didefinisikan oleh kelas dan method.
-	Atribut merupakan data atau segala sesuatu yang ada pada class dan method yang diakses melalui notasi titik.
-	Method adalah fungsi khusus yang didefinisikan dalam kelas.
-
-    \lstinputlisting[firstline=32, lastline=56]{src/1174086.py}
->>>>>>> 44a48a5878dc556f3ab2b2bdb2c6c4811e9c98bb
 
     \item Jelaskan cara pemanggikan library kelas dari instansiasi dan pemakaiannya den-
     gan contoh program lainnya.
     Cara Pemanggilanya 
     \begin{itemize}
-<<<<<<< HEAD
         \item pertama import terlebih dahulu filenya.
         \item kemudian buat variabel untuk menampung datanya
         \item setelah itu panggil nama classnya dan panggil methodnya
@@ -2762,24 +2090,11 @@ Contoh fungsi yang menggunakan try except
 
     \end{itemize}
     \lstinputlisting[firstline=170, lastline=175]{src/1174078.py}
-=======
-        \item pertama import file terlebih dahulu.
-        \item kemudian membuat variabel untuk menampung data,
-        \item setelah itu panggil nama class dan panggil method,
-        \item Untuk menampilkan hasilnya, gunakan perintah print.
-
-    \end{itemize}
-    \lstinputlisting[firstline=57, lastline=62]{src/1174086.py}
->>>>>>> 44a48a5878dc556f3ab2b2bdb2c6c4811e9c98bb
 
     \item Jelaskan dengan contoh pemakaian paket dengan perintah from kalkulator im-
     port Penambahan disertai dengan contoh kode lainnya.
     Penggunaan paket from namafile import, itu berfungsi untuk memanggil file dan fungsinya
-<<<<<<< HEAD
     \lstinputlisting[firstline=143, lastline=144]{src/1174078.py}
-=======
-    \lstinputlisting[firstline=61, lastline=62]{src/1174086.py}
->>>>>>> 44a48a5878dc556f3ab2b2bdb2c6c4811e9c98bb
 
     \item Jelaskan dengan contoh kodenya, pemakaian paket fungsi apabila le library
     ada di dalam folder.
@@ -2787,11 +2102,7 @@ Contoh fungsi yang menggunakan try except
 
     \item Jelaskan dengan contoh kodenya, pemakaian paket kelas apabila le library ada
     di dalam folder.
-<<<<<<< HEAD
     \lstinputlisting[firstline=184, lastline=184]{src/1174078.py}
-=======
-    \lstinputlisting[firstline=70, lastline=70]{src/1174086.py}
->>>>>>> 44a48a5878dc556f3ab2b2bdb2c6c4811e9c98bb
 
 \end{enumerate}
 \subsubsection{Ketrampilan Pemrograman}
@@ -2800,58 +2111,34 @@ Contoh fungsi yang menggunakan try except
     yang dirangkai dari tanda bintang, pagar atau plus dari NPM kita. Tanda
     bintang untuk NPM mod 3=0, tanda pagar untuk NPM mod 3 =1, tanda plus
     untuk NPM mod3=2.
-<<<<<<< HEAD
     \lstinputlisting[firstline=184, lastline=234]{src/1174078.py}
-=======
-    \lstinputlisting[firstline=71, lastline=121]{src/1174086.py}
->>>>>>> 44a48a5878dc556f3ab2b2bdb2c6c4811e9c98bb
 
     \item Buatlah fungsi dengan inputan variabel berupa NPM. kemudian dengan meng-
     gunakan perulangan mengeluarkan print output sebanyak dua dijit belakang
     NPM.
-<<<<<<< HEAD
     \lstinputlisting[firstline=237, lastline=243]{src/1174078.py}
-=======
-    \lstinputlisting[firstline=122, lastline=130]{src/1174086.py}
->>>>>>> 44a48a5878dc556f3ab2b2bdb2c6c4811e9c98bb
 
     \item Buatlah fungsi dengan dengan input variabel string bernama NPM dan beri
     luaran output dengan perulangan berupa tiga karakter belakang dari NPM se-
     banyak penjumlahan tiga dijit tersebut.
-<<<<<<< HEAD
     \lstinputlisting[firstline=245, lastline=255]{src/1174078.py}
-=======
-    \lstinputlisting[firstline=131, lastline=142]{src/1174086.py}
->>>>>>> 44a48a5878dc556f3ab2b2bdb2c6c4811e9c98bb
 
     \item Buatlah fungsi hello word dengan input variabel string bernama NPM dan
     beri luaran output berupa digit ketiga dari belakang dari variabel NPM meng-
     gunakan akses langsung manipulasi string pada baris ketiga dari variabel NPM.
-<<<<<<< HEAD
     \lstinputlisting[firstline=257, lastline=263]{src/1174078.py}
 
     \item buat fungsi program dengan input variabel NPM dan melakukan print nomor npm satu persatu kebawah.
     \lstinputlisting[firstline=265, lastline=269]{src/1174078.py}
-=======
-    \lstinputlisting[firstline=143, lastline=150]{src/1174086.py}
-
-    \item buat fungsi program dengan input variabel NPM dan melakukan print nomor npm satu persatu kebawah.
-    \lstinputlisting[firstline=151, lastline=157]{src/1174086.py}
->>>>>>> 44a48a5878dc556f3ab2b2bdb2c6c4811e9c98bb
 
     \item Buatlah fungsi dengan inputan variabel NPM, didalamnya melakukan penjum-
     lahan dari seluruh dijit NPM tersebut, wajib menggunakan perulangan dan
     atau kondisi.
-<<<<<<< HEAD
     \lstinputlisting[firstline=272, lastline=279]{src/1174078.py}
-=======
-    \lstinputlisting[firstline=158, lastline=166]{src/1174086.py}
->>>>>>> 44a48a5878dc556f3ab2b2bdb2c6c4811e9c98bb
 
     \item Buatlah fungsi dengan inputan variabel NPM, didalamnya melakukan melakukan
     perkalian dari seluruh dijit NPM tersebut, wajib menggunakan perulangan dan
     atau kondisi.
-<<<<<<< HEAD
     \lstinputlisting[firstline=281, lastline=288]{src/1174078.py}
 
     \item Buatlah fungsi dengan inputan variabel NPM, Lakukan print NPM anda tapi
@@ -2861,22 +2148,10 @@ Contoh fungsi yang menggunakan try except
     \item Buatlah fungsi dengan inputan variabel NPM, Lakukan print NPM anda tapi
     hanya dijit ganjil saja. wajib menggunakan perulangan dan atau kondisi.
     \lstinputlisting[firstline=298, lastline=304]{src/1174078.py}
-=======
-    \lstinputlisting[firstline=167, lastline=175]{src/1174086.py}
-
-    \item Buatlah fungsi dengan inputan variabel NPM, Lakukan print NPM anda tapi
-    hanya dijit genap saja. wajib menggunakan perulangan dan atau kondisi.
-    \lstinputlisting[firstline=176, lastline=183]{src/1174086.py}
-
-    \item Buatlah fungsi dengan inputan variabel NPM, Lakukan print NPM anda tapi
-    hanya dijit ganjil saja. wajib menggunakan perulangan dan atau kondisi.
-    \lstinputlisting[firstline=184, lastline=191]{src/1174086.py}
->>>>>>> 44a48a5878dc556f3ab2b2bdb2c6c4811e9c98bb
 
     \item Buatlah fungsi dengan inputan variabel NPM, Lakukan print NPM anda tapi
     hanya dijit yang termasuk bilangan prima saja. wajib menggunakan perulangan
     dan atau kondisi.
-<<<<<<< HEAD
     \lstinputlisting[firstline=306, lastline=320]{src/1174078.py}
 
     \item Buatlah satu library yang berisi fungsi-fungsi dari nomor diatas dengan nama
@@ -2887,25 +2162,13 @@ Contoh fungsi yang menggunakan try except
     ikasi dari fungsi-fungsi nomor diatas dan berikan contoh cara pemanggilannya
     pada le main.py.
     \lstinputlisting[firstline=8, lastline=9]{src/main_engel.py}
-=======
-    \lstinputlisting[firstline=192, lastline=207]{src/1174086.py}
 
-   
-   
->>>>>>> 44a48a5878dc556f3ab2b2bdb2c6c4811e9c98bb
-    
 \end{enumerate}
 \subsubsection{Ketrampilan Penanganan Error}
 Error yang di dapat dari mengerjakan tugas ini adalah type error, cara menaggulaginya dengan cara mengecheck kembali codingannya
 kemudian run kembali aplikasinya
 berikut contoh Penggunaan fungsi try dan exception
-<<<<<<< HEAD
 \lstinputlisting[firstline=177, lastline=182]{src/1174078.py}
-
-
-=======
-\lstinputlisting[firstline=64, lastline=69]{src/1174086.py}
->>>>>>> 44a48a5878dc556f3ab2b2bdb2c6c4811e9c98bb
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Tia Nur Candida}
@@ -3025,8 +2288,8 @@ berikut contoh Penggunaan fungsi try dan exception
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\sectiona{Mochamad Arifqi Ramadhan}
-\subsubsection{3.2	Pemahanan Teori}
+\section{Mochamad Arifqi Ramadhan}
+\subsubsection{Pemahanan Teori}
 \begin{enumerate}
     \item Apa itu fungsi, inputan fungsi dan kembalian fungsi dengan contoh kode program
     lainnya.
@@ -3053,7 +2316,6 @@ berikut contoh Penggunaan fungsi try dan exception
     \item Jelaskan cara pemanggikan library kelas dari instansiasi dan pemakaiannya den-
     gan contoh program lainnya.
    Berikut ini adalah cara pemanggilan library kelas dari instansi dan pemakaiannya.Nama dari Library kelasnya adalah pakan dari file pakan.py
-    \end{itemize}
     \lstinputlisting[firstline=39, lastline=45]{src/1174074.py}
 
     \item Jelaskan dengan contoh pemakaian paket dengan perintah from kalkulator im-
@@ -3071,7 +2333,7 @@ berikut contoh Penggunaan fungsi try dan exception
     \lstinputlisting[firstline=68 lastline=74]{src/1174074.py}
 
 \end{enumerate}
-\subsubsection{3.3	Keterampilan Pemrograman}
+\subsubsection{Keterampilan Pemrograman}
 \begin{enumerate}
     \item Buatlah fungsi dengan inputan variabel NPM, dan melakukan print luaran huruf
     yang dirangkai dari tanda bintang, pagar atau plus dari NPM kita. Tanda
@@ -3130,7 +2392,7 @@ berikut contoh Penggunaan fungsi try dan exception
     \lstinputlisting[firstline=45, lastline=61]{src/main.py}
     
 \end{enumerate}
-\subsubsection{3.4	Keterampilan Penanganan Error}
+\subsubsection{Keterampilan Penanganan Error}
 Error yang di dapat dari mengerjakan tugas ini adalah type error, cara menaggulaginya dengan cara mengecheck kembali codingannya dan merubah kode yang erorrnya, lalu jalankan lagi programnya.
 berikut contoh Penggunaan fungsi try dan exception
 \lstinputlisting[firstline=219, lastline=226]{src/1174074.py}
@@ -3141,28 +2403,28 @@ berikut contoh Penggunaan fungsi try dan exception
 \subsection{Teori}
 \begin{enumerate}
 \item pada Python penulisan fungsi diawali dengan "def" lalu nama fungsi yang akan dibuat, dan biasanya terdapat juga parameter yang berisikan variable didalamnya. contoh :
-\lstinputlisting[fistline=2, lastline=18]{src/1174067/1174067PT.py}
+\lstinputlisting[firstline=2, lastline=18]{src/1174067/1174067PT.py}
 
 \item paket atau library merupakan file yang berisi kode yang dipanggil menggunkana perintah "import". contoh :
-\lstinputlisting[fistline=20, lastline=22]{src/1174067/1174067PT.py}
+\lstinputlisting[firstline=20, lastline=22]{src/1174067/1174067PT.py}
 
 \item kelas bisa diartikan sebagai cetakan, object merupakan hasil dari cetakan tersebut, dan attribut merupakan ciri khas yang melekat pada object contoh : class yang bernama Identisa yang berisi nama.
-\lstinputlisting[fistline=25, lastline=37]{src/1174067/1174067PT.py}
+\lstinputlisting[firstline=25, lastline=37]{src/1174067/1174067PT.py}
 
 \item pemanggilan library kelas, contoh :
 - buat file class python dan berinama
 - buat file main.py untuk memanggil class yang sudah diberinama tadi
 - udah
-\lstinputlisting[fistline=25, lastline=37]{src/1174067/1174067PT.py}
+\lstinputlisting[firstline=25, lastline=37]{src/1174067/1174067PT.py}
 
 \item from identitas merupakan pemanggilan nama file, import Identitas merupakan nama class yang dipangggil. contoh :
-\lstinputlisting[fistline=20, lastline=22]{src/1174067/1174067PT.py}
+\lstinputlisting[firstline=20, lastline=22]{src/1174067/1174067PT.py}
 
 \item dengan menggunakan perintah import namafolder.namafile dan penggunan (.) contoh : 
-\lstinputlisting[fistline=20 lastline=22]{src/1174067/1174067PT.py}
+\lstinputlisting[firstline=20 lastline=22]{src/1174067/1174067PT.py}
 
 \item  from identitas merupakan pemanggilan nama file, import Identitas merupakan nama class yang dipangggil. contoh :
-\lstinputlisting[fistline=25, lastline=37]{src/1174067/1174067PT.py}
+\lstinputlisting[firstline=25, lastline=37]{src/1174067/1174067PT.py}
 
 \end{enumerate}
 
@@ -3175,7 +2437,7 @@ berikut contoh Penggunaan fungsi try dan exception
 \lstinputlisting[firstline=36, lastline=45]{src/1174067/3lib.py}
 
 \item jawaban :
-\lstinputlisting[firstline=46, lastline=56]{src/1174067/3lin.py}
+\lstinputlisting[firstline=46, lastline=56]{src/1174067/3lib.py}
 
 \item jawaban :
 \lstinputlisting[firstline=47, lastline=62]{src/1174067/3lib.py}
@@ -3188,7 +2450,7 @@ berikut contoh Penggunaan fungsi try dan exception
 
 \item jawaban :
 \lstinputlisting[firstline=82, lastline=92]{src/1174067/3lib.py}
-\\
+
 \item jawaban :
 \lstinputlisting[firstline=93, lastline=102]{src/1174067/3lib.py}
 
@@ -3335,64 +2597,6 @@ Error yang di dapat dari mengerjakan tugas ini adalah type error, cara menaggula
 kemudian run kembali aplikasinya
 berikut contoh Penggunaan fungsi try dan exception
 \lstinputlisting[firstline=309, lastline=315]{src/1174072/1174072.py}
-=======
-	\item Jawaban soal No. 1
-	\lstinputlisting[caption = Jawaban soal No. 1 Ketrampilan Pemrograman., firstline=10, lastline=44]{1174080.py}
-	
-	\item Jawaban soal No. 2
-	\lstinputlisting[caption = Jawaban soal No. 2 Ketrampilan Pemrograman., firstline=46, lastline=54]{1174080.py}
-	
-	\item Jawaban soal No. 3
-	\lstinputlisting[caption = Jawaban soal No. 3 Ketrampilan Pemrograman., firstline=56, lastline=65]{1174080.py}
-	
-	\item Jawaban soal No. 4
-	\lstinputlisting[caption = Jawaban soal No. 4 Ketrampilan Pemrograman., firstline=67, lastline=72]{1174080.py}
-	
-	\item Jawaban soal No. 5
-	\lstinputlisting[caption = Jawaban soal No. 5 Ketrampilan Pemrograman., firstline=74, lastline=78]{1174080.py}
-	
-	\item Jawaban soal No. 6
-	\lstinputlisting[caption = Jawaban soal No. 6 Ketrampilan Pemrograman., firstline=82, lastline=91]{1174080.py}
-	
-	\item Jawaban soal No. 7
-	\lstinputlisting[caption = Jawaban soal No. 7 Ketrampilan Pemrograman., firstline=93, lastline=102]{1174080.py}
-	
-	\item Jawaban soal No. 8
-	\lstinputlisting[caption = Jawaban soal No. 8 Ketrampilan Pemrograman., firstline=104, lastline=112]{1174080.py}
-	
-	\item Jawaban soal No. 9
-	\lstinputlisting[caption = Jawaban soal No. 9 Ketrampilan Pemrograman., firstline=114, lastline=121]{1174080.py}
-	
-	\item Jawaban soal No. 10
-	\lstinputlisting[caption = Jawaban soal No. 10 Ketrampilan Pemrograman., firstline=123, lastline=140]{1174080.py}
-	
-	\item Jawaban soal No. 11
-	\lstinputlisting[caption = Jawaban soal No. 11 Ketrampilan Pemrograman., firstline=10, lastline=40]{1174080(teori).py}
-	
-	\item Jawaban soal No. 12
-	\lstinputlisting[caption = Jawaban soal No. 12 Ketrampilan Pemrograman., firstline=10, lastline=40]{1174080(teori).py}
-	
-\end{enumerate}
-
-\subsection{Ketrampilan Penanganan Error}
-\begin{enumerate}
-	\item Peringatan error yang ditemukan dan penjelasannya serta buat sebuah fungsi try except untuk menanggulangi error.
-	
-	Peringatan error di praktek ketiga ini, yaitu:
-	\begin{itemize}
-		\item Syntax Errors
-		Syntax Errors adalah suatu keadaan saat kode python mengalami kesalahan penulisan. Solusinya adalah memperbaiki penulisan kode yang salah.
-		
-		\item Zero Division Error
-		ZeroDivisonError adalah exceptions yang terjadi saat eksekusi program menghasilkan perhitungan matematika pembagian dengan angka nol (0). Solusinya adalah tidak membagi suatu yang hasilnya nol.
-		
-		\item Name Error
-		NameError adalah exception yang terjadi saat kode melakukan eksekusi terhadap local name atau global name yang tidak terdefinisi. Solusinya adalah memastikan variabel atau function yang dipanggil ada atau tidak salah ketik.
-		
-		\item Type Error
-		TypeError adalah exception yang terjadi saat dilakukan eksekusi terhadap suatu operasi atau fungsi dengan type object yang tidak sesuai. Solusinya adalah mengkoversi varibelnya sesuai dengan tipe data yang akan digunakan.
-	\end{itemize}
-\end{enumerate}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Handi Hermawan}
 \subsection{Pemahaman Teori}
@@ -3472,60 +2676,59 @@ berikut contoh Penggunaan fungsi try dan exception
 \subsection{Ketrampilan Pemrograman}
 \begin{enumerate}
 	\item Jawaban soal No. 1
-	\lstinputlisting[caption = Jawaban soal No. 1 Ketrampilan Pemrograman., firstline=10, lastline=44]{1174080.py}
+	\lstinputlisting[caption = Jawaban soal No. 1 Ketrampilan Pemrograman., firstline=10, lastline=44]{src/1174080.py}
 	
 	\item Jawaban soal No. 2
-	\lstinputlisting[caption = Jawaban soal No. 2 Ketrampilan Pemrograman., firstline=46, lastline=54]{1174080.py}
+	\lstinputlisting[caption = Jawaban soal No. 2 Ketrampilan Pemrograman., firstline=46, lastline=54]{src/1174080.py}
 	
 	\item Jawaban soal No. 3
-	\lstinputlisting[caption = Jawaban soal No. 3 Ketrampilan Pemrograman., firstline=56, lastline=65]{1174080.py}
+	\lstinputlisting[caption = Jawaban soal No. 3 Ketrampilan Pemrograman., firstline=56, lastline=65]{src/1174080.py}
 	
 	\item Jawaban soal No. 4
-	\lstinputlisting[caption = Jawaban soal No. 4 Ketrampilan Pemrograman., firstline=67, lastline=72]{1174080.py}
+	\lstinputlisting[caption = Jawaban soal No. 4 Ketrampilan Pemrograman., firstline=67, lastline=72]{src/1174080.py}
 	
 	\item Jawaban soal No. 5
-	\lstinputlisting[caption = Jawaban soal No. 5 Ketrampilan Pemrograman., firstline=74, lastline=78]{1174080.py}
+	\lstinputlisting[caption = Jawaban soal No. 5 Ketrampilan Pemrograman., firstline=74, lastline=78]{src/1174080.py}
 	
 	\item Jawaban soal No. 6
-	\lstinputlisting[caption = Jawaban soal No. 6 Ketrampilan Pemrograman., firstline=82, lastline=91]{1174080.py}
+	\lstinputlisting[caption = Jawaban soal No. 6 Ketrampilan Pemrograman., firstline=82, lastline=91]{src/1174080.py}
 	
 	\item Jawaban soal No. 7
-	\lstinputlisting[caption = Jawaban soal No. 7 Ketrampilan Pemrograman., firstline=93, lastline=102]{1174080.py}
+	\lstinputlisting[caption = Jawaban soal No. 7 Ketrampilan Pemrograman., firstline=93, lastline=102]{src/1174080.py}
 	
 	\item Jawaban soal No. 8
-	\lstinputlisting[caption = Jawaban soal No. 8 Ketrampilan Pemrograman., firstline=104, lastline=112]{1174080.py}
+	\lstinputlisting[caption = Jawaban soal No. 8 Ketrampilan Pemrograman., firstline=104, lastline=112]{src/1174080.py}
 	
 	\item Jawaban soal No. 9
-	\lstinputlisting[caption = Jawaban soal No. 9 Ketrampilan Pemrograman., firstline=114, lastline=121]{1174080.py}
+	\lstinputlisting[caption = Jawaban soal No. 9 Ketrampilan Pemrograman., firstline=114, lastline=121]{src/1174080.py}
 	
 	\item Jawaban soal No. 10
-	\lstinputlisting[caption = Jawaban soal No. 10 Ketrampilan Pemrograman., firstline=123, lastline=140]{1174080.py}
+	\lstinputlisting[caption = Jawaban soal No. 10 Ketrampilan Pemrograman., firstline=123, lastline=140]{src/1174080.py}
 	
 	\item Jawaban soal No. 11
-	\lstinputlisting[caption = Jawaban soal No. 11 Ketrampilan Pemrograman., firstline=10, lastline=40]{1174080(teori).py}
+	\lstinputlisting[caption = Jawaban soal No. 11 Ketrampilan Pemrograman., firstline=10, lastline=40]{src/1174080(teori).py}
 	
 	\item Jawaban soal No. 12
-	\lstinputlisting[caption = Jawaban soal No. 12 Ketrampilan Pemrograman., firstline=10, lastline=40]{1174080(teori).py}
+	\lstinputlisting[caption = Jawaban soal No. 12 Ketrampilan Pemrograman., firstline=10, lastline=40]{src/1174080(teori).py}
 	
 \end{enumerate}
 
 \subsection{Ketrampilan Penanganan Error}
 \begin{enumerate}
 	\item Peringatan error yang ditemukan dan penjelasannya serta buat sebuah fungsi try except untuk menanggulangi error.
-	
+
 	Peringatan error di praktek ketiga ini, yaitu:
 	\begin{itemize}
 		\item Syntax Errors
 		Syntax Errors adalah suatu keadaan saat kode python mengalami kesalahan penulisan. Solusinya adalah memperbaiki penulisan kode yang salah.
-		
+
 		\item Zero Division Error
 		ZeroDivisonError adalah exceptions yang terjadi saat eksekusi program menghasilkan perhitungan matematika pembagian dengan angka nol (0). Solusinya adalah tidak membagi suatu yang hasilnya nol.
-		
+
 		\item Name Error
 		NameError adalah exception yang terjadi saat kode melakukan eksekusi terhadap local name atau global name yang tidak terdefinisi. Solusinya adalah memastikan variabel atau function yang dipanggil ada atau tidak salah ketik.
-		
+
 		\item Type Error
 		TypeError adalah exception yang terjadi saat dilakukan eksekusi terhadap suatu operasi atau fungsi dengan type object yang tidak sesuai. Solusinya adalah mengkoversi varibelnya sesuai dengan tipe data yang akan digunakan.
 	\end{itemize}
 \end{enumerate}
-

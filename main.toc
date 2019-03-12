@@ -1,5 +1,5 @@
-\contentsline {schapter}{Daftar Gambar}{xvii}% 
-\contentsline {schapter}{Daftar Tabel}{xix}% 
+\contentsline {schapter}{Daftar Gambar}{xiii}% 
+\contentsline {schapter}{Daftar Tabel}{xv}% 
 \contentsline {schapter}{Foreword}{xxix}% 
 \contentsline {schapter}{Kata Pengantar}{xxxi}% 
 \contentsline {schapter}{Acknowledgments}{xxxiii}% 
@@ -286,4 +286,98 @@
 \contentsline {subsection}{\numberline {2.25.6}tuliskan apa saja jenis error yang sering ditemui di python dalam mengerjakan sintak diatas dan bagaimana cara mengatasinya}{161}% 
 \contentsline {subsection}{\numberline {2.25.7}tuliskan dan jelaskan cara memakai Try Except}{161}% 
 \contentsline {chapter}{\numberline {3}Judul Bagian Ketiga}{163}% 
-\contentsline {schapter}{Index}{165}% 
+\contentsline {section}{\numberline {3.1}D. Irga B. Naufal Fakhri}{163}% 
+\contentsline {subsection}{\numberline {3.1.1}Pemahaman Teori}{163}% 
+\contentsline {subsection}{\numberline {3.1.2}Keterampilan Pemograman}{166}% 
+\contentsline {subsection}{\numberline {3.1.3}Ketrampilan Penanganan Error}{169}% 
+\contentsline {section}{\numberline {3.2}Nurul Izza Hamka | 1174062 | Teori}{169}% 
+\contentsline {section}{\numberline {3.3}Fanny Shafira Damayanti | 1174069}{174}% 
+\contentsline {subsection}{\numberline {3.3.1}Teori}{174}% 
+\contentsline {subsection}{\numberline {3.3.2}keterampilan pemrograman}{176}% 
+\contentsline {subsection}{\numberline {3.3.3}penanganan Error}{179}% 
+\contentsline {section}{\numberline {3.4}1174054 | Aulyardha Anindita}{179}% 
+\contentsline {subsection}{\numberline {3.4.1}Pemahaman Teori}{179}% 
+\contentsline {subsection}{\numberline {3.4.2}Fungsi}{179}% 
+\contentsline {subsection}{\numberline {3.4.3}Paket}{180}% 
+\contentsline {paragraph}{}{180}% 
+\contentsline {subsection}{\numberline {3.4.4}Kelas, Objek, Atribut, dan Method}{180}% 
+\contentsline {paragraph}{}{180}% 
+\contentsline {subsection}{\numberline {3.4.5}Cara Pemanggilan Library Kelas dari Instansiansi}{181}% 
+\contentsline {subsection}{\numberline {3.4.6}Pemakaian Paket dengan Perintah from dan import}{181}% 
+\contentsline {subsection}{\numberline {3.4.7}Pemakaian Paket Fungsi}{181}% 
+\contentsline {subsection}{\numberline {3.4.8}Pemakaian Paket Kelas}{181}% 
+\contentsline {subsection}{\numberline {3.4.9}Keterampilan Pemrograman}{182}% 
+\contentsline {subsection}{\numberline {3.4.10}Penanganan Error}{185}% 
+\contentsline {section}{\numberline {3.5}Dini Permata Putri}{185}% 
+\contentsline {section}{\numberline {3.6}ainul filiani}{189}% 
+\contentsline {section}{\numberline {3.7}Chandra Kirana Poetra}{192}% 
+\contentsline {subsection}{\numberline {3.7.1}Pemahaman Teori}{192}% 
+\contentsline {subsection}{\numberline {3.7.2}Praktek}{195}% 
+\contentsline {subsection}{\numberline {3.7.3}Praktek}{198}% 
+\contentsline {section}{\numberline {3.8}Sekar Jasmine}{198}% 
+\contentsline {subsection}{\numberline {3.8.1}Fungsi}{198}% 
+\contentsline {subsubsection}{\numberline {3.8.1.1}Scope Variabel}{199}% 
+\contentsline {subsubsection}{\numberline {3.8.1.2}Fungsi Rekursif}{199}% 
+\contentsline {subsubsection}{\numberline {3.8.1.3}Melewatkan Argumen dengan Kata Kunci}{199}% 
+\contentsline {subsection}{\numberline {3.8.2}Kelas}{200}% 
+\contentsline {subsection}{\numberline {3.8.3}Pemahanan Teori}{201}% 
+\contentsline {subsection}{\numberline {3.8.4}Keterampilan Pemrograman}{204}% 
+\contentsline {section}{\numberline {3.9}Bakti Qilan Mufid}{206}% 
+\contentsline {subsection}{\numberline {3.9.1}Teori}{206}% 
+\contentsline {subsection}{\numberline {3.9.2}Ketrampilan Pemrograman}{208}% 
+\contentsline {subsection}{\numberline {3.9.3}Ketrampilan Penanganan Error}{211}% 
+\contentsline {section}{\numberline {3.10}Advent Nopele Olansi Damiahan Sihite 1174089}{212}% 
+\contentsline {subsubsection}{\numberline {3.10.0.1}Pemahanan Teori}{212}% 
+\contentsline {subsubsection}{\numberline {3.10.0.2}Ketrampilan Pemrograman}{214}% 
+\contentsline {subsubsection}{\numberline {3.10.0.3}Ketrampilan Penanganan Error}{218}% 
+\contentsline {section}{\numberline {3.11}Arrizal Furqona Gifary}{218}% 
+\contentsline {subsubsection}{\numberline {3.11.0.1}Pemahaman Teori}{218}% 
+\contentsline {subsubsection}{\numberline {3.11.0.2}Ketrampilan Pemrograman}{221}% 
+\contentsline {subsubsection}{\numberline {3.11.0.3}Ketrampilan Penanganan Error}{224}% 
+\contentsline {section}{\numberline {3.12}Muhammad Reza Syachrani / 1174084}{225}% 
+\contentsline {subsection}{\numberline {3.12.1}Pemahaman Teori}{225}% 
+\contentsline {subsection}{\numberline {3.12.2} Ketrampilan Pemrograman }{228}% 
+\contentsline {subsection}{\numberline {3.12.3}Ketrampilan Penanganan Error}{231}% 
+\contentsline {section}{\numberline {3.13}Difa Al Fansha}{232}% 
+\contentsline {subsection}{\numberline {3.13.1}Jawaban Teori}{232}% 
+\contentsline {subsection}{\numberline {3.13.2}Jawaban Praktek}{233}% 
+\contentsline {section}{\numberline {3.14}Alfadian Owen}{237}% 
+\contentsline {subsection}{\numberline {3.14.1}Teori}{237}% 
+\contentsline {subsection}{\numberline {3.14.2}Praktek}{239}% 
+\contentsline {section}{\numberline {3.15}Muhammad Abdul Gani Wijaya}{241}% 
+\contentsline {subsubsection}{\numberline {3.15.0.1}Teori}{241}% 
+\contentsline {subsubsection}{\numberline {3.15.0.2}Ketrampilan Pemrograman}{243}% 
+\contentsline {subsubsection}{\numberline {3.15.0.3}Ketrampilan Penanganan Error}{247}% 
+\contentsline {section}{\numberline {3.16}Ilham Muhammad Ariq D4TI2C 1174087}{247}% 
+\contentsline {subsection}{\numberline {3.16.1}Pemahaman Teori}{247}% 
+\contentsline {subsection}{\numberline {3.16.2}Ketrampilan Pemrograman}{249}% 
+\contentsline {subsection}{\numberline {3.16.3}Keterampilan Penanganan Error}{254}% 
+\contentsline {section}{\numberline {3.17}Alvan Alvanzah/1174077}{254}% 
+\contentsline {subsection}{\numberline {3.17.1}Pemahaman Teori}{254}% 
+\contentsline {subsection}{\numberline {3.17.2}Ketrampilan Pemrograman}{257}% 
+\contentsline {subsection}{\numberline {3.17.3}Ketrampilan Penanganan Error}{260}% 
+\contentsline {section}{\numberline {3.18}Engelbertus Adiputra Mau Leto/1174078}{261}% 
+\contentsline {subsubsection}{\numberline {3.18.0.1}Pemahanan Teori}{261}% 
+\contentsline {subsubsection}{\numberline {3.18.0.2}Ketrampilan Pemrograman}{263}% 
+\contentsline {subsubsection}{\numberline {3.18.0.3}Ketrampilan Penanganan Error}{267}% 
+\contentsline {section}{\numberline {3.19}Tia Nur Candida}{267}% 
+\contentsline {subsubsection}{\numberline {3.19.0.1}Pemahanan Teori}{267}% 
+\contentsline {subsubsection}{\numberline {3.19.0.2}Ketrampilan Pemrograman}{269}% 
+\contentsline {subsubsection}{\numberline {3.19.0.3}Ketrampilan Penanganan Error}{273}% 
+\contentsline {section}{\numberline {3.20}Mochamad Arifqi Ramadhan}{273}% 
+\contentsline {subsubsection}{\numberline {3.20.0.1}Pemahanan Teori}{273}% 
+\contentsline {subsubsection}{\numberline {3.20.0.2}Keterampilan Pemrograman}{275}% 
+\contentsline {subsubsection}{\numberline {3.20.0.3}Keterampilan Penanganan Error}{276}% 
+\contentsline {section}{\numberline {3.21}Chapter 3 | Kaka Kamaludin}{276}% 
+\contentsline {subsection}{\numberline {3.21.1}Teori}{276}% 
+\contentsline {subsection}{\numberline {3.21.2}Praktek}{278}% 
+\contentsline {subsection}{\numberline {3.21.3}Praktek}{282}% 
+\contentsline {section}{\numberline {3.22}Fernando Lorencius Sihite}{282}% 
+\contentsline {subsubsection}{\numberline {3.22.0.1}Pemahanan Teori}{282}% 
+\contentsline {subsubsection}{\numberline {3.22.0.2}Ketrampilan Pemrograman}{285}% 
+\contentsline {subsubsection}{\numberline {3.22.0.3}Ketrampilan Penanganan Error}{289}% 
+\contentsline {section}{\numberline {3.23}Handi Hermawan}{289}% 
+\contentsline {subsection}{\numberline {3.23.1}Pemahaman Teori}{289}% 
+\contentsline {subsection}{\numberline {3.23.2}Ketrampilan Pemrograman}{290}% 
+\contentsline {subsection}{\numberline {3.23.3}Ketrampilan Penanganan Error}{294}% 
+\contentsline {schapter}{Index}{297}% 
