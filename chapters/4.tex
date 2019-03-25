@@ -429,10 +429,9 @@ Operator Logika adalah operator yang digunakan untuk membandingkan 2 kondisi log
 
 
 \end{enumerate}
-\documentclass[10pt]{article}
 
-\begin{document}
-\section {Sekar Jasmine KH}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Sekar Jasmine KH}
 
 1. Apa itu fungsi file CSV, jelaskan sejarah dan contoh?\\
 Definisi
@@ -767,7 +766,7 @@ Format file CSV bisa dibuat di Microsoft Excel, Apple Numbers, LibrareOffice, da
 \item Cara menulis dan membaca file CSV di Excel atau Spreadsheet
 Cara Menulis CSV di Excel :\\
 \begin{itemize}
-Download Template CSV,\\
+\item Download Template CSV,\\
 Buka file spreadsheet Anda di Excel,\\
 Buat dokumen baru di Excel,\\
 Tambahkan judul kolom, lalu ketikkan informasi dalam kolom tersebut,\\
@@ -777,7 +776,7 @@ Masukkan nama file, lalu pilih CSV (Comma delimited) (* csv) dari drop-down Save
 
 Cara Menimport CSV di Excel : \\
 \begin{itemize}
-Mulai / buka spreadsheet ,\\
+\item Mulai / buka spreadsheet ,\\
 Pilih tab Data,\\
 Pilih opsi Dari Teks. (Jika opsi berwarna abu-abu, Anda mungkin perlu membuka spreadsheet / workbook baru),\\
 Temukan dan pilih file .csv yang telah Anda unduh dari Kotive. Klik pada file dan kemudian klik Impor,\\
@@ -811,5 +810,79 @@ menjadi sebuah object data yang terdiri dari baris dan kolom yang disebut dengan
 
 
 \end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Bakti Qilan Mufid}
+\subsection{Pemahaman Teori}
+\begin{enumerate}
+\item Apa itu fungsi file csv, jelaskan sejarah dan contoh\\
+\verb|		|File CSV (Comma Separated Values(Nilai Terbatas Koma)) adalah jenis file khusus yang dapat Anda buat atau edit di Excel. File CSV menyimpan informasi yang dipisahkan oleh koma, tidak menyimpan informasi dalam kolom. Ketika teks dan angka disimpan dalam file CSV, mudah untuk memindahkannya dari satu program ke program lainnya. File CSV muncul pertama kali sekitar 10 tahun sebelum Personal Computer (PC) pertama  didunia yaitu sejak sekitar tahun 1972, akan tetapi sebutan file csv digunakan pertama kali pada tahun 1983.\\
+\verb|		|Dari rilis pertama, Excel menggunakan format file biner yang disebut Binary Interchange File Format (BIFF) sebagai format file utamanya. Ini berubah ketika Microsoft merilis Office System 2007 yang memperkenalkan Office Open XML sebagai format file utamanya. Office Open XML adalah file kontainer berbasis XML yang mirip dengan XML Spreadsheets (XMLSS), yang diperkenalkan di Excel 2002. File versi XML tidak bisa menyimpan makro VBA.\\
+\verb|		|Meskipun mendukung format XML baru, Excel 2007 masih mendukung format lama yang masih berbasis BIFF tradisional. Selain itu Microsoft Excel juga mendukung format Comma Separated Values (CSV), DBase File (DBF), SYMbolic LinK (SYLK), Format Interchange Data (DIF) dan banyak format lainnya, termasuk format lembar kerja 1-2 Lotus - 3 (WKS, WK1, WK2, dll.) Dan Quattro Pro.
+\paragraph{}Contoh:\\
+	\begin{figure} [ht]
+		\centerline{\includegraphics[width=0.6\textwidth]{figures/1174083_bakti/contohCSV1.png}}
+		\caption{Contoh file}
+		\label{Contoh CSV}
+		\centerline{\includegraphics[width=0.6\textwidth]{figures/1174083_bakti/contohCSV2.png}}
+		\caption{Contoh CSV}
+		\label{Contoh CSV2}
+	\end{figure}
+\item Aplikasi-aplikasi apa saja yang bisa menciptakan file csv
+	\begin{enumerate}
+	\item Program Spreadsheet
+			Seperti Microsoft Excel, Kspread, Staroffice Calc, OpenOffice Calc, Abacus, Gnumeric, WingZ, XESS.			
+	\item Texteditor
+			Seperti Notepad, Notepad++, Sublime, NetBeans, Adobe Dreamweaver, Visual Studio Code, dll 
+	\end{enumerate}
+	
+\item Jelaskan bagaimana cara menulis dan membaca file csv di excel atau spreadsheet\\
+\verb|		|Sesuai namanya, data atau nilai yang terdapat pada file CSV satu dengan yang lain dipisahkan dengan karakter koma (,). Jika berganti baris, maka itu dianggap record baru. Tentu saja ada kondisi tertentu yang harus dipenuhi agar file Excel bisa disimpan dalam format CSV. Setidaknya ada tiga kondisi utama yang harus dipenuhi, yaitu:
+	\begin{itemize}
+	\item Data yang diolah di Excel hanya berupa teks atau angka.
+	\item Tidak mengandung VBA{Visual Basic for Application}.
+	\item Hanya terdiri dari satu sheet.
+	\end{itemize}
+\paragraph{}Langkah untuk menyimpan file ke dalam format CSV cukup mudah, yaitu dengan memilih File $>$ Save As (Excel 2003 atau sebelumnya) atau dengan mengklik Microsoft Office Button $>$ Save As pada Excel 2007. Setelah itu pada kotak dialog yang muncul, pilihlah format CSV (Comma delimited) (*.csv) melalui drop-down Save as type.
+\item Jelaskan sejarah library csv\\
+\verb|		|CSV digunakan pada tahun 1983. untuk komputer Osborne Executive, yang membundel spreadsheet SuperCalc, mendokumentasikan konvensi kutipan CSV yang memungkinkan string mengandung koma yang disematkan, tetapi manual tersebut tidak menentukan konvensi untuk menanamkan tanda kutip dalam string yang dikutip. Daftar nilai yang dipisahkan dengan koma lebih mudah untuk diketik daripada data yang selaras dengan kolom tetap, dan cenderung menghasilkan hasil yang salah jika suatu nilai dieksekusi satu kolom dari lokasi yang dituju.
+	
+\item Jelaskan sejarah library pandas\\
+\verb|		|Pengembangnya ialah Wes McKinney, mulai mengerjakan pandas pada 2008 ketika di AQR Capital Management karena kebutuhan akan alat kinerja tinggi yang fleksibel untuk melakukan analisis kuantitatif pada data keuangan. Sebelum meninggalkan AQR, dia bisa meyakinkan manajemen untuk mengizinkannya membuka sumber perpustakaan. Pegawai AQR lainnya, Chang She, bergabung dengan proyek ini pada 2012 sebagai kontributor utama kedua ke perpustakaan. Pada 2015, pandas menandatangani sebagai proyek NumFOCUS yang disponsori secara fiskal, sebuah badan amal nirlaba 501(c)(3) di Amerika Serikat.
+	
+\item Jelaskan fungsi-fungsi yang terdapat di library csv\\
+\begin{itemize}
+\item csv.reader\\
+	\verb|		|Berfungsi untuk membaca dan mengembalikan data kedalam variable dari file csv.	Fungsi 	reader dirancang untuk mengambil data pada setiap baris didalam file dan membuat daftar semua 	kolom. Kemudian, tinggal dipilih kolom mana yang diinginkan untuk data variabel.
+\lstinputlisting[firstline=12, lastline=24]{src/1174083/1174083_csv.py}
+
+\item csv.writer\\
+	\verb|		|Berfungsi untuk menuliskan data dari variable kedalam file csv. Fungsi writer akan membuat objek yang cocok untuk menulis. Untuk mengulang data yang ada di atas baris, gunakan fungsi writerow.
+\lstinputlisting[firstline=39, lastline=45]{src/1174083/1174083_csv.py}
+	
+\item csv.register\textunderscore dialect untuk Mendaftarkan dialect pada csv
+\item csv.unregister\textunderscore dialect untuk Menghapus dialect yang diasosiasi dengan nama dari registry dialect
+\item csv.list\textunderscore dialects untuk Mengembalikan dialect yang diasosiasi dengan nama
+\item csv.field\textunderscore size\textunderscore limit Mengembalikan ukuran field maksimum yang diizinkan oleh parser.
+\item csv.DictReader\\
+	\verb|		|Berfungsi untuk membaca dan mengembalikan data kedalam variable dictionary dari file csv.
+\lstinputlisting[firstline=26, lastline=37]{src/1174083/1174083_csv.py}
+\end{itemize}
+
+\item Jelaskan fungsi-fungsi yang terdapat di library pandas\\
+\begin{itemize}
+	\item pandas.read\textunderscore csv\\
+\verb|		|Berfungsi untuk membaca dan mengembalikan data kedalam format DataFrame dari file csv.
+\lstinputlisting[firstline=47, lastline=50]{src/1174083/1174083_csv.py}
+	\item to\textunderscore csv\\
+\verb|		|Berfungsi untuk mengedit data didalam csv dan menulisnya kedalam file csv
+\lstinputlisting[firstline=52, lastline=59]{src/1174083/1174083_csv.py}
+
+\end{itemize}
+
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
