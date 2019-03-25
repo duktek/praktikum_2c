@@ -383,4 +383,14 @@
 \contentsline {chapter}{\numberline {4}Pengelolaan File CSV}{297}% 
 \contentsline {section}{\numberline {4.1}D. Irga B. Naufal Fakhri}{297}% 
 \contentsline {subsection}{\numberline {4.1.1}Pemahaman Teori}{297}% 
-\contentsline {schapter}{Index}{301}% 
+\contentsline {section}{\numberline {4.2}Difa Al Fansha}{300}% 
+\contentsline {subsection}{\numberline {4.2.1}Teori}{300}% 
+\contentsline {section}{\numberline {4.3}Alvan Alvanzah|1174077}{302}% 
+\contentsline {subsection}{\numberline {4.3.1}Pemahaman Teori}{302}% 
+\contentsline {section}{\numberline {4.4}Arrizal Furqona Gifary}{304}% 
+\contentsline {section}{\numberline {4.5}Dini Permata Putri}{306}% 
+\contentsline {section}{\numberline {4.6}Ainul Filiani}{308}% 
+\contentsline {section}{\numberline {4.7}Sekar Jasmine KH}{312}% 
+\contentsline {section}{\numberline {4.8}Fanny Shafira Damayanti | 1174069}{313}% 
+\contentsline {subsection}{\numberline {4.8.1}Pemahaman Teori}{313}% 
+\contentsline {schapter}{Index}{317}% 
