@@ -1,4 +1,4 @@
-\section{D. Irga B. Naufal Fakhri}
+﻿\section{D. Irga B. Naufal Fakhri}
 \subsection{Pemahaman Teori}
 \begin{enumerate}
 \item CSV
@@ -254,3 +254,39 @@ library pandas penulisannya lebih sederhana dan terlihat lebih rapih dari pada l
     \par pandas menyediakan beragam fungsi operasi untuk mengolah data. Contoh jika menggunakan series bisa mencari nilai max, min, dan mean secara langsung, bahkan juga bisa melakukan operasi perpangkatan pada nilai Series secara langsung. Pandas dapat mengolah suatu data dan mengolahnya seperti join, distinct, group by, agregasi, dan teknik seperti pada SQL. Hanya saja dilakukan pada tabel yang dimuat dari file ke RAM.
 \end{enumerate}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Arrizal Furqona Gifary}
+\begin{enumerate}
+    \item Apa itu fungsi file csv, jelaskan sejarah dan contoh
+    File CSV (Nilai Terbatas Koma) adalah jenis file khusus yang dapat Anda buat atau edit di Excel. File CSV menyimpan informasi yang dipisahkan oleh koma, tidak menyimpan informasi dalam kolom. Ketika teks dan angka disimpan dalam file CSV, mudah untuk memindahkannya dari satu program ke program lainnya.
+    Dari rilis pertama, Excel menggunakan format file biner yang disebut Binary Interchange File Format (BIFF) sebagai format file utamanya. Ini berubah ketika Microsoft merilis Office System 2007 yang memperkenalkan Office Open XML sebagai format file utamanya. Office Open XML adalah file kontainer berbasis XML yang mirip dengan XML Spreadsheets (XMLSS), yang diperkenalkan di Excel 2002. File versi XML tidak bisa menyimpan makro VBA.
+    Meskipun mendukung format XML baru, Excel 2007 masih mendukung format lama yang masih berbasis BIFF tradisional. Selain itu Microsoft Excel juga mendukung format Comma Separated Values (CSV), DBase File (DBF), SYMbolic LinK (SYLK), Format Interchange Data (DIF) dan banyak format lainnya, termasuk format lembar kerja 1-2 Lotus - 3 (WKS, WK1, WK2, dll.) Dan Quattro Pro.
+    \item Aplikasi-aplikasi apa saja yang bisa menciptakan file csv
+    \begin{itemize}
+        \item Texteditor
+        Seperti notepad++,visual studio code,atom,sublime dan lain sebagainya
+        \item Program Spreadsheet
+        Seperti excell,google spreadshare,LibreOfficecalc
+    \end{itemize}
+    \item Jelaskan bagaimana cara menulis dan membaca file csv di excel atau spreadsheet
+    Untuk menulisnya untuk yang paling atas itu kita buat headernya,untuk mepermudah membedakan datanya,dan untuk baris kedua dan seterusnya itu untuk data itu sendiri.
+    dan setelah di buat kalian save as kemudian pilih format CSV.
+    dan untuk membukan cukup di double clik file tersebut
+    \item Jelaskan sejarah library csv
+    library csv dibuat untuk permudah mengolah data. Dan mempermudah untuk melakukan export dan import file csv itu sendiri
+    \item Jelaskan sejarah library pandas
+    library pandas dibuat agar bahasa pemograman python bisa bersaing R dan matlab, yang digunakan untuk mengolah banyak data , keperluan big data, data mining data science dan sebagainya.
+    \item Jelaskan fungsi-fungsi yang terdapat di library csv
+    Terdapat 2 fungsi yang bisa digunakan oleh library csv
+    Pertama,fungsi membaca file csv.
+    fungsi ini bisa menggunakan list dan dictionary
+    Dengan list :
+    \lstinputlisting[firstline=11, lastline=21]{src/1174070/1174070_csv.py}
+    Dengan dictionary :
+    \lstinputlisting[firstline=24, lastline=33]{src/1174070/1174070_csv.py}
+    Kedua,fungsi menulis file csv.
+    \lstinputlisting[firstline=36, lastline=40]{src/1174070/1174070_csv.py}
+    \item Jelaskan fungsi-fungsi yang terdapat di library pandas
+    Hampir sama dengan library csv,tp library pandas penulisannya lebih sederhana dan terlihat lebih rapih dari pada library csv.
+    \lstinputlisting[firstline=43, lastline=44]{src/1174070/1174070_csv.py}
+\end{enumerate}
