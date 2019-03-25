@@ -541,7 +541,13 @@ Anda mungkin ditanya Di mana Anda ingin meletakkan data? Klik pada sel kiri atas
 
 
 \item Sejarah Libary CSV
+Inisiatif standardisasi utama - mentransformasikan "definisi fuzzy de facto" menjadi definisi yang lebih tepat dan de jure - adalah pada tahun 2005, dengan RFC4180, mendefinisikan CSV sebagai Tipe Konten MIME. Kemudian, pada 2013, beberapa kekurangan RFC4180 ditangani oleh rekomendasi W3C.
 
+Pada 2014 IETF menerbitkan RFC7111 yang menjelaskan aplikasi fragmen URI pada dokumen CSV. RFC7111 menentukan bagaimana rentang baris, kolom, dan sel dapat dipilih dari dokumen CSV menggunakan indeks posisi.
+
+Pada 2015 W3C, dalam upaya untuk meningkatkan CSV dengan semantik formal, mempublikasikan draft rekomendasi pertama untuk standar metadata CSV, yang dimulai sebagai rekomendasi pada bulan Desember tahun yang sama.
+\item Sejarah Library Pandas\\
+Library pandas pertama kali muncul ketika ada R dan Matlab. R dan Matlab merupakan bahasa pemrograman yang berfokus pada data yang besar. 
 
 \item Sejarah Libarary Pandas
 
@@ -650,4 +656,87 @@ Fungsi Yang terdapat pada Pandas
 \lstinputlisting[firstline=55, lastline=134]{src/teoricsv1174086.py}
 
 
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Aulyardha Anindita | 1174054}
+
+\subsection{Pemahaman Teori}
+\begin{enumerate}
+\item Fungsi File CSV, Sejarah, dan Contoh
+
+CSV (Comma Separated Value) merupakan salah satu tipe file yang sering digunakan secara luas didalam dunia programming. CSV berfungsi dalam pengolahan informasi yang dihasilkan spreadsheet untuk diproses lebih lanjut menggunakan mesin analitik. CSV juga digunakan oleh berbagai database untuk proses backup data.
+
+Pada tahun 1972 CSV memberikan format data berupa tanggal lebih awal pada komputer pribadi lebih dari satu dekade : kompiler IBM Fortran dibawah OS /360 yang kemudian disetujui pada tahun 1978. CSV pertama kali digunakan pada tahun 1983. CSV lebih mudah untuk diketik daripada data yang selaras dengan kolom tetap dan cenderung menghasilkan hasil yang salah jika suatu nilai ditinjau satu kolom dari lokasi yang dituju. pada tahun 2014 IETF menerbitkan RFC7111 yang menjelaskan fragmen URI pada dokumen CSV. RFC7111 menentukan bagaimana rentang baris, kolom, dan sel dapat dipilih dari dokumen CSV menggunakan indeks posisi. dan pada tahun 2015 W3C dalam upaya meningkatkan CSV dengan semantik formal mempublikasikan draft rekomendasi pertama untuk standar metadata CSV yang dimulai sebagao rekomendasi pada bulan desember di tahun yang sama.
+
+Contoh CSV :\\
+\lstinputlisting[caption=Contoh Penggunaan CSV., firstline=7, lastline=28]{src/1174054/contohcsv.py}
+
+\item Aplikasi Yang Menciptakan File CSV
+
+a. Microsoft Excel\\
+b. Python (Spyder)\\
+c. Apple Numbers\\
+d. LibrareOffice\\
+e. Apple Office Calc\\
+f. Apache Open Office Calc.
+
+\item Cara Menulis dan Membaca File CSV di Excel
+
+a. Cara Menulis File CSV
+\begin{itemize}
+\item Downloadlah terlebih dahulu Template CSV.
+\item Kemudian Buka file spreadsheet Anda di Excel. 
+\item Selanjutnya, Buat dokumen baru di Excel.
+\item Tambahkan judul kolom, lalu ketikkan informasi dalam kolom tersebut
+\item Klik File lalu pilih Save As 
+\item Masukkan nama file, lalu pilih CSV (Comma delimited) (* csv) dari drop-down Save as type .
+\end{itemize}
+
+b. Cara Membaca File CSV 
+\begin{itemize}
+\item Pertama, buka microsoft excelnya
+\item Kemudian buka spreadsheet
+\item Selanjutnya, pilihlah tab Data
+\item Kemudian pilih opsi dari teks. (Jika opsi berwarna abu-abu, Anda mungkin perlu membuka spreadsheet / workbook baru).
+\item Cari dan pilih file .csv yang telah Anda unduh dari Kotive. Klik pada file dan kemudian klik Impor.
+Panduan impor Teks akan terbuka. Pastikan opsi Dibatasi dipilih.
+\item Klik tombol Berikutnya. Pilih Koma di bawah Pembatas. Kualifikasi Teks harus menunjukkan “(tanda kutip ganda).
+\item Klik tombol Selesai.
+Anda mungkin ditanya Di mana Anda ingin meletakkan data? Klik pada sel kiri atas. Klik tombol OK.
+\item Excel menampilkan data di buku kerja Anda
+\end{itemize}
+
+\item Sejarah Library CSV\\
+Inisiatif standardisasi utama - mentransformasikan "definisi fuzzy de facto" menjadi definisi yang lebih tepat dan de jure - adalah pada tahun 2005, dengan RFC4180, mendefinisikan CSV sebagai Tipe Konten MIME. Kemudian, pada 2013, beberapa kekurangan RFC4180 ditangani oleh rekomendasi W3C.
+
+Pada 2014 IETF menerbitkan RFC7111 yang menjelaskan aplikasi fragmen URI pada dokumen CSV. RFC7111 menentukan bagaimana rentang baris, kolom, dan sel dapat dipilih dari dokumen CSV menggunakan indeks posisi.
+
+Pada 2015 W3C, dalam upaya untuk meningkatkan CSV dengan semantik formal, mempublikasikan draft rekomendasi pertama untuk standar metadata CSV, yang dimulai sebagai rekomendasi pada bulan Desember tahun yang sama.
+\item Sejarah Library Pandas\\
+Library pandas pertama kali muncul ketika ada R dan Matlab. R dan Matlab merupakan bahasa pemrograman yang berfokus pada data yang besar. 
+
+Pengembang Library Pandas adalah Wes McKinney. Dia mulai mengerjakan pandas pada tahun 2008 ketika di AQR Capital Management karena kebutuhan akan alat kinerja tinggi yang fleksibel untuk melakukan suatu analisis kuantitatif pada data keuangan. Pegawai AQR lainnya adalah Chang She bergabung pada tahun 2012 sebagai kontributor utama kedua ke perpustakaan. Dan pada tahun 2015 pandas menandatangani sebagai proyek NumFOCUS yang disponsori secara fiskal, yang merupakan badan amal nirlaba 501 (c) (3) di Amerika Serikat.
+
+\item Fungsi-fungsi Yang Terdapat di Library CSV
+\begin{itemize}
+\item reader() berfungsi untuk membaca data oleh module CSV
+\item write() berfungsi untuk menulis isi data
+\item writerows() berfungsi untuk menambahkan baris baru pada file
+\end{itemize}
+
+\item Fungsi-fungsi Yang Terdapat di Library Pandas
+\begin{itemize}
+\item DataFrame, Object untuk manipulasi data dengan pengindeksan terintegrasi.
+\item Alat untuk membaca dan menulis data antara struktur data dalam memori dan berbagai format file.
+\item Penyelarasan data dan penanganan terpadu pada kehilangan data.
+\item Membentuk kembali dan memutar set data.
+\item Seleksi berbasis label, pengindeksan fantastis, dan melakukan subset kumpulan data besar.
+\item Penyisipan dan penghapusan kolom struktur data.
+\item Memungkinkan operasi split-apply-combine pada Data set.
+\item Menghubungkan dan menggabungkan Data set.
+\item Pengindeksan hierarki untuk bekerja dengan data dimensi tinggi dalam struktur data dimensi rendah.
+\item Fungsionalitas seri waktu: Pembuatan rentang tanggal dan konversi frekuensi.
+\item Menyediakan penyaringan data (sorting dan filtering).
+\end{itemize}
 \end{enumerate}
