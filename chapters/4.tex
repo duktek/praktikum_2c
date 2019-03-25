@@ -1,4 +1,4 @@
-\section{D. Irga B. Naufal Fakhri}
+﻿\section{D. Irga B. Naufal Fakhri}
 \subsection{Pemahaman Teori}
 \begin{enumerate}
 \item CSV
@@ -884,5 +884,92 @@ menjadi sebuah object data yang terdiri dari baris dan kolom yang disebut dengan
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Ilham Muhammad Ariq D4TI2C 1174087}
+\subsection{Pemahaman Teori}
+\begin{enumerate}
+    \item Apa itu fungsi file csv, jelaskan sejarah dan contoh
+	
+	\begin{itemize}
+	\item Sejarah dan Fungsi
+	\end{itemize}
+	\par Comma Separated Values (CSV) adalah format data yang memberi tanggal lebih awal pada komputer pribadi lebih dari satu dekade: kompiler IBM Fortran (level H extended) di bawah OS / 360 mendukungnya pada tahun 1972. Input / output daftar-diarahkan ("bentuk bebas") didefinisikan dalam FORTRAN 77, disetujui pada tahun 1978. Input yang diarahkan daftar menggunakan koma atau spasi untuk pembatas, sehingga string karakter yang tidak dikutip tidak dapat mengandung koma atau spasi.
+	
+	\par Daftar nilai yang dipisahkan dengan koma lebih mudah untuk diketik (misalnya ke dalam kartu berlubang) daripada data yang selaras dengan kolom tetap, dan cenderung menghasilkan hasil yang salah jika suatu nilai ditinju satu kolom dari lokasi yang dituju.
+	
+	\par File CSV digunakan untuk pertukaran informasi basis data antara mesin dari dua arsitektur yang berbeda. Karakter teks-polos dari file CSV sebagian besar menghindari ketidakcocokan seperti urutan byte dan ukuran kata. File-file ini sebagian besar dapat dibaca oleh manusia, sehingga lebih mudah untuk mengatasinya tanpa adanya dokumentasi atau komunikasi yang sempurna.
+	
+	\par Inisiatif standardisasi utama - mentransformasikan "definisi fuzzy de facto" menjadi definisi yang lebih tepat dan de jure - adalah pada tahun 2005, dengan RFC4180, mendefinisikan CSV sebagai Tipe Konten MIME. Kemudian, pada 2013, beberapa kekurangan RFC4180 ditangani oleh rekomendasi W3C. 
+	
+	\par Pada 2014 IETF menerbitkan RFC7111 yang menjelaskan aplikasi fragmen URI pada dokumen CSV. RFC7111 menentukan bagaimana rentang baris, kolom, dan sel dapat dipilih dari dokumen CSV menggunakan indeks posisi.
+
+	\par Pada 2015 W3C, dalam upaya untuk meningkatkan CSV dengan semantik formal, mempublikasikan draft rekomendasi pertama untuk standar metadata CSV, yang dimulai sebagai rekomendasi pada bulan Desember tahun yang sama. 
+		      
+    \item Aplikasi-aplikasi apa saja yang bisa menciptakan file csv?
+   	beberapa aplikasi yang dapat menciptakan file dengan format csv antara lain 
+   	\begin{itemize}
+   	\item Microsoft Office  
+   	\item Notepad 
+   	\item UltraEdit
+   	\item MySql
+   	\item Oracle  			
+   	\item OpenOffice
+   	\item Spyder, dll
+   	\end{itemize}
+   
+	\item Jelaskan bagaimana cara menulis dan membaca file csv di excel atau spreadsheet
+		\begin{enumerate}
+		\item Cara menulis	 
+        \begin{itemize}
+        \item Buat dokumen baru di Excel.
+        \item Tambahkan judul kolom untuk setiap potongan informasi yang ingin dicatat (misalnya nama depan, nama belakang, alamat email, nomor telepon, dan ulang tahun), lalu ketikkan informasi dalam kolom yang sesuai.
+        \item Setelah selesai, Pilih File lalu Simpan Sebagai.
+        \item Gunakan kotak menurun untuk memilih CSV (Berbatas koma) (.csv), beri nama pada file, lalu pilih Simpan.
+   	    \end{itemize}
+        \item Cara membaca
+        \begin{itemize}
+        \item Buka MS Excel Anda.
+        \item Klik Data lalu Get External Data lalu From Text.
+        \item Akan muncul Text Import Wizard, arahkan pada file csv yang ingin anda buka lalu Open.
+        \item Setelah File terbuka, akan muncul Text Import Wizard Step 1 lalu Pilih Delimited, Kemudian Next (Di sini, bisa juga menentukan baris awal yang akan di import), Step 2 lalu Centang pada Tab dan Comma (Atau sesuai pengaturan File Anda) lalu Next, Step 3 lalu Atur Format data pada tiap kolom yang tampil dan klik Finish.
+        \item File anda sudah tertata rapi dan dapat di baca dengan mudah melalui MS Excel 2007
+    \end{itemize}	
+	\end{enumerate}
+	
+	\item Jelaskan sejarah library csv
+	
+	CSV muncul untuk memudahkan data science dan analis karena dinilai terdapat banyak kemudahan yang didapat. CSV dapat dimaksimalkan jika dipaduka dengan python karena python adalah bahasa pemrograman yang support ke banyak library termasuk csv. Maka karena itulah perpaduan python dan csv seringkali digunakan oleh perusahaan-perushaan besar dalam mengolah datanya.
+	
+	\item Jelaskan sejarah library pandas
+
+	Pandas merupakan toolkit yang powerfull sebagai alat analisis data dan struktur untuk bahasa pemrograman Python. Dengan menggunakan pandas kita dapat mengolah data dengan mudah, salah satu fiturnya adalah Dataframe. Dengan adanya fitur dataframe kita dapat membaca sebuah file dan menjadikannya tabble, kita juga dapat mengolah suatu data dengan menggunakan operasi seperti join, distinct, group by, agregasi, dan teknik lainnya yang terdapat pada SQL. Banyak format file yang dapat dibaca menggunakan Pandas, seperti file .txt, .csv, .tsv dan lainnya. Agar lebih jelas mari kita mencobanya secara langsung.
+	
+	\item Jelaskan fungsi-fungsi yang terdapat di library csv
+	ada 2 fungsi pada csv :
+	\begin{enumerate}
+	\item Fungsi membaca library csv
+		
+	\lstinputlisting[firstline=8, lastline=20]{src/1174087/1174087_csv.py}
+		
+	\item Fungsi menulis library csv
+		
+	\lstinputlisting[firstline=8, lastline=14]{src/1174087/1174087_csv1.py}
+	\end{enumerate}
+
+	\item Jelaskan fungsi-fungsi yang terdapat di library pandas
+			ada 2 fungsi pada pandas :
+	\begin{enumerate}
+	\item Fungsi membaca library pandas
+		
+	\lstinputlisting[firstline=8, lastline=10]{src/1174087/1174087_csv2.py}
+		
+	\item Fungsi menulis library pandas
+		
+	\lstinputlisting[firstline=8, lastline=13]{src/1174087/1174087_csv3.py}
+	\end{enumerate}
+		
+\end{enumerate}   
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 

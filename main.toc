@@ -402,4 +402,6 @@
 \contentsline {subsection}{\numberline {4.12.1}Pemahaman Teori}{326}% 
 \contentsline {paragraph}{}{326}% 
 \contentsline {paragraph}{}{327}% 
-\contentsline {schapter}{Index}{331}% 
+\contentsline {section}{\numberline {4.13}Ilham Muhammad Ariq D4TI2C 1174087}{329}% 
+\contentsline {subsection}{\numberline {4.13.1}Pemahaman Teori}{329}% 
+\contentsline {schapter}{Index}{333}% 
