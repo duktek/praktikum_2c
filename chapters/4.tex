@@ -1094,3 +1094,46 @@ Library pandas penulisannya lebih sederhana dan terlihat lebih rapih dari pada l
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Muhammad Reza Syachrani / 1174084}
+\subsection{Pemahaman Teori}
+\begin{enumerate}
+    \item CSV adalah Comma Separated Values suatu format data dalam basis data di mana setiap record dipisahkan dengan tanda koma (,) atau titik koma (;). Selain sederhana, format ini dapat dibuka dengan berbagai text-editor seperti Notepad, Wordpad, bahkan MS Excel.
+    \par File CSV (Nilai Berbatas Koma) adalah tipe file khusus yang dapat Anda buat atau edit di Excel. File CSV menyimpan informasi yang dipisahkan oleh koma, bukan menyimpan informasi dalam kolom. Saat teks dan angka disimpan dalam file CSV, mudah untuk memindahkannya dari satu program ke program lain. Misalnya, Anda dapat mengekspor kontak dari Google ke dalam file CSV, kemudian mengimpornya ke Outlook.
+    \item Aplikasi-aplikasi yang bisa menciptakan file CSV antara lain adalah notepad++, visual studio code, atom, sublime, excell, google spreadshare, dan LibreOfficecalc.
+    \item Cara menulis file csv di excel atau spreadsheet
+    \begin{enumerate}
+        \item Buat dokumen baru di Excel.
+        \item Tambahkan judul kolom untuk setiap potongan informasi yang ingin dicatat (misalnya nama depan, nama belakang, alamat email, nomor telepon, dan ulang tahun), lalu ketikkan informasi dalam kolom yang sesuai.
+        \item Setelah selesai, Pilih File > Simpan Sebagai.
+        \item Gunakan kotak menurun untuk memilih CSV (Berbatas koma) (*.csv), beri nama pada file, lalu pilih Simpan
+    \end{enumerate}
+    \par Sedangkan cara membaca file csv di excel atau spreadsheet
+    \begin{enumerate}
+        \item klik data - get external data - form text
+        \item Text Import Wizard, arahkan pada file csv lalu Open
+        \item Setelah File terbuka, akan muncul Text Import Wizard.
+        \item Pilih Delimited, Kemudian Next (Di sini, bisa juga menentukan baris awal yang akan di import)
+        \item Centrang pada Tab dan Comma (Atau sesuai pengaturan File Anda) lalu Next.
+        \item Atur Format data pada tiap kolom yang tampil dan klik Finish
+    \end{enumerate}
+    \item Sejarah Library CSV  dibuat untuk mepermudah mengolah data dan mempermudah untuk melakukan export dan import file CSV.
+    \item Sejarah library pandas dibuat untuk bahasa pemograman python agar bisa bersaing dengan  R dan matlab, yang digunakan untuk mengolah banyak data , keperluan big data, data mining, dan data science.
+    \item fungsi-fungsi yang terdapat di library CSV
+    \begin{itemize}
+        \item Reading CSV
+        \par csv.reader digunakan untuk Membaca dari file CSV dilakukan menggunakan objek pembaca. File CSV dibuka sebagai file teks dengan fungsi open () built-in Python, yang mengembalikan objek file.
+        \item Writing CSV
+        \par csv.writer digunakan untuk dapat menulis ke file CSV.
+    \end{itemize}
+    \item fungsi-fungsi yang terdapat di library pandas
+    \begin{itemize}
+        \item Reading CSV
+        \par pandas.read\_csv digunakan untuk membuka, menganalisis, dan membaca file CSV yang disediakan, dan menyimpan data dalam DataFrame.
+        \item Writing CSV
+        \par  Menulis DataFrame ke file CSV semudah membaca. contoh membuat variabel df yang menggunakan pandas.read\_csv setelah itu menambahkan fungsi to\_csv () pada varibel df untuk memberikan nama file.
+    \end{itemize}
+    
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
