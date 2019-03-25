@@ -1,0 +1,87 @@
+\section{D. Irga B. Naufal Fakhri}
+\subsection{Pemahaman Teori}
+\begin{enumerate}
+\item CSV
+
+CSV (Comma Separated Values file) adalah sebuah tipe file text biasa yang memiliki penataan khusus yang biasanya berfungsi untuk mengelola data. sesuai dengan namanya file csv memisahkan setiap data menggunakan koma (,).
+
+Format data CSV pertama kali digunakan pada tahun 1978 pada complier FORTRAN 77, kemudian nama CSV baru muncul dan mulai digunakan pada tahun 1983 
+
+Contoh data pada csv:
+\lstinputlisting[firstline=0, lastline=2]{src/1174066.csv}
+
+\item Aplikasi yang bisa menciptakan CSV
+
+Semua aplikasi teks editor seperti notepad++, vscode, sublime ataupun notepad dapat menciptakan CSV termasuk aplikasi spreadsheet seperti Microsoft Excel, Libre Office 
+
+\item Jelaskan bagaimana cara menulis dan membaca file csv di Excel atau spreadsheet
+
+\begin{itemize}
+	\item Buka Microsoft Excel 2019-nya lalu buat dokumen baru
+	\item Isikan data sesuai dengan kebutuhan, yang paling atas akan menjadi header dari file csv
+	\item Setelah memasukkan data, klik file lalu klik Save As
+	\item Pilih Browse dan pilih tempat menyimpannya akan dimana
+	\item Masukkan nama file pada File Name
+	\item Lalu pada Save As Type pilih CSV (comma delimited) (*.csv)
+	\item Maka hasil file akan seperti ini
+	\lstinputlisting[firstline=0, lastline=2]{src/1174066.csv}
+\end{itemize}
+
+\item Jelaskan sejarah library csv
+
+Module csv mengimplementasikan kelas untuk membaca dan menulis data kedalam format CSV. Hal ini memungkinkan programmer untuk "tulis data ini dalam format yang disukai oleh Excel," atau "baca data dari file yang dihasilkan oleh Excel," tanpa mengetahui detail yang tepat dari format CSV yang digunakan oleh Excel. Pemrogram juga dapat menggambarkan format CSV yang dipahami oleh aplikasi lain atau menentukan format CSV tujuan khusus untuk mereka sendiri.
+
+\item Jelaskan sejarah library pandas
+
+pandas adalah sebuah library open source dan berlisensi BSD yang menyediakan performa yang tinggi, mudah digunakan struktur data dan data analisis untuk python.
+
+\item Jelaskan fungsi-fungsi yang terdapat di library csv
+\begin{itemize}
+	\item csv.reader
+	
+	Berfungsi untuk membaca dan mengembalikan data kedalam variable dari file csv.
+	Fungsi reader dirancang untuk mengambil data pada setiap baris didalam file dan membuat daftar semua kolom. Kemudian, tinggal dipilih kolom mana yang diinginkan untuk data variabel.
+	\lstinputlisting[firstline=10, lastline=22]{src/1174066_csv.py}
+	
+	\item csv.writer
+	
+	Berfungsi untuk menuliskan data dari variable kedalam file csv.
+	Fungsi writer akan membuat objek yang cocok untuk menulis. Untuk mengulang data yang ada di atas baris, gunakan fungsi writerow.
+	\lstinputlisting[firstline=37, lastline=43]{src/1174066_csv.py}
+	
+	\item csv.register\textunderscore dialect
+	
+	Mendaftarkan dialect pada csv
+	\item csv.unregister\textunderscore dialect
+	
+	Menghapus dialect yang diasosiasi dengan nama dari registry dialect
+	
+	\item csv.list\textunderscore dialects
+	
+	Mengembalikan dialect yang diasosiasi dengan nama
+	
+	\item csv.field\textunderscore size\textunderscore limit
+	
+	Mengembalikan ukuran field maksimum yang diizinkan oleh parser.
+	
+	\item csv.DictReader
+	
+	Berfungsi untuk membaca dan mengembalikan data kedalam variable dictionary dari file csv.
+	\lstinputlisting[firstline=24, lastline=35]{src/1174066_csv.py}
+	
+\end{itemize}
+
+\item Jelaskan fungsi-fungsi yang terdapat di library pandas
+\begin{itemize}
+	\item pandas.read\textunderscore csv
+	
+	Berfungsi untuk membaca dan mengembalikan data kedalam format DataFrame dari file csv.
+	\lstinputlisting[firstline=45, lastline=48]{src/1174066_csv.py}
+	
+	\item to\textunderscore csv
+	
+	Berfungsi untuk mengedit data didalam csv dan menulisnya kedalam file csv
+	\lstinputlisting[firstline=50, lastline=57]{src/1174066_csv.py}
+\end{itemize}
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
