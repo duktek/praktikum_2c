@@ -483,3 +483,102 @@ jika kita membuat sebuah file di excel dan menyimpan dalam format CSV , maka fil
 dapat mengolah suatu data dan mengolahnya seperti join , distinct , group by , agregasi dan teknik seperti pada SQL.\\
 
 pandas juga dapat membaca file dari berbagai format seperti txt , csv , tsv dan lainnya. Anggap saja pandas adalah spreadsheet namun tidak memiliki GUI dan punya filtur SQl.\\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Fanny Shafira Damayanti | 1174069}
+\subsection{Pemahaman Teori}
+\begin{enumerate}
+\item Fungsi CSV, sejarah dan contoh
+
+CSV (comma separated value) digunakan pada tahun 1983 merupakan suatu tipe file yang digunakan untuk pengolahan informasi yang dihasilkan spreadsheet yang di proses melalui mesin analitik. CSV juga digunakan sebagai file yang agnostik karena bisa digunakan olej berbagai database untuk backup data.
+
+Contoh :
+
+\lstinputlisting[caption=Contoh Penggunaan CSV., firstline=7, lastline=28]{src/1174069/1174069_csv.py}
+
+\item Aplikasi untuk membuat file CSV
+
+\begin{itemize}
+\item Microsoft Excel
+\item Spyder
+\item Apple Number
+\item LibrareOffice
+\item Apple Office Calc
+\item Apache Open Office Calc
+
+\end{itemize}
+
+\item Cara menulis dan membaca file .csv di Excel atau Spreadsheet
+
+Cara menulis :
+
+Buka Ms. Excel, lalu buat file nya, ketika akan di save ganti jenis filenya menjadi .csv
+\begin{itemize}
+\item Download Template CSV.
+\item Buka file spreadsheet Anda di Excel. 
+\item Buat dokumen baru di Excel.
+\item Tambahkan judul kolom, lalu ketikkan informasi dalam kolom tersebut
+\item Klik File , dan pilih Save As 
+\item Masukkan nama file, lalu pilih CSV (Comma delimited) (* csv) dari drop-down Save as type .
+\end{itemize}
+
+
+Cara membaca :
+
+\begin{itemize}
+\item Buka Microsoft Excel.
+\item Mulai / buka spreadsheet 
+\item Pilih tab Data 
+\item Pilih opsi Dari Teks. (Jika opsi berwarna abu-abu, Anda \item mungkin perlu membuka spreadsheet / workbook baru).
+\item Temukan dan pilih file .csv yang telah Anda unduh dari \item Kotive. Klik pada file dan kemudian klik Impor.
+\item Panduan impor Teks akan terbuka. Pastikan opsi Dibatasi  dipilih. Klik tombol Berikutnya.
+\item Pilih Koma di bawah Pembatas. Kualifikasi Teks harus menunjukkan “(tanda kutip ganda). Klik tombol Selesai.
+Anda mungkin ditanya Di mana Anda ingin meletakkan data? Klik pada sel kiri atas. Klik tombol OK.
+\item Excel menampilkan data di buku kerja Anda
+\end{itemize}
+
+
+
+\item Sejarah Libary CSV
+
+
+\item Sejarah Libarary Pandas
+
+Pandas muncul ketika ada bahasa pemrograman R dan Matlab.
+Pengembang Wes McKinney mulai mengerjakan pandas pada 2008 ketika di AQR Capital Management karena kebutuhan akan alat kinerja tinggi yang fleksibel untuk melakukan analisis kuantitatif pada data keuangan. Sebelum meninggalkan AQR, dia bisa meyakinkan manajemen untuk mengizinkannya membuka sumber perpustakaan.
+
+Pegawai AQR lainnya, Chang She, bergabung dengan upaya ini pada 2012 sebagai kontributor utama kedua ke perpustakaan.
+
+Pada 2015, panda menandatangani sebagai proyek NumFOCUS yang disponsori secara fiskal, sebuah badan amal nirlaba 501 (c) (3) di Amerika Serikat.
+
+\item Fungsi yang terdapat pada Library CSV
+
+\begin{itemize}
+\item csv.reader berfungsi untuk membaca modul csv.
+\item csv.writer berfungsi untuk menulis modul csv.
+\item csv.writerows berfungsi untuk menambahkan baris baru.
+\end{itemize}
+
+\item Fungsi yag terdapat pada Libarary Pandas
+
+Dengan panda kita dapat dengan mudah merubah data (CSV, excel, JSON atau SQL) menjadi sebuah object data yang terdiri dari baris dan kolom yang disebut dengan DataFrame.
+Fitur :
+
+\begin{itemize}
+
+\item DataFrame Object untuk manipulasi data dengan pengindeksan terintegrasi.
+\item Alat untuk membaca dan menulis data antara struktur data dalam memori dan berbagai format file.
+\item Penyelarasan data dan penanganan terpadu pada kehilangan data.
+\item Membentuk kembali dan memutar set data.
+\item Seleksi berbasis label, pengindeksan fantastis, dan melakukan subset kumpulan data besar.
+\item Penyisipan dan penghapusan kolom struktur data.
+\item Memungkinkan operasi split-apply-combine pada Data set.
+\item Menghubugkan dan menggabungkan Data set.
+\item Pengindeksan hierarki untuk bekerja dengan data dimensi tinggi dalam struktur data dimensi rendah.
+\item Fungsionalitas seri waktu: Pembuatan rentang tanggal dan konversi frekuensi.
+\item Menyediakan penyaringan data (sorting dan filtering).
+\end{itemize}
+
+
+\end{enumerate}
