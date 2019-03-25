@@ -1,4 +1,4 @@
-﻿\section{D. Irga B. Naufal Fakhri}
+\section{D. Irga B. Naufal Fakhri}
 \subsection{Pemahaman Teori}
 \begin{enumerate}
 \item CSV
@@ -973,3 +973,124 @@ menjadi sebuah object data yang terdiri dari baris dan kolom yang disebut dengan
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
+\section{Muhammad Abdul Gani Wijaya}
+\subsection{Teori CSV}
+\begin{enumerate}
+\item Apa fungsi file csv? Jelaskan sejarah dan contoh !\\
+Jawaban :
+
+\begin{itemize}
+\item Fungsi File CSV
+\end{itemize}
+
+Comma Separated Value atau CSV adalah format data yang memudahkan penggunanya melakukan penginputan data ke database secara sederhana. CSV bisa digunakan dalam standar file ASCII, di mana setiap record dipisahkan dengan tanda koma atau titik koma.
+
+\begin{itemize}
+\item Sejarah CSV
+\end{itemize}
+
+Dari rilis pertama, Excel menggunakan format file biner yang disebut Binary Interchange File Format (BIFF) sebagai format file utamanya. Ini berubah ketika Microsoft merilis Office System 2007 yang memperkenalkan Office Open XML sebagai format file utamanya. Office Open XML adalah file kontainer berbasis XML yang mirip dengan XML Spreadsheets (XMLSS), yang diperkenalkan di Excel 2002. File versi XML tidak bisa menyimpan makro VBA.
+
+Meskipun mendukung format XML baru, Excel 2007 masih mendukung format lama yang masih berbasis BIFF tradisional. Selain itu Microsoft Excel juga mendukung format Comma Separated Values (CSV), DBase File (DBF), SYMbolic LinK (SYLK), Format Interchange Data (DIF) dan banyak format lainnya, termasuk format lembar kerja 1-2 Lotus - 3 (WKS, WK1, WK2, dll.) Dan Quattro Pro.
+
+
+\begin{itemize}
+\item Contoh File CSV
+\begin{verbatim}
+Nama,Umur, Alamat
+Muhammad Abdul Gani Wijaya, 19 Tahun, Jl. Isekai
+\end{verbatim}
+\end{itemize}
+
+
+\item Aplikasi apa aja yang dapat membuat file csv\\
+Jawaban :
+
+\begin{itemize}
+\item Microsoft Excel
+\item Google Spreadsheet
+\item Notepad ++
+\item Text Editor lainnya
+\end{itemize}
+
+\item  Bagaimana ara menulis dan membaca file csv di excel atau spreadsheet\\
+Jawaban :
+
+\begin{itemize}
+\item Cara Menulis file csv
+\end{itemize}
+Berikut adalah kode untuk menulis file CSV dengan menggunakan built-in module csv yang dimiliki Python
+
+\begin{verbatim}
+import csv
+
+siswa = [
+    ('Shinmei', 'A', 95),
+    ('Da Lopez', 'B', 90),
+    ('Nurhadi', 'A', 80),
+    ('Captain Marvel', 'B', 90),
+    ('Thanos', 'C', 70)
+]
+
+# tentukan lokasi file, nama file, dan inisialisasi csv
+f = open('siswa.csv', 'w')
+w = csv.writer(f)
+w.writerow(('Nama','Kelas','Nilai'))
+
+# menulis file csv
+for s in siswa:
+    w.writerow(s)
+
+# menutup file csv
+f.close()
+\end{verbatim}
+
+
+\item Sejarah library csv\\
+Jawaban :\\
+ library pandas dibuat agar bahasa pemograman python bisa bersaing R dan matlab, yang digunakan untuk mengolah banyak data , keperluan big data, data mining data science dan sebagainya.
+
+\item Sejarah library pandas\\
+Jawaban :\\
+Library csv dibuat untuk permudah mengolah data. Dan mempermudah untuk melakukan export dan import file csv itu sendiri
+
+
+\item Jelaskan  fungsi-fungsi yang terdapat di library csv\\
+Jawaban :\\
+Terdapat 2 fungsi dari library csv, yaitu :
+
+\begin{itemize}
+\item Cara membaca file
+\end{itemize}
+import csv
+
+tentukan lokasi file, nama file, dan inisialisasi csv
+f = open('siswa.csv', 'r')
+reader = csv.reader(f)
+
+membaca baris per baris
+for row in reader:
+    print row
+
+menutup file csv
+f.close()
+
+\begin{itemize}
+\item Cara menulis file
+\end{itemize}
+Nama,Kelas,Nilai
+arslan,A,90
+bayu,B,85
+niko,A,80
+abdul,B,90
+dahlan,C,70
+
+\item Jelaskan  fungsi-fungsi yang terdapat di library pandas\\
+Jawaban :\\
+Library pandas penulisannya lebih sederhana dan terlihat lebih rapih dari pada library csv.
+
+
+\end{enumerate}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
