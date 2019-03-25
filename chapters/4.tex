@@ -338,3 +338,94 @@ jawab : Jika kita membuat sebuah file di Excel dan menyimpannya dalam format CSV
 jawab : dapat mengolah suatu data dan mengolahnya seperti join, distinct, group by, agregasi, dan teknik seperti pada SQL. Hanya saja dilakukan pada tabel yang dimuat dari file ke RAM.\\
 
 Pandas juga dapat membaca file dari berbagai format seperti .txt, .csv, .tsv, dan lainnya. Anggap saja Pandas adalah spreadsheet namun tidak memiliki GUI dan punya fitur seperti SQL.\\
+
+\section{Ainul Filiani}
+\begin{enumerate}
+
+
+\item Apa itu fungsi file CSV Jelaskan dan berikan contohnya ?
+
+Format CSV adalah format yang digunakan dalam standar file ASCII. Format ini juga menggunakan tanda koma (,) sebagai pemisah antara satu elemen dengan elemen yang lainnya.
+Keuntungan dan fungsi menyimpan data dalam bentuk CSV
+Format file CSV mempunyai  tingkat kompabilitas yang clumayan tinggi, karena hampir semua program pengolahan data sudah mendukung format CSV, seperti Microsoft Office, Notepad, UltraEdit, MySql, Oracle, OpenOffice, vim, dll. dikarena kompabillitas yang tinggi ini, seringkali format CSV dijadikan standar dalam pengolahan data
+
+Sejarah CSV ?
+
+CSV adalah format data yang memberi tanggal lebih awal pada komputer pribadi lebih dari satu dekade: kompiler IBM Fortran (level H extended) di bawah OS / 360 mendukungnya pada tahun 1972. Input / output daftar-diarahkan ("bentuk bebas") didefinisikan dalam FORTRAN 77, disetujui pada tahun 1978. Input yang diarahkan daftar menggunakan koma atau spasi untuk pembatas, sehingga string karakter yang tidak dikutip tidak dapat mengandung koma atau spasi. 
+Nama "Comma Separated Value” dan disingkat "CSV" digunakan pada tahun 1983.  Manual untuk komputer Osborne Executive, yang membundel spreadsheet SuperCalc, mendokumentasikan konvensi kutipan CSV yang memungkinkan string mengandung koma yang disematkan, tetapi manual tersebut tidak menentukan konvensi untuk menanamkan tanda kutip dalam string yang dikutip.
+Daftar nilai yang dipisahkan dengan koma lebih mudah untuk diketik (misalnya ke dalam kartu berlubang) daripada data yang selaras dengan kolom tetap, dan cenderung menghasilkan hasil yang salah jika suatu nilai ditinju satu kolom dari lokasi yang dituju.
+File yang dipisahkan koma digunakan untuk pertukaran informasi basis data antara mesin dari dua arsitektur yang berbeda. Karakter teks-polos dari file CSV sebagian besar menghindari ketidak cocokan seperti urutan byte dan ukuran kata. File-file ini sebagian besar dapat dibaca oleh manusia, sehingga lebih mudah untuk mengatasinya tanpa adanya dokumentasi atau komunikasi yang sempurna.
+Inisiatif standardisasi utama - mentransformasikan "definisi fuzzy de facto" menjadi definisi yang lebih tepat dan de jure - adalah pada tahun 2005, dengan RFC4180, mendefinisikan CSV sebagai Tipe Konten MIME. Kemudian, pada 2013, beberapa kekurangan RFC4180 ditangani oleh rekomendasi W3C. 
+Pada 2014 IETF menerbitkan RFC7111 yang menjelaskan aplikasi fragmen URI pada dokumen CSV. RFC7111 menentukan bagaimana rentang baris, kolom, dan sel dapat dipilih dari dokumen CSV menggunakan indeks posisi.
+Pada 2015 W3C, dalam upaya untuk meningkatkan CSV dengan semantik formal, mempublikasikan draft rekomendasi pertama untuk standar metadata CSV, yang dimulai sebagai rekomendasi pada bulan Desember tahun yang sama.
+
+Contoh penulisan :
+
+“Setsuna”,”Gundam00”,”20”
+
+“Lockon”,”Cherudim”,”25”
+
+“Allelujah”,”Arios”,”23”
+
+“Tieria”,”Seravee”,”22”
+
+\item Aplikasi-aplikasi apa saja yang bisa menciptakan file CSV ?
+
+seperti Microsoft Office, Notepad, UltraEdit, MySql, Oracle, OpenOffice, vim, dll. dikarena kompabillitas yang tinggi ini, seringkali format CSV dijadikan standar dalam pengolahan data
+
+\item Jelaskan bagaimana cara menulis dan membaca file CSV di excel atau spreadsheet?
+	\begin{enumerate}
+	\item Silakan download file template csv terlebih dulu
+	\item Setelah itu, kita buka browser, lalu buka Google Sheet.
+	\item Pada halaman seperti berikut ini klik tombol yang berwarna merah di pojok kanan bawah (lihat gambar)
+	\item Setelah itu  akan diarahkan menuju ke halaman Google Sheet. Pada halaman ini klik menu File > Open dan akan muncul pop up Open a File dan pilih tab Upload seperti berikut ini.
+	\item Pada pop up di atas klik tombol Select a file from your computer dan cari file template yang sudah didownload sebelumnya . Maka file yang sudah didownload tadi akan muncul seperti pada gambar berikut ini.
+	\item Setelah ini  bisa menambahkan data baik kolom maupun baris sesuai dengan keinginan . Bahkan mengganti nama kolomnya pun juga bisa. Namun sebagai contoh kami akan menambahkan data saja sehingga hasil akhirnya seperti berikut ini.
+	\item Setelah selesai mengedit data tersebut sekarang kita akan melakukan eksport file ke file csv. Caranya dengan mengklik menu File > Download as > Comma – separated values (.csv, current sheet)
+	\item Dan di langkah terkahir tinggal mengganti nama file nya dan klik tombol download. Maka file csv sudah siap untuk digunakan untuk melakukan import data.
+
+	\end{enumerate}
+
+
+\item Jelaskan sejarah library CSV ?
+
+
+Paket csv-reading untuk Racket menyediakan utilitas untuk membaca berbagai jenis apa yang umumnya dikenal sebagai file “nilai yang dipisahkan dengan koma” (CSV). Karena tidak ada format CSV standar, perpustakaan ini mengizinkan pembaca CSV dibangun dari spesifikasi kekhasan varian tertentu. Pembaca default menangani sebagian besar format.
+Salah satu kegunaan utama perpustakaan ini adalah untuk mengimpor data dari aplikasi lama yang keras ke dalam Skema untuk konversi data dan pemrosesan lainnya. Untuk itu, pustaka ini mencakup berbagai kemudahan untuk iterasi pada baris CSV yang diurai, dan untuk mengonversi input CSV ke format SXML.
+
+\item Jelaskan sejarah library pandas ?
+Pada 2008, pengembangan panda dimulai di AQR Capital Management. Pada akhir 2009 telah bersumber terbuka, dan secara aktif didukung hari ini oleh komunitas individu yang berpikiran sama di seluruh dunia yang menyumbangkan waktu dan energi berharga mereka untuk membantu membuat panda open source menjadi mungkin. Terima kasih untuk semua kontributor kami.
+Sejak 2015, panda adalah proyek yang disponsori NumFOCUS. Ini akan membantu memastikan keberhasilan pengembangan panda sebagai proyek sumber terbuka kelas dunia.
+\item Fungsi CSV yang terdapat pada Excel : 
+
+\begin{enumerate}
+\item Operator Dasar Atau Acuan
+\begin{enumerate}
+\item Tanda Titik dua (:) adalah tanda penghubung antara 2 buah atau sekelompok cell yang berbeda pada saat penulisan rumus fungsi. Contoh =A1:C3 (gabungan cell yang terdapat diantara cell A1 sampai dengan Cell C3.
+\item 2.	Tanda Koma (,) atau tanda titik koma (;) adlh tanda untuk memisahkan antara cell Contoh =A1;A2 Atau =A1,A2
+\item 3.	Tanda Sama Dengan adalah tanda yang diketikan pertama saat memasukan rumus contoh =B2
+\end{enumerate}
+
+\item Operator Aritmatika
+
+Aritmatika sebagai Fungsi atau rumus yang digunakan untuk melakukan operasi penjumlahan, pengurangan, pembagian, perkalian dan perpangkatan atau operator yg digunakan untuk melakukan perhitungan pada bilangan. Contoh Tanda Tambah, kurang, bagi, kali, dll. untuk lebih jelasnya baca Tutorial Dasar Rumus Aritmatika Di Ms. Excel
+\item Operator Perbandingan
+
+Sesuai dengan namanya, operator perbandingan membandingkan nilai dari 2 buah data. Hasilnya TRUE atau FALSE. Hasil perbandingan akan bernilai TRUE jika kondisi perbandingan tersebut benar, atau FALSE jika kondisinya salah. Data untuk operator perbandingan ini bisa berupa tipe data angka (integer atau float), maupun bertipe string. Operator perbandingan akan memeriksa nilai kebenaran dari masing-masing data contoh Sama dengan, kurung siku, lebih besar, lebih besar samadengan,  dll . Anda Dapat Membaca Fungsi Operator Perbandingan Excel
+\item Operator Penggabungan Teks
+Untuk menggabungkan data yang berupa teks. dapat menggunakan operator ampersend (dan). Fungsi ini biasa dipakai untuk mengabungkan 2 buah cell dan ditampilkan dalam satu Cell. Contoh Penulisannya Baca Cara Menggabungkan isi Cell di Ms. Excel
+\item Operator Logika
+Operator Logika adalah operator yang digunakan untuk membandingkan 2 kondisi logika, yaitu logika benar (TRUE) dan logika salah (FALSE). Operator logika sering digunakan untuk kodisi IF, contoh operator logika adalah  AND, OR, NOT dan IF. Untuk Contoh Pengunaannya Baca Belajar Fungsi IF pada Microsoft Excel
+\end{enumerate}
+\item Jelaskan Fungsi-fungsi yang ada di library pandas ?
+\begin{enumerate}
+\item data : parameter ini diisi dengan data yang akan dibuat series
+\item index : parameter ini diisi dengan index dari series. Jumlah index harus sama dengan jumlah data. Jika kita tidak mengisi parameter index, maka series akan memiliki index integer seperti halnya array biasa.
+\item dtype : parameter ini diisi dengan tipe data dari series, sebenarnya kita tidak perlu untuk mengisi parameter ini, karena secara otomatis python akan menyimpulkan tipe data yang kita masukkan.
+\item copy : parameter untuk copy data, secara default akan bernilai false.
+
+\end{enumerate}
+
+
+
+\end{enumerate}
