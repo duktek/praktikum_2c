@@ -245,11 +245,11 @@
 \contentsline {section}{\numberline {2.13}Handi Hermawan}{106}% 
 \contentsline {subsection}{\numberline {2.13.1}Teori}{106}% 
 \contentsline {subsection}{\numberline {2.13.2}Keterampilan Pemrograman}{107}% 
-\contentsline {subsection}{\numberline {2.13.3}Keterampilan dan penanganan error}{108}% 
+\contentsline {subsection}{\numberline {2.13.3}Keterampilan dan penanganan error}{109}% 
 \contentsline {section}{\numberline {2.14}Mochamad Arifqi Ramadhan}{109}% 
 \contentsline {subsection}{\numberline {2.14.1}Variable, pemakaian Variable dan Jenis-Jenis Type data}{109}% 
 \contentsline {subsection}{\numberline {2.14.2}Ketrampilan Pemrograman}{111}% 
-\contentsline {subsection}{\numberline {2.14.3}Ketrampilan Penanganan Error}{112}% 
+\contentsline {subsection}{\numberline {2.14.3}Ketrampilan Penanganan Error}{113}% 
 \contentsline {section}{\numberline {2.15}Fernando Lorencius Sihite}{113}% 
 \contentsline {subsection}{\numberline {2.15.1}Variable, pemakaian Variable dan Jenis-Jenis Type data}{113}% 
 \contentsline {subsection}{\numberline {2.15.2}Ketrampilan Pemrograman}{118}% 
@@ -282,7 +282,7 @@
 \contentsline {subsection}{\numberline {2.25.2}tuliskan bagaimana kode untuk meminta input dari user dan tuliskan bagaimana melakukan output ke layar}{158}% 
 \contentsline {subsection}{\numberline {2.25.3}tuliskan operator dasar aritmatika, tambah, kali, kurang bagi, dan bagaimana mengubah string ke integer dan integer ke string}{158}% 
 \contentsline {subsection}{\numberline {2.25.4}tuliskan dan jelaskan sintak untuk perulangan, jenis-jenisnya contoh kode dan cara pakainya di phyton}{159}% 
-\contentsline {subsection}{\numberline {2.25.5}tuliskan dan jelaskan cara pakai sintak untuk memilih kondisi, dan begaimana contoh sintak kondisi didalam kondisi}{159}% 
+\contentsline {subsection}{\numberline {2.25.5}tuliskan dan jelaskan cara pakai sintak untuk memilih kondisi, dan begaimana contoh sintak kondisi didalam kondisi}{160}% 
 \contentsline {subsection}{\numberline {2.25.6}tuliskan apa saja jenis error yang sering ditemui di python dalam mengerjakan sintak diatas dan bagaimana cara mengatasinya}{160}% 
 \contentsline {subsection}{\numberline {2.25.7}tuliskan dan jelaskan cara memakai Try Except}{160}% 
 \contentsline {chapter}{\numberline {3}Fungsi dan Kelas}{163}% 
@@ -398,4 +398,8 @@
 \contentsline {section}{\numberline {4.10}Aulyardha Anindita | 1174054}{321}% 
 \contentsline {subsection}{\numberline {4.10.1}Pemahaman Teori}{321}% 
 \contentsline {section}{\numberline {4.11}Nurul Izza Hamka | 1174062 | Teori}{324}% 
-\contentsline {schapter}{Index}{327}% 
+\contentsline {section}{\numberline {4.12}Bakti Qilan Mufid}{326}% 
+\contentsline {subsection}{\numberline {4.12.1}Pemahaman Teori}{326}% 
+\contentsline {paragraph}{}{326}% 
+\contentsline {paragraph}{}{327}% 
+\contentsline {schapter}{Index}{331}% 
