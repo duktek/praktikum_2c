@@ -203,3 +203,54 @@ library pandas penulisannya lebih sederhana dan terlihat lebih rapih dari pada l
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Alvan Alvanzah|1174077}
+\subsection{Pemahaman Teori}
+
+\begin{enumerate}
+    \item Apa itu fungsi file csv, jelaskan sejarah dan contoh
+    \par Comma Separated Values atau CSV adalah suatu format data dalam basis data di mana setiap record dipisahkan dengan tanda koma (,) atau titik koma (;). Selain sederhana, format ini dapat dibuka dengan berbagai text-editor seperti Notepad, Wordpad, bahkan MS Excel. File CSV menyimpan informasi yang dipisahkan oleh koma, tidak menyimpan informasi dalam kolom. Ketika teks dan angka disimpan dalam file CSV, mudah untuk memindahkannya dari satu program ke program lainnya.
+    \par Dari rilis pertama, Excel menggunakan format file biner yang disebut Binary Interchange File Format (BIFF) sebagai format file utamanya. Ini berubah ketika Microsoft merilis Office System 2007 yang memperkenalkan Office Open XML sebagai format file utamanya. Office Open XML adalah file kontainer berbasis XML yang mirip dengan XML Spreadsheets (XMLSS), yang diperkenalkan di Excel 2002. File versi XML tidak bisa menyimpan makro VBA. Meskipun mendukung format XML baru, Excel 2007 masih mendukung format lama yang masih berbasis BIFF tradisional. Selain itu Microsoft Excel juga mendukung format Comma Separated Values (CSV).
+    \par Contoh penulisan :
+    \par “Alvan”,”Sorong”,”19”
+    \par “Bambang”,”Bekasi”,”20”
+    \par “Sukirman”,”Bandung”,”20”
+    \par “Suci”,”Depok”,”22”
+
+    \item Aplikasi-aplikasi apa saja yang bisa menciptakan file csv
+    \begin{itemize}
+        \item Texteditor
+        \par Seperti Notepad++, Visual studio code, Atom, dan Sublime
+        \item Program Spreadsheet
+        \par Seperti Excel, Google Spreadsheet, dan LibreOffice Calc
+    \end{itemize}
+    
+    \item Jelaskan bagaimana cara menulis dan membaca file csv di excel atau spreadsheet
+        \par Cara menulis
+        \begin{itemize}
+        \item Buat dokumen baru di Excel.
+        \item Tambahkan judul kolom untuk setiap potongan informasi yang ingin dicatat (misalnya nama depan, nama belakang, alamat email, nomor telepon, dan ulang tahun), lalu ketikkan informasi dalam kolom yang sesuai.
+        \item Setelah selesai, Pilih File lalu Simpan Sebagai.
+        \item Gunakan kotak menurun untuk memilih CSV (Berbatas koma) (.csv), beri nama pada file, lalu pilih Simpan.
+    \end{itemize}
+    \par Cara membaca
+    \begin{itemize}
+        \item Buka MS Excel Anda.
+        \item Klik Data lalu Get External Data lalu From Text.
+        \item Akan muncul Text Import Wizard, arahkan pada file csv yang ingin anda buka lalu Open.
+        \item Setelah File terbuka, akan muncul Text Import Wizard Step 1 lalu Pilih Delimited, Kemudian Next (Di sini, bisa juga menentukan baris awal yang akan di import), Step 2 lalu Centang pada Tab dan Comma (Atau sesuai pengaturan File Anda) lalu Next, Step 3 lalu Atur Format data pada tiap kolom yang tampil dan klik Finish.
+        \item File anda sudah tertata rapi dan dapat di baca dengan mudah melalui MS Excel 2007
+    \end{itemize}
+    
+    \item Jelaskan sejarah library csv
+    \par library csv dibuat untuk permudah mengolah data. Dan mempermudah untuk melakukan export dan import file csv itu sendiri.
+    
+    \item Jelaskan sejarah library pandas
+    \par library pandas dibuat agar bahasa pemograman python bisa bersaing R dan matlab, yang digunakan untuk mengolah banyak data , keperluan big data, data mining data science dan sebagainya.
+    
+    \item Jelaskan fungsi-fungsi yang terdapat di library csv
+    \par Library csv mempunyai keunggulan dibandingkan format data lainnya adalah soal kompatibilitas. File csv dapat digunakan, diolah, diekspor atau impor, dan dimodifikasi menggunakan berbagai macam perangkat lunak dan bahasa pemrograman. Pada library csv mempunyai fungsi import dan eksport data yang baik dan bisa digunakan dalam jumlah besar.
+    
+    \item Jelaskan fungsi-fungsi yang terdapat di library pandas
+    \par pandas menyediakan beragam fungsi operasi untuk mengolah data. Contoh jika menggunakan series bisa mencari nilai max, min, dan mean secara langsung, bahkan juga bisa melakukan operasi perpangkatan pada nilai Series secara langsung. Pandas dapat mengolah suatu data dan mengolahnya seperti join, distinct, group by, agregasi, dan teknik seperti pada SQL. Hanya saja dilakukan pada tabel yang dimuat dari file ke RAM.
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
