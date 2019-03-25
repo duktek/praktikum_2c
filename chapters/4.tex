@@ -1137,3 +1137,115 @@ Library pandas penulisannya lebih sederhana dan terlihat lebih rapih dari pada l
 \end{enumerate}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Advent Nopele Olansi Damiahan Sihite || 1174089}
+\subsection{Teori}
+\begin{enumerate}
+
+\item Apa itu fungsi file csv, jelaskan sejarah dan contoh\\
+Jawaban :
+
+\begin{itemize}
+\item Fungsi File CSV
+\end{itemize}
+
+Comma Separated Value atau CSV adalah format data yang memudahkan penggunanya melakukan penginputan data ke database secara sederhana. CSV bisa digunakan dalam standar file ASCII, di mana setiap record dipisahkan dengan tanda koma atau titik koma.
+
+
+\begin{itemize}
+\item Contoh file csv
+\begin{verbatim}
+Nama,Umur, Alamat
+Advent Nopele Olansi Damiahan Sihite, 19 Tahun, Jl. sarimanah
+\end{verbatim}
+\end{itemize}
+
+\item Aplikasi yang dapat membuat file csv\\
+Jawaban :
+
+\begin{itemize}
+\item Microsoft Excel
+\item Google Spreadsheet
+\item Notepad ++
+\item Text Editor lainnya
+\end{itemize}
+
+\item  Cara menulis dan membaca file csv di excel atau spreadsheet\\
+Jawaban :
+
+\begin{itemize}
+\item Cara Menulis file csv
+\end{itemize}
+Berikut adalah kode untuk menulis file CSV dengan menggunakan built-in module csv yang dimiliki Python
+
+\begin{verbatim}
+import csv
+
+siswa = [
+    ('arslan', 'A', 90),
+    ('bayu', 'B', 85),
+    ('niko', 'A', 80),
+    ('abdul', 'B', 90),
+    ('dahlan', 'C', 70)
+]
+
+# tentukan lokasi file, nama file, dan inisialisasi csv
+f = open('siswa.csv', 'w')
+w = csv.writer(f)
+w.writerow(('Nama','Kelas','Nilai'))
+
+# menulis file csv
+for s in siswa:
+    w.writerow(s)
+
+# menutup file csv
+f.close()
+\end{verbatim}
+
+\begin{itemize}
+\item Cara membaca file csv
+\end{itemize}
+
+Berikut adalah contoh kode untuk membaca file CSV 
+
+\begin{verbatim}
+import csv
+
+# tentukan lokasi file, nama file, dan inisialisasi csv
+f = open('siswa.csv', 'r')
+reader = csv.reader(f)
+
+# membaca baris per baris
+for row in reader:
+    print row
+
+# menutup file csv
+f.close()
+\end{verbatim}
+
+\item Sejarah library pandas\\
+Jawaban :\\
+library csv dibuat untuk bahasa pemograman python agar bisa bersaing dengan  R dan matlab, yang digunakan untuk mengolah banyak data , keperluan big data, data mining, dan data science.
+
+\item Sejarah library csv\\
+Jawaban :\\
+library pandas dibuat untuk mepermudah mengolah data dan mempermudah untuk melakukan export dan import file CSV.
+
+\item Jelaskan  fungsi-fungsi yang terdapat di library csv\\
+Jawaban :\\
+Terdapat 2 fungsi dari library csv, yaitu :
+
+\begin{itemize}
+\item Cara membaca file
+\end{itemize}
+
+\begin{itemize}
+\item Cara menulis file
+\end{itemize}
+Di Python, hasil pembacaan setiap baris pada file CSV akan dikonversi menjadi list Python.
+
+\item Jelaskan  fungsi-fungsi yang terdapat di library pandas\\
+Jawaban :\\
+library pandas penulisannya lebih sederhana dan terlihat lebih rapih dari pada library csv.
+
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
