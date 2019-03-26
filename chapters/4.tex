@@ -1249,6 +1249,442 @@ library pandas penulisannya lebih sederhana dan terlihat lebih rapih dari pada l
 
 \end{enumerate}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+<<<<<<< HEAD
+\section{Mochamad Arifqi Ramadhan}
+\subsection{Pengelolaan File CSV (Teori)}
+\begin{enumerate}
+
+\item 1. Apa itu fungsi file csv, jelaskan sejarah dan contoh\\
+=======
+
+\section{Chandra Kirana Poetra}
+\subsection{Teori}
+\begin{enumerate}
+\item Apa itu fungsi file csv, jelaskan sejarah dan contoh?
+
+CSV (Comma separated Values) adalah format data yang telah ada sebelum personal komputer hadir 10 tahun sebelumnya, CSV file pada tahun 1972 telah didukung oleh IBM Fortran, nama CSV sendiri mulai digunakan pada tahun 1983, menggunakan koma dan spasi sebagai pembatas, jadi karakter string yang tidak dikutip tidak bisa mengandung koma atau spasi, list CSV lebih mudah untuk diketik daripada data yang diatur berdasarkan kolum, dan lebih terhindar dari hasil yang salah jika di cetak pada media seperti punched card
+
+Contoh data pada csv:
+\lstinputlisting[firstline=0, lastline=4]{src/1174079.csv}
+
+\item  Aplikasi-Aplikasi apa saja yang bisa menciptakan file csv?
+
+\begin{itemize}
+	\item Notepad
+	\item OpenOffice Calc
+	\item Excel
+  	\item Google docs
+\end{itemize}
+CSV file adalah sebuah file berisi text jadi CSV file bisa dibuat oleh text editor apapun.
+
+\item Jelaskan bagaimana cara menulis dan membaca file csv di excel atau spreadsheet
+
+\begin{itemize}
+	\item Pertama buka terdahulu Program Excel anda
+	\item Lalu sertakan data contoh seperti screenshot di bawah
+	\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=10cm,height=10cm]{figures/contohmembuatcsvdengandata.png}
+	\caption{Buat data CSV}
+	\label{penanda}
+	\end{figure}
+
+
+ 	\item Simpan dengan ektensi csv
+	\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=10cm,height=10cm]{figures/menyimpanfiledenganformatcsv.png}
+	\caption{Menyimpan CSV}
+	\label{penanda}
+	\end{figure}
+
+	\item untuk membuka file csv, cari file yang anda simpan tadi
+	\begin{figure}[!htbp]
+	\centering
+	\includegraphics[width=10cm,height=10cm]{figures/bukafilecsv.png}
+	\caption{Menyimpan CSV}
+	\label{penanda}
+	\end{figure}
+
+\end{itemize}
+
+\item Jelaskan sejarah library csv
+
+CSV (Comma separated Values) adalah format data yang telah ada sebelum personal komputer hadir 10 tahun sebelumnya, CSV file pada tahun 1972 telah didukung oleh IBM Fortran, nama CSV sendiri mulai digunakan pada tahun 1983, menggunakan koma dan spasi sebagai pembatas, jadi karakter string yang tidak dikutip tidak bisa mengandung koma atau spasi, list CSV lebih mudah untuk diketik daripada data yang diatur berdasarkan kolum, dan lebih terhindar dari hasil yang salah jika di cetak pada media seperti punched card
+
+
+\item Jelaskan sejarah library pandas
+
+Pandas (Python Data Analysis Library) nama ini didapat dari istilah panel data dan juga istilah econometrik untuk data terstruktur multidimensi, Developer Wes McKinney mulai mengerjakan pandas pada tahun 2008, ketika saat AQR capital management sedang membutuhkan alat yang memiliki performa tinggi untuk melakukan analysis kuantitif tentang data finansial, sebelum keluar dari AQR, dia bisa membuat management percaya untuk supaya dia bisa membuat library open source. Chang She, bergabung pada tahun 2012 sebagai kontributor ke 2 untuk library pandas.
+
+
+\item Jelaskan fungsi-fungsi yang terdapat di library csv
+\begin{itemize}
+
+	\item fungsi open di CSV
+	
+	Digunakan untuk membuka dan membaca file csv
+	\lstinputlisting[firstline=10, lastline=20]{src/contohcsvchandra.py}
+
+	\item fungsi write di csv
+	
+	Digunakan untuk menulis data ke file csv menggunakan writerow
+	\lstinputlisting[firstline=7, lastline=12]{src/contohcsvwrite.py}
+	
+	\item fungsi write dengan parameter di csv
+	
+	Digunakan untuk menulis data ke file csv menggunakan writerow
+	\lstinputlisting[firstline=7, lastline=14]{src/contohcsvwriteparameter.py}
+
+\end{itemize}
+
+\item Jelaskan fungsi-fungsi yang terdapat di library pandas
+\begin{itemize}
+
+	\item fungsi pandas read csv
+	
+	Digunakan untuk membuka, menganalisis, dan membaca file csv
+	\lstinputlisting[firstline=7, lastline=9]{src/pandasreadchandra.py}
+	
+	\item fungsi pandas to csv
+	Digunakan untuk menulis data ke file csv
+	\lstinputlisting[firstline=7, lastline=13]{src/pandaswritechandra.py}
+
+\end{itemize}
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\section{Fernando Lorencius S}
+\subsection{Teori}
+\begin{enumerate}
+
+\item Apa itu fungsi file csv, jelaskan sejarah dan contoh\\
+>>>>>>> 470ce2dd87575b8b83a9a744a5cc2521a03ea457
+Jawaban :
+
+\begin{itemize}
+\item Fungsi File CSV
+\end{itemize}
+
+<<<<<<< HEAD
+Comma Separated Value (CSV) adalah file teks biasa yang berisi daftar data. File-file ini sering digunakan untuk bertukar data antara aplikasi yang berbeda, selain itu CSV memudahkan penggunanya melakukan penginputan data ke database secara sederhana. CSV bisa digunakan dalam standar file ASCII, di mana setiap record dipisahkan dengan tanda koma atau titik koma.
+
+\begin{itemize}
+\item Sejarah 
+\end{itemize}
+
+csv muncul pertama kali sekitar 10 tahun sebelum Personal Computer (PC)  pertama didunia, yaitu sejak sekitar tahun 1972, akan tetapi sebutan file csv digunakan pertama kali pada tahun 1983.
+
+\begin{itemize}
+\item Contoh file csv
+\begin{verbatim}
+Nama, Email, kelas.
+Arifqi, arifqiramadhan890@gmail.com, D4 TI-2C.
+\end{verbatim}
+\end{itemize}
+
+\item 2.  Aplikasi yang dapat membuat file csv?\\
+Jawaban :
+
+\begin{itemize}
+\item Notepad ++
+\item Microsoft Excel
+\item  Google Spreadsheet
+\item Text Editor dan program spreadsheet  lainnya
+\end{itemize}
+
+\item 3. Cara menulis dan membaca file csv di excel atau spreadsheet\\
+Jawaban :
+
+\begin{itemize}
+\item Cara Menulis file csv di excel atau spreadsheet
+=======
+CSV (Comma Separated Value) adalah format basis data sederhana yang berisikan data record , dipisahkan dengan tanda koma (,) atau titik koma (;).Dalam bahasa pemrograman Python telah disediakan modul  csv  yang khusus untuk mengolah data berformat csv.
+
+\begin{itemize}
+\item Sejarah 
+File csv muncul pertama kali sekitar 10 tahun sebelum Personal Computer (PC) pertama  didunia yaitu sejak sekitar tahun 1972, akan tetapi sebutan file csv digunakan pertama kali pada tahun 1983.
+					\item Contoh : 
+\end{itemize}
+
+\begin{itemize}
+\item Contoh file csv
+\begin{verbatim}
+Nama,Umur, Alamat
+Fernando Lorencius S, 19 Tahun, Bandung.
+\end{verbatim}
+\end{itemize}
+
+\item Aplikasi yang dapat membuat file csv\\
+Jawaban :
+
+\begin{itemize}
+\item Microsoft Excel
+\item Google Spreadsheet
+\item Notepad ++
+\item Text Editor
+\end{itemize}
+
+\item  Cara menulis dan membaca file csv di excel atau spreadsheet\\
+Jawaban :
+
+Membuka file CSV dalam program spreadsheet, dapat membuat lebih mudah dibaca. Misalnya, jika di komputer sudah ter-instal Microsoft Excel -- CSV file to excel, dengan klik dua kali file .csv untuk membukanya di Excel secara default. Jika tidak terbuka di Excel, dapat mengklik kanan file CSV dan pilih Open With > Excel.
+
+Jika tidak memiliki Excel, untuk melihatnya dapat mengunggah file ke layanan seperti Google Spreadsheet atau menggunakan aplikasi gratis membuka CSV download dan install LibreOffice Calc.
+
+Excel dan program spreadsheet lainnya menyajikan isi dari CSV dengan menyortirnya ke dalam kolom, dan baris.
+
+\begin{itemize}
+\item Cara Menulis file csv
+>>>>>>> 470ce2dd87575b8b83a9a744a5cc2521a03ea457
+\end{itemize}
+Berikut adalah kode untuk menulis file CSV dengan menggunakan built-in module csv yang dimiliki Python
+
+\begin{verbatim}
+<<<<<<< HEAD
+	\item Buka Microsoft Excel  lalu buat dokumen baru
+	\item Masukkan data sesuai dengan kebutuhan, data paling atas akan menjadi header dari file csv
+	\item Setelah memasukkan data, klik file lalu klik Save As
+	\item Pilih Browse dan pilih tempat menyimpannya akan dimana
+	\item Masukkan nama filenya dan save as dengan memilih type filnya CSV (nama file.csv)
+\end{verbatim}
+
+\begin{itemize}
+\item Cara membaca file csv di excel atau spreadsheet
+\end{itemize}
+
+\begin{verbatim}
+CSV file to excel, cara pertama bisa dengan klik dua kali file .csv untuk membukanya di Excel secara default. Jika tidak terbuka dunakan cara lain dengan  mengklik kanan file CSV dan pilih Open With > Excel. 
+Dan cara ke dua dengan membuka aplikasi Microsoft Excel, kemudian pilih menu Open, kemudian cari tempat file csv yang ingin dibuka, lalu pilih Open File csv sudah berhasil dibaca menggunakan Microsoft Excel
+
+\item Jika setelah membuka file CSV ternyata semua teksnya berada dalam satu kolom tidak dipisahkan dengan koma ataupun karakter lainnya, Anda dapat membuka file dari dalam Microsoft Excel (seperti yang disebutkan di atas) akan memunculkan Teks Wizard Impor pembukaan. Itu meminta Anda untuk memilih bagaimana teks dipisahkan. Pilih opsi Delimited, maka pada layar kemudian pilih opsi Comma. Hal ini akan menghasilkan teks yang terpisahkan dengan koma menjadi terpisahkan dengan kolom-kolom tersendiri.
+\end{verbatim}
+
+\item 4. Sejarah library csv\\
+Jawaban :\\
+Comma-separated values (CSV) adalah format data yang memberi tanggal lebih awal pada komputer pribadi lebih dari satu dekade: kompiler IBM Fortran (level H extended) di bawah OS / 360 mendukungnya pada tahun 1972. [6] Input / output daftar-diarahkan ("bentuk bebas") didefinisikan dalam FORTRAN 77, disetujui pada tahun 1978. Input yang diarahkan daftar menggunakan koma atau spasi untuk pembatas, sehingga string karakter yang tidak dikutip tidak dapat mengandung koma atau spasi.
+
+\item 5. Sejarah library pandas\\
+Jawaban :\\
+Pada akhir tahun 2009 pandas menjadi Open Sourced, dimana disupport oleh banyak komunitas atau individu di dunia untuk mengembangkan pandas. Sejak tahun 2015, pandas menjadi NumFOCUS proyek sponsor, ini juga membantu suksesnya pengembangan dari pandas itu sendiri. pandas merupakan struktur data dan data analysis tools untuk bahasa pemrograman Python, dan merupakan BSD-licensed library yang menjadikannya memiliki performa yang tinggi.
+
+
+\item 6. Jelaskan  fungsi-fungsi yang terdapat di library csv\\
+Jawaban :\\
+Library CSV memiliki 2 fungsi, yaitu :
+
+\begin{itemize}
+\item Membaca file (csv reader)
+\end{itemize}
+Berfungsi untuk membaca dan mengembalikan data kedalam variable dari file csv.
+\begin{itemize}
+\item Menulis file (csv writer)
+\end{itemize}
+Berfungsi untuk menuliskan data dari variable kedalam file csv.
+
+\item 7. Jelaskan  fungsi-fungsi yang terdapat di library pandas\\
+Jawaban :\\
+Library pandas memiliki fungsi penting seperti menyelaraskan data untuk perbandingan dan penggabungan set data, penanganan data yang hilang, dll, itu telah menjadi sebuah library untuk pemrosesan data tingkat tinggi dalam Python (yaitu statistik).
+
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+=======
+import csv
+
+siswa = [
+    ('Udin', 'A', 90),
+    ('cecep', 'B', 85),
+    ('Agus', 'A', 80),
+    ('asep', 'B', 90),
+    ('Solihin', 'C', 70)
+]
+
+# tentukan lokasi file, nama file, dan inisialisasi csv
+f = open('siswa.csv', 'w')
+w = csv.writer(f)
+w.writerow(('Nama','Kelas','Nilai'))
+
+# menulis file csv
+for s in siswa:
+    w.writerow(s)
+
+# menutup file csv
+f.close()
+\end{verbatim}
+
+\begin{itemize}
+\item Cara membaca file csv
+\end{itemize}
+
+Berikut adalah contoh kode untuk membaca file CSV 
+
+\begin{verbatim}
+import csv
+
+# tentukan lokasi file, nama file, dan inisialisasi csv
+f = open('siswa.csv', 'r')
+reader = csv.reader(f)
+
+# membaca baris per baris
+for row in reader:
+    print row
+
+# menutup file csv
+f.close()
+\end{verbatim}
+
+\item Sejarah library csv\\
+Jawaban :\\
+library csv dibuat untuk permudah mengolah data. Dan mempermudah untuk melakukan export dan import file csv itu sendiri.
+
+
+\item Sejarah library pandas\\
+Jawaban :\\
+Pandas (Python Data Analysis Library) merupakan distribusi/modul opensource dari python untuk memporese kegiatan data manajemen dan data analysis. Pandas diciptakan oleh Wes McKinney pada sekitaran tahun 2008 dan dikembangkan oleh salah satu koleganya Sien Chang pada tahun 2010. Pandas muncul karena kebutuhan komunitas pengguna opensource khususnya python akan packages khusus yang berguna untuk melakukan analisa data, seperti import dan export data, melakukan manipulasi data dsb. Untuk proses import data menggunakan distribusi pandas dalam python itu hal yang tidak mudah, karena dalam proses membutuhkan ketelitian mengenai struktur data.
+
+
+\item Jelaskan  fungsi-fungsi yang terdapat di library csv\\
+Jawaban :\\
+Terdapat 2 fungsi dari library csv, yaitu :
+
+\begin{itemize}
+\item membaca file CSV
+\end{itemize}
+
+\begin{itemize}
+\item menulis file CSV
+\end{itemize}
+
+
+\item Jelaskan  fungsi-fungsi yang terdapat di library pandas\\
+Jawaban :\\
+ tidak jauh beda dengan library csv,namun dalam library pandas penulisannya lebih sederhana dan terlihat lebih rapih dari pada library csv.
+
+\end{enumerate}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\title{chapter 4}
+\section{Handi Hermawan}
+\subsection{Pemahaman Materi}
+\begin{enumerate}
+\item Apa itu fungsi ﬁle csv, jelaskan sejarah dan contoh
+\paragraph{} CSV (Comma Separated Value) adalah format basis data sederhana yang dimana setiap record yang ada dipisahkan dengan tanda koma (,) atau titik koma (;). Format data file csv dapat diolah dengan berbagai text editor dengan mudah. Anda tidak perlu (dan Anda tidak akan) membuat pengurai CSV Anda sendiri dari awal. Ada beberapa perpustakaan yang dapat diterima yang dapat Anda gunakan. Pustaka csv Python akan berfungsi untuk sebagian besar kasus. Jika pekerjaan Anda memerlukan banyak data atau analisis numerik, panda library juga memiliki kemampuan penguraian CSV, yang seharusnya menangani sisanya. Dalam bahasa pemrograman Python telah disediakan modul csv yang khusus untuk mengolah data berformat csv.  Untuk memanipulasi data csv dengan python tentunya yang pertama dilakukan adalah mengimport modul csv dengan perintah import csv. File CSV biasanya dibuat oleh program yang menangani sejumlah besar data. Mereka adalah cara yang nyaman untuk mengekspor data dari spreadsheet dan basis data serta mengimpor atau menggunakannya dalam program lain. Misalnya, Anda dapat mengekspor hasil program penambangan data ke file CSV dan kemudian mengimpornya ke dalam spreadsheet untuk menganalisis data, menghasilkan grafik untuk presentasi, atau menyiapkan laporan untuk publikasi.
+
+\item Aplikasi-aplikasi apa saja yang bisa menciptakan ﬁle csv?
+\paragraph{} Ada beberapa aplikasi yang dapat menciptakan file dengan format csv diantaranya :
+\begin{itemize}
+    \item Google sheet
+    \item Number di MacOS dan 
+    \item Microsoft excel
+\end{itemize}
+\item Jelaskan bagaimana cara menulis dan membaca ﬁle csv di excel atau spreadsheet
+\paragraph{} Cara membuat file csv di excel cukup mudah yaitu :
+\begin{itemize}
+	\item Buat foldernya
+	\item Pilih save as
+	\item pilih file dengan format csv
+\end{itemize}
+Cara membaca file di csv :
+\begin{itemize}
+	\item Klik data - get external data - form text
+	\item Akan muncul Text Import Wizard, arahkan pada file csv yang ingin anda buka lalu Open.
+	\item Setelah File terbuka, akan muncul Text Import Wizard.
+	\item Pilih Delimited, Kemudian Next (Di sini, bisa juga menentukan baris awal yang akan di import)
+	\item Centrang pada Tab dan Comma (Atau sesuai pengaturan File Anda) lalu Next.
+	\item Atur Format data pada tiap kolom yang tampil dan klik Finish
+\end{itemize}
+
+\item Jelaskan sejarah library csv
+\paragraph{} CSV muncul untuk memudahkan data science dan analis karena dinilai terdapat banyak kemudahan yang didapat. CSV dapat dimaksimalkan jika dipaduka dengan python karena python adalah bahasa pemrograman yang support ke banyak library termasuk csv. Maka karena itulah perpaduan python dan csv seringkali digunakan oleh perusahaan-perushaan besar dalam mengolah datanya.
+
+\item Jelaskan sejarah library pandas
+\paragraph{} Pandas merupakan tool yang dapat digunakan sebagai alat analisis data dan struktur untuk bahasa pemrograman Python. Pandas dapat mengolah data dengan mudah, salah satu fitur yang ada dalam pandas adalah Dataframe. Fitur dataframe dapat membaca sebuah file dan menjadikannya tabble, juga dapat mengolah suatu data dengan menggunakan operasi seperti join, group by dan teknik lainnya yang terdapat pada SQL. Dalam hal ini pandas tidak jauh beda dengan csv yaitu memiliki keunggulan dalam pengolahan data-data besar dan dapat disupport dengan baik dengan python walaupun mengimport data dalam jumlah banyak.
+
+\item Jelaskan fungsi-fungsi yang terdapat di library csv
+\paragraph{} Library csv mempunyai keunggulan dibandingkan format data lainnya adalah soal kompatibilitas. File csv dapat digunakan, diolah, diekspor/impor, dan dimodifikasi menggunakan berbagai macam perangkat lunak dan bahasa pemrograman. Pada library csv mempunyai fungsi import dan eksport data yang baik dan bisa digunakan dalam jumlah besar.
+
+\item Jelaskan fungsi-fungsi yang terdapat di library pandas
+\paragraph{} pandas menyediakan beragam fungsi operasi untuk mengolah data. Contoh jika menggunakan series bisa mencari nilai max, min, dan mean secara langsung, bahkan juga bisa melakukan operasi perpangkatan pada nilai Series secara langsung.
+Pandas dapat mengolah suatu data dan mengolahnya seperti join, distinct, group by, agregasi, dan teknik seperti pada SQL. Hanya saja dilakukan pada tabel yang dimuat dari file ke RAM.
+\end{itemize}
+\end{enumerate}
+#################################################################################
+
+\section{Kaka Kamaludin}
+\subsection{Pemahaman Teori}
+\begin{enumerate}
+\item CSV (comma separated values)
+
+seperti namanya CSV, merupakan file yang berisi data berupa angka dan teks, di setiap data atau nilai dipisahkan dengan tanda koma (,) dan data tersebut ditampilkan sebagai tabel. file csv bisa dibuka menggunakan teks editor apapun, selain itu csv juga bisa dibuka menggunakan excel. file csv berfungsi untuk menyimpan data dalam bentuk teks yang nantinya digunakan untuk keperluan tertentu.
+
+contoh file employee_birthday.csv berisi:
+
+name,department,birthday month
+John Smith,Accounting,November
+Erica Meyers,IT,March
+
+
+\item semua text editor, Excel, tinggal save as *.csv
+
+\item bagaimana cara menulis dan membaca file csv di excel atau spreadsheet
+
+Cara menulis:
+\begin{itemize}
+	\item ketik saja data yang anda butuhkan
+	\item save as *.csv
+\end{itemize}
+
+Cara membaca:
+\begin{itemize}
+	\item pilih file *.csv
+	\item open with exel/spreadsheet
+\end{itemize}
+
+\item  sejarah library csv
+
+CSV merupakan format yang paling standar untuk import dan export database ataupun spreadsheet. Format CSV digunakan selama bertahun-tahun sebelum upaya untuk menggambarkan format dengan cara standar di RFC 4180. 
+
+\item sejarah library pendas
+
+pandas merupkan library open source berlisensi BSD dan pandas merupakan proyek yang disponsori oleh NumFOCUS, menyediaka kinerja tinggi, struktur data yang mudah digunakan dan tools analisis untuk bahasa pemrograman python.  
+
+\item fungsi-fungsi yang terdapat di library csv
+\begin{itemize}
+	\item csv.reader
+	
+	membaca file csv file, kolom pertama berurutan dengan nomor row. 
+	
+	\item csv.DictReader
+	
+	
+	membaca file csv file,key berurutan dengan row sesuai kolom pertama.
+		
+	\item csv.writer
+	
+	membuka file csv yang sudah di deklarasi dan menulisnya kedalam file yang dibuat tadi.
+		
+	\item csv.DictWriter
+	
+	membuka file csv yang sudah di deklarasi dan menulisnya kedalam file yang dibuat tadi.	
+	
+\end{itemize}
+
+\item fungsi-fungsi yang terdapat di library csv
+\begin{itemize}
+
+	\item pandas.read\textunderscore csv
+
+	membaca file csv dan menampilkannya sebagai dataframe.
+	
+\end{itemize}
+
+\end{enumerate}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Mochamad Arifqi Ramadhan}
 \subsection{Pengelolaan File CSV (Teori)}
 \begin{enumerate}
@@ -1340,4 +1776,3 @@ Jawaban :\\
 Library pandas memiliki fungsi penting seperti menyelaraskan data untuk perbandingan dan penggabungan set data, penanganan data yang hilang, dll, itu telah menjadi sebuah library untuk pemrosesan data tingkat tinggi dalam Python (yaitu statistik).
 
 \end{enumerate}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
